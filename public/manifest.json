@@ -1,0 +1,29 @@
+{
+  "name": "Portal Pembelajaran PBJP - Kabupaten Intan Jaya",
+  "short_name": "PBJP Intan Jaya",
+  "description": "Platform pembelajaran dan tryout Pengadaan Barang/Jasa Pemerintah Level 1 untuk ASN Kabupaten Intan Jaya",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "id",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}

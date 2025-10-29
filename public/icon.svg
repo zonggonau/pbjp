@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="512" height="512" rx="128" fill="url(#gradient)"/>
+  
+  <!-- Building icon -->
+  <g transform="translate(128, 96)">
+    <!-- Main building structure -->
+    <rect x="32" y="64" width="192" height="256" fill="white" opacity="0.95"/>
+    
+    <!-- Roof/Top -->
+    <path d="M 128 32 L 32 64 L 224 64 Z" fill="white" opacity="0.95"/>
+    
+    <!-- Columns -->
+    <rect x="48" y="96" width="24" height="192" fill="#2563eb"/>
+    <rect x="96" y="96" width="24" height="192" fill="#2563eb"/>
+    <rect x="144" y="96" width="24" height="192" fill="#2563eb"/>
+    <rect x="192" y="96" width="24" height="192" fill="#2563eb"/>
+    
+    <!-- Base -->
+    <rect x="16" y="288" width="224" height="32" fill="white" opacity="0.95"/>
+    
+    <!-- Door -->
+    <rect x="104" y="224" width="48" height="64" fill="#7c3aed"/>
+  </g>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

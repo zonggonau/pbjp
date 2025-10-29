@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Placeholder Icons - Auto Download</title>
+</head>
+<body>
+    <h1>Creating placeholder icons...</h1>
+    <p id="status">Please wait...</p>
+
+    <script>
+        // Auto-generate and download icons when page loads
+        window.onload = function() {
+            generateAllIcons();
+        };
+
+        function generateIcon(size, filename) {
+            return new Promise((resolve) => {
+                const canvas = document.createElement('canvas');
+                canvas.width = size;
+                canvas.height = size;
+                const ctx = canvas.getContext('2d');
+
+                // Background gradient
+                const gradient = ctx.createLinearGradient(0, 0, size, size);
+                gradient.addColorStop(0, '#2563eb');
+                gradient.addColorStop(1, '#7c3aed');
+                
+                // Rounded rectangle
+                const radius = size / 4;
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.roundRect(0, 0, size, size, radius);
+                ctx.fill();
+
+                // Building icon (scaled)
+                const scale = size / 512;
+                
+                // Main building
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+                ctx.fillRect(160 * scale, 160 * scale, 192 * scale, 256 * scale);
+                
+                // Roof
+                ctx.beginPath();
+                ctx.moveTo(256 * scale, 128 * scale);
+                ctx.lineTo(160 * scale, 160 * scale);
+                ctx.lineTo(352 * scale, 160 * scale);
+                ctx.closePath();
+                ctx.fill();
+                
+                // Columns
+                ctx.fillStyle = '#2563eb';
+                const colWidth = 24 * scale;
+                const colHeight = 192 * scale;
+                const colY = 192 * scale;
+                ctx.fillRect(176 * scale, colY, colWidth, colHeight);
+                ctx.fillRect(224 * scale, colY, colWidth, colHeight);
+                ctx.fillRect(272 * scale, colY, colWidth, colHeight);
+                ctx.fillRect(320 * scale, colY, colWidth, colHeight);
+                
+                // Base
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+                ctx.fillRect(144 * scale, 384 * scale, 224 * scale, 32 * scale);
+                
+                // Door
+                ctx.fillStyle = '#7c3aed';
+                ctx.fillRect(232 * scale, 320 * scale, 48 * scale, 64 * scale);
+
+                // Convert to blob and download
+                canvas.toBlob(function(blob) {
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                    resolve();
+                }, 'image/png');
+            });
+        }
+
+        async function generateAllIcons() {
+            const status = document.getElementById('status');
+            
+            status.textContent = 'Generating icon-192.png...';
+            await generateIcon(192, 'icon-192.png');
+            await new Promise(r => setTimeout(r, 500));
+            
+            status.textContent = 'Generating icon-512.png...';
+            await generateIcon(512, 'icon-512.png');
+            await new Promise(r => setTimeout(r, 500));
+            
+            status.textContent = 'Generating favicon.ico...';
+            await generateIcon(32, 'favicon.ico');
+            await new Promise(r => setTimeout(r, 500));
+            
+            status.innerHTML = '<strong style="color: green;">✅ All icons generated!</strong><br><br>' +
+                              'Please save all downloaded files to the <code>public/</code> folder:<br>' +
+                              '- icon-192.png<br>' +
+                              '- icon-512.png<br>' +
+                              '- favicon.ico<br><br>' +
+                              'You can close this page now.';
+        }
+    </script>
+</body>
+</html>
