@@ -1,0 +1,85 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+
+type Attempt = {
+  id: string
+  name: string
+  date: string
+  score: number
+  total: number
+  pass: boolean
+  durationSeconds: number
+}
+
+function formatDuration(s: number) {
+  const h = Math.floor(s / 3600)
+  const m = Math.floor((s % 3600) / 60)
+  const sec = s % 60
+  const pad = (n: number) => n.toString().padStart(2, '0')
+  return `${pad(h)}:${pad(m)}:${pad(sec)}`
+}
+
+export default function ResultPage() {
+  const [res, setRes] = useState<Attempt | null>(null)
+
+  useEffect(() => {
+    try {
+      const raw = sessionStorage.getItem('pbjp_last_result')
+      if (raw) setRes(JSON.parse(raw))
+    } catch {}
+  }, [])
+
+  if (!res) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+        <div className="rounded-md bg-white p-6 text-zinc-800 shadow dark:bg-zinc-900 dark:text-zinc-100">
+          Hasil tidak ditemukan. Mulai dari beranda.
+          <div className="mt-4">
+            <a href="/" className="text-blue-600 underline">Kembali ke Beranda</a>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="flex min-h-screen justify-center bg-zinc-50 p-4 font-sans dark:bg-black">
+      <main className="flex w-full max-w-xl flex-col gap-4 rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
+        <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">Hasil Ujian</h1>
+        <div className="rounded-md border border-zinc-300 p-4 dark:border-zinc-700">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">Nama</div>
+          <div className="text-lg font-medium text-zinc-900 dark:text-zinc-100">{res.name}</div>
+          <div className="mt-3 text-sm text-zinc-700 dark:text-zinc-300">Skor</div>
+          <div className="text-lg font-medium text-zinc-900 dark:text-zinc-100">{res.score} / {res.total}</div>
+          <div className="mt-3 text-sm text-zinc-700 dark:text-zinc-300">Status</div>
+          <div className={`text-lg font-semibold ${res.pass ? 'text-green-600' : 'text-red-600'}`}>{res.pass ? 'Lulus' : 'Tidak Lulus'}</div>
+          <div className="mt-3 text-sm text-zinc-700 dark:text-zinc-300">Durasi</div>
+          <div className="text-lg font-medium text-zinc-900 dark:text-zinc-100">{formatDuration(res.durationSeconds)}</div>
+        </div>
+        {res.pass && (
+          <a 
+            href="/certificate"
+            className="w-full rounded-md bg-gradient-to-r from-green-600 to-emerald-600 px-4 py-3 text-center font-semibold text-white hover:from-green-700 hover:to-emerald-700"
+          >
+            🎓 Download Sertifikat
+          </a>
+        )}
+        <a 
+          href="/review"
+          className="w-full rounded-md bg-blue-600 px-4 py-3 text-center text-white hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600"
+        >
+          📝 Review Semua Jawaban
+        </a>
+        <div className="mt-2 flex gap-2">
+          <a href="/" className="flex-1 rounded-md border border-zinc-300 px-4 py-2 text-center text-zinc-800 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-800">
+            🏠 Beranda
+          </a>
+          <a href="/history" className="flex-1 rounded-md bg-zinc-900 px-4 py-2 text-center text-white hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200">
+            📊 Riwayat
+          </a>
+        </div>
+      </main>
+    </div>
+  )
+}

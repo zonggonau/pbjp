@@ -1,0 +1,1983 @@
+[
+  {
+    "id": 1,
+    "soal": "Salah satu anggota Tim Teknis PPK menerima suap dari Penyedia yang sedang melaksanakan kontrak maka penyelesaian permasalahan tersebut termasuk ranah hukum",
+    "pilihan": {
+      "A": "Perdata",
+      "B": "Administrasi",
+      "C": "Persaingan Usaha",
+      "D": "Pidana"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Penerimaan suap atau gratifikasi oleh anggota Tim Teknis PPK merupakan tindak pidana korupsi yang diatur dalam UU No. 31 Tahun 1999 jo. UU No. 20 Tahun 2001 tentang Pemberantasan Tindak Pidana Korupsi. Korupsi termasuk ranah hukum pidana, karena mengandung unsur kesengajaan menerima keuntungan yang tidak sah dalam proses pengadaan pemerintah."
+  },
+  {
+    "id": 2,
+    "soal": "Berikut ini item yang diperlukan dalam penyusunan HPS Pengadaan Pengawasan Pembangunan Bendungan Jatiluhur yaitu",
+    "pilihan": {
+      "A": "Remunerasi tenaga ahli",
+      "B": "Harga material bendungan",
+      "C": "Biaya tidak terduga",
+      "D": "Pajak penghasilan (PPh)"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pengadaan pengawasan pembangunan bendungan termasuk jasa konsultansi konstruksi. Dalam penyusunan HPS untuk jasa konsultansi, komponen biaya utama yang dihitung adalah tenaga ahli (remunerasi), honorarium atau biaya tenaga pendukung, biaya operasional dan non-personil, overhead dan keuntungan."
+  },
+  {
+    "id": 3,
+    "soal": "Konsolidasi pengadaan barang/jasa oleh PPK dilakukan pada tahap",
+    "pilihan": {
+      "A": "Persiapan pemilihan",
+      "B": "Persiapan pengadaan",
+      "C": "Pelaksanaan kontrak",
+      "D": "Pelaksanaan pemilihan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Dalam proses pengadaan barang/jasa pemerintah (sesuai Perpres 16 Tahun 2018 dan aturan turunannya), konsolidasi pengadaan dilakukan sebelum pemilihan penyedia, yaitu pada tahap perencanaan/persiapan pengadaan, bukan pada saat pelaksanaan pemilihan. Konsolidasi pengadaan adalah penggabungan kebutuhan barang/jasa yang sejenis dari beberapa unit kerja agar pengadaan lebih efisien dan bernilai guna tinggi."
+  },
+  {
+    "id": 4,
+    "soal": "Pada pembelian meubelair senilai Rp 380 juta yang dilakukan dengan cara purchasing menggunakan bentuk kontrak berupa",
+    "pilihan": {
+      "A": "Kwitansi",
+      "B": "Surat Perintah Kerja",
+      "C": "Surat Pesanan",
+      "D": "Bukti Pembelian"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pembelian meubelair senilai Rp 380 juta termasuk Pengadaan Barang melalui metode Pembelian/Purchasing. Pada mekanisme purchasing, bentuk kontrak yang digunakan adalah Surat Pesanan (SP). Purchasing digunakan untuk pengadaan barang yang sederhana, tersedia di pasar, dan prosesnya cepat."
+  },
+  {
+    "id": 5,
+    "soal": "Metode penyampaian dokumen penawaran pada pengadaan Pesawat Kepresidenan yang membutuhkan penyetaraan teknis dengan metode evaluasi nilai ialah",
+    "pilihan": {
+      "A": "Satu file",
+      "B": "Satu tahap",
+      "C": "Dua tahap",
+      "D": "Dua file"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pengadaan Pesawat Kepresidenan termasuk barang strategis dengan spesifikasi sangat kompleks dan memerlukan penyetaraan teknis (technical equalization) sebelum harga dievaluasi. Metode dua tahap digunakan: Tahap 1 menilai dokumen teknis saja untuk penyetaraan teknis (apakah spesifikasi setara/layak), Tahap 2 menilai dokumen harga setelah lulus teknis."
+  },
+  {
+    "id": 6,
+    "soal": "Pemerintah Kabupaten VWX berencana melaksanakan pengadaan Konsultan Penyusunan Kebijakan Strategi Daerah (JAKSTRADA) Air Limbah Domestik Regional senilai Rp 500 juta yang ruang lingkup pekerjaannya dapat diuraikan dengan pasti dalam KAK, metode evaluasi penawaran yang tepat adalah",
+    "pilihan": {
+      "A": "Biaya terendah",
+      "B": "Kualitas dan biaya",
+      "C": "Kualitas",
+      "D": "Pagu anggaran"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Karena ruang lingkupnya sudah pasti dan terukur, artinya tidak memerlukan penilaian kualitas yang lebih dominan. Oleh karena itu digunakan metode evaluasi biaya terendah, yaitu penyedia yang lulus teknis dan menawarkan harga terendah akan menang. Metode kualitas dan biaya untuk pekerjaan cukup kompleks, metode kualitas saja untuk pekerjaan sangat kompleks dan inovatif."
+  },
+  {
+    "id": 7,
+    "soal": "Pemilihan penyedia pengadaan barang yang terbuka secara umum bagi pelaku usaha untuk mengikuti kompetisi disebut",
+    "pilihan": {
+      "A": "Tender",
+      "B": "Pengadaan langsung",
+      "C": "Seleksi",
+      "D": "Penunjukan langsung"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pemilihan penyedia untuk pengadaan barang yang terbuka bagi semua pelaku usaha untuk mengikuti kompetisi disebut Tender (lelang). Pengadaan langsung untuk nilai kecil/penyedia tertentu tanpa kompetisi luas, Seleksi khusus untuk Jasa Konsultansi bukan barang, Penunjukan langsung dipilih langsung untuk kondisi tertentu dan tidak terbuka umum."
+  },
+  {
+    "id": 8,
+    "soal": "Berikut ini item yang TIDAK diperlukan dalam penyusunan HPS Pekerjaan Konstruksi Pembangunan Ruang Kelas Baru yaitu",
+    "pilihan": {
+      "A": "Upah pekerja",
+      "B": "Pajak Pertambahan Nilai (PPN)",
+      "C": "Gaji tenaga ahli",
+      "D": "Harga Material"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Dalam penyusunan HPS untuk pekerjaan konstruksi (pelaksanaan fisik), komponen biaya meliputi: Upah pekerja, Harga material, dan PPN. Tenaga ahli biasanya masuk pada jasa konsultansi perencanaan atau pengawasan, bukan pada biaya pelaksanaan konstruksi fisik. Dalam pelaksanaan konstruksi, yang dihitung adalah upah tenaga kerja fisik, seperti tukang, kepala tukang, mandor, dsb."
+  },
+  {
+    "id": 9,
+    "soal": "Dinas Pekerjaan Umum Kabupaten XYZ memiliki daftar penyedia, salah satunya di bidang jalan dan jembatan. Berdasarkan tabel daftar penyedia tersebut, PT ABC adalah pelaku usaha yang menjadi rujukan utama untuk perbaikan jalan ketika terjadi kondisi darurat seperti longsor. Berdasarkan informasi tersebut PT ABC masuk dalam kategori penyedia",
+    "pilihan": {
+      "A": "Verified Supplier",
+      "B": "Emergency Supplier",
+      "C": "Preferred Supplier",
+      "D": "Approved Supplier"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "PT ABC adalah penyedia yang selalu menjadi rujukan utama (pilihan pertama) ketika terjadi kondisi darurat perbaikan jalan. Berarti penyedia tersebut dianggap paling cepat, paling andal, dan paling siap, sehingga diprioritaskan dibandingkan penyedia lain. PT ABC termasuk Preferred Supplier karena menjadi penyedia yang diprioritaskan ketika terjadi kondisi darurat."
+  },
+  {
+    "id": 10,
+    "soal": "Berikut ini yang merupakan fungsi UKPBJ adalah",
+    "pilihan": {
+      "A": "Menyelesaikan sengketa kontrak",
+      "B": "Pembinaan sumber daya manusia pengadaan",
+      "C": "Pengendalian Pelaksanaan kontrak Pengadaan Barang/Jasa",
+      "D": "Perancang kebijakan pengadaan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "UKPBJ (Unit Kerja Pengadaan Barang/Jasa) memiliki fungsi utama sebagai center of excellence atau Pusat Keunggulan (Procurement Excellence Center) dalam pengadaan. Salah satu fungsi kuncinya adalah pembinaan SDM pengadaan (pengembangan kompetensi, sertifikasi, pendampingan, dan pembinaan Pokja/PPK/PPBJ)."
+  },
+  {
+    "id": 11,
+    "soal": "Kegiatan berikut ini yang BUKAN merupakan ruang lingkup perencanaan pengadaan barang/jasa Pemerintah adalah",
+    "pilihan": {
+      "A": "Identifikasi Kebutuhan",
+      "B": "Pemilihan Penyedia",
+      "C": "Penetapan jenis barang/jasa",
+      "D": "Penetapan jadwal pengadaan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Perencanaan pengadaan adalah tahapan awal yang dilakukan sebelum proses pemilihan penyedia dimulai. Pada tahap ini, PPK atau PA/KPA menyusun dokumen yang berisi kebutuhan, lingkup barang/jasa, jadwal, serta strategi pelaksanaannya. Kegiatan pemilihan penyedia tidak termasuk tahap perencanaan, melainkan masuk ke tahap pelaksanaan pemilihan, yang dilakukan setelah seluruh dokumen perencanaan selesai."
+  },
+  {
+    "id": 12,
+    "soal": "Berikut ini item yang diperlukan dalam penyusunan HPS Pekerjaan Konstruksi Pembangunan Jalan Kabupaten RST yaitu",
+    "pilihan": {
+      "A": "Pajak Penghasilan (PPh)",
+      "B": "Biaya tidak terduga",
+      "C": "Gaji tenaga ahli",
+      "D": "Sewa peralatan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam penyusunan HPS Pekerjaan Konstruksi (termasuk pembangunan jalan), komponen biaya yang diperhitungkan pada biaya langsung antara lain: Biaya bahan/material, Biaya tenaga kerja, dan Biaya peralatan (sewa atau penggunaan alat berat). Sewa peralatan sangat relevan dalam pekerjaan pembangunan jalan karena peralatan konstruksi seperti excavator, vibro, tandem roller, dump truck, asphalt finisher, dan grader merupakan bagian penting dari pelaksanaan fisik."
+  },
+  {
+    "id": 13,
+    "soal": "Instansi X merencanakan perbaikan kebocoran atap aula yang berpotensi merusak furniture yang ada. Namun anggaran tidak tersedia, sehingga pengadaan dibatalkan. Tindakan untuk TIDAK melakukan perbaikan merupakan salah satu strategi penanganan risiko yaitu",
+    "pilihan": {
+      "A": "Menghindari",
+      "B": "Memindahkan",
+      "C": "Menerima",
+      "D": "Mengurangi"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Strategi menghindari (avoidance) dalam manajemen risiko adalah tindakan tidak melanjutkan atau tidak melakukan suatu kegiatan yang berisiko, sehingga potensi terjadinya risiko dihilangkan dengan cara tidak melakukan aktivitas tersebut sama sekali. Dalam kasus ini, instansi tidak jadi melakukan pengadaan/perbaikan karena tidak ada anggaran, artinya kegiatan dihentikan sepenuhnya."
+  },
+  {
+    "id": 14,
+    "soal": "Manajemen penyedia (vendor management) merupakan salah satu penerapan manajemen rantai pasok pada level",
+    "pilihan": {
+      "A": "Strategis",
+      "B": "Taktis",
+      "C": "Operasional",
+      "D": "Dinamis"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Dalam manajemen rantai pasok (supply chain management), terdapat tiga level utama implementasi: Strategis (kebijakan jangka panjang, regulasi, visi struktur rantai pasok), Taktis (pengelolaan hubungan dengan penyedia/vendor, pemilihan sumber pemasok), dan Operasional (pelaksanaan kegiatan rutin harian). Manajemen penyedia (vendor management) meliputi evaluasi kinerja penyedia, pembinaan penyedia, preferensi supplier, dan hubungan jangka menengah, sehingga termasuk pada tingkat taktis."
+  },
+  {
+    "id": 15,
+    "soal": "Tindakan PPK mencatat hasil survey harga dari beberapa sumber kemudian diolah dan dituangkan menjadi HPS, merupakan penerapan prinsip pengadaan yaitu",
+    "pilihan": {
+      "A": "Transparan",
+      "B": "Terbuka",
+      "C": "Adil",
+      "D": "Akuntabel"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Tindakan PPK melakukan pencatatan sumber harga, mengolah data, lalu menyusunnya menjadi HPS merupakan wujud dari pertanggungjawaban administratif dan teknis atas dasar perhitungan yang terukur dan dapat dipertanggungjawabkan. Ini menunjukkan bahwa proses penyusunan HPS dapat diaudit dan memiliki dasar pembuktian yang jelas. Itulah esensi dari prinsip akuntabilitas."
+  },
+  {
+    "id": 16,
+    "soal": "Jenis kontrak berikut ini yang TIDAK digunakan pada pengadaan jasa konsultansi nonkonstruksi adalah kontrak",
+    "pilihan": {
+      "A": "Harga satuan",
+      "B": "Waktu penugasan",
+      "C": "Lumsum",
+      "D": "Payung"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pada pengadaan jasa konsultansi non-konstruksi, jenis kontrak yang lazim digunakan adalah: Kontrak Lumpsum (digunakan untuk pekerjaan konsultansi dengan ruang lingkup kerja yang sudah jelas), Kontrak Waktu Penugasan (Time-based, digunakan bila output tergantung lamanya tenaga ahli bekerja), dan Kontrak Payung (Framework/Payung, digunakan untuk kebutuhan konsultansi yang berulang dalam periode tertentu). Sementara Kontrak Harga Satuan tidak digunakan dalam jasa konsultansi, karena kontrak harga satuan cocok untuk pekerjaan fisik/konstruksi yang perhitungan biayanya didasarkan pada volume pekerjaan."
+  },
+  {
+    "id": 17,
+    "soal": "Dalam pengadaan pekerjaan konstruksi, hal-hal yang TIDAK perlu dipertimbangkan dalam menentukan jenis kontrak adalah",
+    "pilihan": {
+      "A": "Volume dan lama waktu pengerjaan",
+      "B": "Kompleksitas dan risiko pekerjaan",
+      "C": "Jenis barang dan spesifikasi teknis",
+      "D": "Metode pemilihan dan metode evaluasi"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Penentuan jenis kontrak pada pekerjaan konstruksi didasarkan pada karakteristik pekerjaan, meliputi: Volume dan durasi pekerjaan (mempengaruhi apakah kontrak lumpsum atau harga satuan), Kompleksitas dan risiko pekerjaan (semakin kompleks dan berisiko, semakin spesifik pemilihan jenis kontraknya), dan Jenis pekerjaan dan spesifikasi teknis (menentukan basis perhitungan biaya dan output yang akan diterima). Sedangkan Metode pemilihan dan Metode evaluasi tidak berhubungan langsung dengan jenis kontrak, karena itu dipertimbangkan pada tahap pemilihan penyedia, bukan pada penentuan kontrak."
+  },
+  {
+    "id": 18,
+    "soal": "Berikut ini adalah spesifikasi mutu yang disusun dengan menggunakan pola spesifikasi standarisasi adalah",
+    "pilihan": {
+      "A": "Kertas A4 dengan merk ABCD",
+      "B": "Pendingin ruangan yang dapat mencapai 16 derajat dalam waktu 5 menit",
+      "C": "Ban mobil penumpang yang memenuhi SNI 06-0098-2002",
+      "D": "Laptop administrasi perkantoran"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pola spesifikasi standarisasi adalah spesifikasi barang atau jasa yang mengacu pada standar mutu resmi yang telah ditetapkan oleh lembaga standardisasi nasional/internasional, seperti SNI (Standar Nasional Indonesia), ISO, ASTM, IEC, dll. Pilihan C mengacu langsung pada SNI 06-0098-2002, yang merupakan bentuk spesifikasi mutu berbasis standar nasional, inilah ciri khas spesifikasi standarisasi."
+  },
+  {
+    "id": 19,
+    "soal": "Berikut ini yang TIDAK termasuk unsur kualifikasi yang dievaluasi adalah",
+    "pilihan": {
+      "A": "Bidang pekerjaan",
+      "B": "Kewajiban perpajakan",
+      "C": "Akta pendirian",
+      "D": "Harga"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Evaluasi kualifikasi dilakukan untuk memastikan bahwa penyedia layak mengikuti proses pemilihan, memenuhi persyaratan legalitas, kemampuan teknis, dan kompetensi usaha. Unsur-unsur yang dievaluasi dalam kualifikasi meliputi: Legalitas usaha (akta pendirian/perubahan, perizinan), Kemampuan pada bidang/subbidang pekerjaan, Kewajiban perpajakan (NPWP, SPT, kepatuhan pajak), dan Pengalaman & kemampuan teknis. Harga tidak masuk dalam evaluasi kualifikasi. Harga dievaluasi pada tahap evaluasi penawaran, bukan pada tahap kualifikasi."
+  },
+  {
+    "id": 20,
+    "soal": "Berikut yang BUKAN lokapasar (E-Marketplace) Pengadaan Barang/jasa adalah",
+    "pilihan": {
+      "A": "Pemilihan Penyedia secara elektronik",
+      "B": "Katalog elektronik",
+      "C": "Sistem Informasi Kinerja Penyedia",
+      "D": "Toko Daring"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Lokapasar (E-Marketplace) dalam pengadaan barang/jasa pemerintah adalah platform transaksi elektronik tempat pemerintah dapat memilih dan membeli barang/jasa secara langsung melalui sistem yang menyerupai marketplace. Yang termasuk bagian dari E-Marketplace PBJ adalah: Katalog Elektronik (e-Katalog), Toko Daring, dan Pemilihan Penyedia secara elektronik (fitur dalam SPSE untuk pemilihan digital). Sedangkan Sistem Informasi Kinerja Penyedia (SIKP) bukanlah marketplace, melainkan sarana monitoring dan evaluasi kinerja penyedia, bukan tempat belanja."
+  },
+  {
+    "id": 21,
+    "soal": "Apabila di pasar terdapat produk yang memiliki Tingkat Komponen Dalam Negeri (TKDN) dan Bobot Manfaat Perusahaan (BMP) lebih dari 40% yang memenuhi kebutuhan pengguna, maka PPK wajib memanfaatkannya dalam penyusunan",
+    "pilihan": {
+      "A": "Spesifikasi teknis",
+      "B": "Dokumen kualifikasi",
+      "C": "Kinerja penyedia",
+      "D": "Analisa dampak lingkungan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Ketentuan TKDN + BMP ≥ 40% mewajibkan PPK untuk memprioritaskan produk dalam negeri. Pemanfaatan produk dalam negeri diterapkan pada tahap penyusunan spesifikasi teknis, yaitu dengan cara mencantumkan ketentuan TKDN/BMP minimal dalam spesifikasi atau mencantumkan persyaratan produk dalam negeri. Dengan demikian, sejak awal dokumen pengadaan mensyaratkan produk dalam negeri yang memiliki TKDN dan BMP sesuai ketentuan."
+  },
+  {
+    "id": 22,
+    "soal": "Sanggah banding pada pengadaan pemerintah dapat dilakukan pada paket pengadaan",
+    "pilihan": {
+      "A": "Pembangunan Saluran Drainase",
+      "B": "Mobil Pemadam Kebakaran",
+      "C": "Perencanaan Masterplan",
+      "D": "Jasa Keamanan Kantor"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Sanggah banding hanya dapat diajukan pada: Pengadaan barang/pekerjaan konstruksi/jasa lainnya dengan nilai di atas batas tertentu yaitu > Rp 100 miliar. Pengadaan mobil pemadam kebakaran (fire truck) adalah jenis barang bernilai tinggi yang dalam praktiknya sangat mungkin mencapai atau melebihi Rp 100 miliar (misalnya pengadaan beberapa unit atau tipe khusus), sehingga memenuhi syarat untuk sanggah banding."
+  },
+  {
+    "id": 23,
+    "soal": "Metode pemilihan penyedia yang evaluasi kemampuan usahanya dilakukan dengan prakualifikasi yaitu",
+    "pilihan": {
+      "A": "Tender pengadaan laptop untuk pegawai baru pada suatu lembaga",
+      "B": "Tender cepat pengadaan suku cadang truk sampah",
+      "C": "Tender pekerjaan kompleks pengadaan Light Rail Transit (LRT)",
+      "D": "Tender pengadaan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Prakualifikasi digunakan ketika: Pekerjaan kompleks (memerlukan kemampuan teknis & kapasitas tinggi), Dibutuhkan kualifikasi penyedia yang lebih ketat, dan Evaluasi kelayakan dilakukan sebelum penyedia menyampaikan penawaran. Pekerjaan LRT adalah proyek yang bernilai besar, berteknologi tinggi dan kompleks, memerlukan penyedia dengan kemampuan teknis khusus, dan termasuk kategori pekerjaan kompleks. Sehingga pemilihan penyedianya menggunakan prakualifikasi."
+  },
+  {
+    "id": 24,
+    "soal": "Setelah PPK melakukan reviu atas laporan hasil pemilihan Penyedia dari Pokja Pemilihan, maka langkah selanjutnya yang dilakukan oleh PPK adalah",
+    "pilihan": {
+      "A": "Penetapan SPPBJ",
+      "B": "Penetapan pemenang",
+      "C": "Rapat persiapan pelaksanaan kontrak",
+      "D": "Negosiasi teknis"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Alur setelah proses pemilihan penyedia adalah sebagai berikut: Pokja Pemilihan menyampaikan laporan hasil pemilihan kepada PPK, PPK melakukan reviu atas hasil tersebut untuk memastikan kesesuaian dengan dokumen pemilihan, Setelah hasil reviu tidak ada keberatan/sanggahan yang sah, PPK menerbitkan SPPBJ sebagai dasar untuk memulai proses penandatanganan kontrak. Jadi, langkah setelah reviu hasil pemilihan adalah penerbitan SPPBJ, bukan penetapan pemenang (karena itu tugas Pokja Pemilihan)."
+  },
+  {
+    "id": 25,
+    "soal": "Contoh pelanggaran etika dalam Pengadaan Barang/Jasa yaitu",
+    "pilihan": {
+      "A": "Pejabat Pengadaan melakukan e-purchasing kepada perusahaan yang memberikan cashback",
+      "B": "PA/KPA tidak melakukan intervensi dalam proses pemilihan penyedia",
+      "C": "Pokja pemilihan hanya memilih",
+      "D": "PPK transparan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Dalam pengadaan barang/jasa pemerintah, salah satu prinsip etika adalah tidak meminta, menerima, atau menjanjikan hadiah, imbalan, cashback, atau gratifikasi dalam bentuk apa pun dari penyedia. Jika pejabat pengadaan memilih penyedia karena menerima cashback/imbalan, maka ini termasuk pelanggaran etika dan dapat masuk ranah tindak pidana korupsi (gratifikasi/suap)."
+  },
+  {
+    "id": 26,
+    "soal": "Menilai kesesuaian Akta Pendirian peserta pemilihan dengan persyaratan yang tercantum dalam dokumen pemilihan merupakan kegiatan",
+    "pilihan": {
+      "A": "Evaluasi penawaran",
+      "B": "Evaluasi teknis",
+      "C": "Evaluasi kualifikasi",
+      "D": "Evaluasi harga"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Akta Pendirian merupakan dokumen legalitas usaha, yang digunakan untuk membuktikan bahwa penyedia benar-benar memiliki badan hukum yang sah dan sesuai bidang usahanya. Proses menilai kelengkapan dan kesesuaian legalitas penyedia dengan dokumen pemilihan adalah bagian dari evaluasi kualifikasi, bukan penilaian teknis atau harga. Evaluasi kualifikasi meliputi: Legalitas usaha (akta pendirian/perubahan, izin usaha, NIB), Kepemilikan NPWP dan pemenuhan perpajakan, Pengalaman sebelumnya, dan Kemampuan teknis dasar."
+  },
+  {
+    "id": 27,
+    "soal": "Metode penilaian biaya selama umur ekonomis digunakan untuk pengadaan yang",
+    "pilihan": {
+      "A": "Harga adalah kriteria evaluasi utama",
+      "B": "Memperhitungkan nilai sisa pada jangka waktu operasi tertentu",
+      "C": "Memperhitungkan nilai teknis dan harga",
+      "D": "Inovasi adalah kriteria evaluasi utama"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Metode penilaian biaya selama umur ekonomis dikenal juga dengan istilah Life Cycle Costing (LCC). Metode ini tidak hanya melihat harga beli awal, tetapi biaya total selama penggunaan barang/jasa, termasuk: Biaya pengadaan awal, Biaya pemeliharaan/operasional, Konsumsi energi, Suku cadang, Perawatan berkala, dan Nilai sisa (residual value) pada akhir masa pakai."
+  },
+  {
+    "id": 28,
+    "soal": "Pada swakelola yang akan dilaksanakan oleh kelompok masyarakat, apabila akan melakukan penandatanganan kontrak maka pihak yang melakukan penandatanganan kontrak yaitu",
+    "pilihan": {
+      "A": "PPK dengan Pimpinan Kelompok Masyarakat",
+      "B": "PA dengan Pimpinan Kelompok Masyarakat",
+      "C": "PPK dengan Tim Pelaksana Swakelola",
+      "D": "PA dengan penyelenggara"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Swakelola oleh Kelompok Masyarakat (Tipe IV) dilaksanakan oleh Kelompok Masyarakat (Pokmas) sebagai pelaksana kegiatan. Agar Pokmas dapat menjalankan swakelola, diperlukan Kontrak Swakelola yang ditandatangani oleh: PPK sebagai wakil pemerintah dan Pimpinan Kelompok Masyarakat sebagai pelaksana swakelola. Inilah bentuk hubungan hukum yang menjamin pelaksanaan, penggunaan anggaran, pertanggungjawaban, dan output kegiatan."
+  },
+  {
+    "id": 29,
+    "soal": "Bentuk kontrak yang digunakan pada pembelian 2 unit genset senilai Rp 500 juta melalui katalog elektronik adalah",
+    "pilihan": {
+      "A": "Bukti Pembelian",
+      "B": "Surat Pesanan",
+      "C": "Surat perintah kerja",
+      "D": "Kuitansi"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pembelian barang melalui Katalog Elektronik (e-Katalog) menggunakan bentuk kontrak Surat Pesanan (SP), terlepas dari nilai pengadaannya besar atau kecil. Surat Pesanan diterbitkan oleh PPK/Pejabat Pengadaan kepada penyedia setelah proses pemesanan disetujui dalam sistem katalog. Nilai Rp 500 juta juga sudah melampaui batas bukti pembelian/kuitansi (yang biasanya untuk nilai kecil), sehingga bentuk kontraknya adalah Surat Pesanan."
+  },
+  {
+    "id": 30,
+    "soal": "Informasi mengenai pengadaan barang/jasa dapat diketahui secara luas oleh Penyedia barang/jasa yang berminat serta oleh masyarakat pada umumnya adalah salah satu prinsip pengadaan, yaitu",
+    "pilihan": {
+      "A": "Akuntabel",
+      "B": "Transparan",
+      "C": "Terbuka",
+      "D": "Efektif"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Prinsip terbuka berarti bahwa informasi pengadaan dapat diakses oleh seluruh pelaku usaha dan masyarakat secara luas, sehingga tidak ada pembatasan akses informasi terhadap paket pengadaan tertentu. Terbuka = memberikan kesempatan yang sama kepada semua pihak. Informasi diumumkan ke publik sehingga masyarakat & penyedia bisa mengetahui prosesnya."
+  },
+  {
+    "id": 31,
+    "soal": "Jasa nonkonsultansi atau jasa yang membutuhkan peralatan, metodologi khusus, dan/atau keterampilan dalam suatu sistem tata kelola yang telah dikenal luas di dunia usaha untuk menyelesaikan suatu pekerjaan merupakan definisi",
+    "pilihan": {
+      "A": "Jasa lainnya",
+      "B": "Jasa konsultasi",
+      "C": "Barang",
+      "D": "Pekerjaan Konstruksi"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Dalam pengadaan barang/jasa pemerintah, jasa lainnya adalah jasa nonkonsultansi yang pelaksanaannya memerlukan: peralatan khusus, metodologi tertentu, keterampilan praktis, dan tata kelola kerja yang lazim diterapkan dalam dunia usaha. Contoh jasa lainnya: jasa keamanan dan kebersihan, jasa pengiriman/logistik, jasa penyelenggaraan event, jasa pemeliharaan rutin alat."
+  },
+  {
+    "id": 32,
+    "soal": "Manakah diantara pekerjaan berikut ini yang TIDAK memerlukan Jaminan Pelaksanaan",
+    "pilihan": {
+      "A": "Pengadaan Benih Padi dan Jagung senilai Rp 400 juta",
+      "B": "Pengadaan computer dan perlengkapannya senilai Rp 400 juta",
+      "C": "Pengadaan jasa konsultasi Kajian Studi Kelayakan Pembuatan Sentra Industri Kerajinan Batik Kabupaten PQR senilai Rp 500 juta",
+      "D": "Pekerjaan konstruksi"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Jaminan Pelaksanaan diwajibkan pada: Barang, Pekerjaan konstruksi, dan Jasa lainnya apabila nilai kontraknya ≥ 200 juta dan bukan kontrak payung atau e-purchasing mikro. Namun untuk jasa konsultansi, ketentuan berbeda: Tidak dipersyaratkan jaminan pelaksanaan, kecuali dalam hal tertentu (misalnya jasa desain & build atau pembiayaan berbasis kinerja tertentu). Karena jasa konsultansi berbasis keahlian intelektual dan bukan pekerjaan fisik."
+  },
+  {
+    "id": 33,
+    "soal": "UKPBJ melakukan konsolidasi pengadaan barang/jasa pada tahap",
+    "pilihan": {
+      "A": "Perencanaan pengadaan",
+      "B": "Persiapan pengadaan",
+      "C": "Persiapan pemilihan",
+      "D": "Pelaksanaan pemilihan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Konsolidasi pengadaan adalah proses menggabungkan beberapa kebutuhan pengadaan yang sejenis agar: lebih efisien, mendapatkan harga lebih baik, memperluas persaingan, dan meningkatkan penggunaan produk dalam negeri. Sesuai peraturan, konsolidasi dilakukan pada tahap perencanaan pengadaan, karena pada tahap inilah kebutuhan dari berbagai unit kerja dihimpun kemudian dirumuskan menjadi paket pengadaan."
+  },
+  {
+    "id": 34,
+    "soal": "Berikut ini item yang diperlukan dalam penyusunan HPS pengadaan Bibit Pohon yang akan diserahterimakan kepada kelompok tani di masing-masing Kecamatan yaitu",
+    "pilihan": {
+      "A": "Biaya instalasi",
+      "B": "Biaya uji laboratorium",
+      "C": "Remunerasi Tenaga Ahli",
+      "D": "Biaya pengiriman"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam HPS untuk pengadaan barang (bibit pohon) yang akan diserahkan ke berbagai lokasi (kecamatan), maka salah satu komponen biaya yang wajib diperhitungkan adalah biaya distribusi/pengiriman ke titik serah. Pengiriman merupakan komponen biaya langsung yang relevan karena memengaruhi total biaya penyerahan barang ke penerima manfaat."
+  },
+  {
+    "id": 35,
+    "soal": "Negosiasi mengenai penambahan item pekerjaan baru yang TIDAK terdapat dalam kontrak awal dilakukan antara",
+    "pilihan": {
+      "A": "Penyedia dengan Pokja Pemilihan",
+      "B": "Pelaku Usaha dengan KPA",
+      "C": "Penyedia dengan PPK",
+      "D": "Pelaku usaha dengan pejabat"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Perubahan kontrak, termasuk penambahan item pekerjaan baru (addendum kontrak), merupakan kewenangan PPK sebagai pihak yang mewakili pemerintah dalam pelaksanaan kontrak. Negosiasi dilakukan langsung antara PPK dan penyedia, karena mereka adalah para pihak dalam kontrak. Pokja Pemilihan hanya berperan pada tahap pemilihan penyedia, bukan pelaksanaan kontrak."
+  },
+  {
+    "id": 36,
+    "soal": "Pada pekerjaan konstruksi, aspek yang perlu direviu pada Harga Perkiraan Sendiri (HPS) untuk biaya langsung (direct cost) yaitu total dari biaya",
+    "pilihan": {
+      "A": "Peralatan, keuntungan, dan pajak",
+      "B": "Tenaga kerja, peralatan dan biaya marketing",
+      "C": "Bahan, peralatan dan keuntungan",
+      "D": "Bahan, tenaga kerja dan peralatan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam penyusunan HPS pekerjaan konstruksi, Direct Cost (biaya langsung) adalah biaya yang secara langsung digunakan dalam pelaksanaan pekerjaan konstruksi, yaitu: Biaya bahan/material, Biaya tenaga kerja, dan Biaya peralatan (sewa/pemakaian). Ini merupakan komponen utama yang menentukan harga satuan pekerjaan konstruksi di lapangan."
+  },
+  {
+    "id": 37,
+    "soal": "PT JKL telah menjadi pemenang cadangan pada 3 (tiga) paket tender alat kesehatan di lingkungan Pemerintah Kabupaten AAA, namun belum pernah melaksanakan kontrak pemerintah. Dalam sudut pandang Pemerintah Kabupaten AAA, PT JKL termasuk dalam kategori penyedia",
+    "pilihan": {
+      "A": "Verified Supplier",
+      "B": "Approved Supplier",
+      "C": "Preferred Supplier",
+      "D": "Emergency Supplier"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "PT JKL sudah pernah mengikuti tender dan menjadi pemenang cadangan, berarti layak secara kualifikasi. Tetapi belum pernah melaksanakan kontrak, sehingga belum ada rekam kinerja. Maka statusnya adalah Verified Supplier (Penyedia yang sudah lulus verifikasi administrasi/kualifikasi, namun belum memiliki rekam kontrak atau masih tahap awal). Belum bisa disebut Approved (karena belum ada pengalaman kontrak), dan bukan Preferred, serta tidak berkaitan dengan kondisi darurat."
+  },
+  {
+    "id": 38,
+    "soal": "Kegiatan pada proses pemilihan melalui tender untuk mengetahui seberapa besar niat calon penyedia untuk menyampaikan penawaran, merupakan kegiatan",
+    "pilihan": {
+      "A": "Aanwijzing/pemberian penjelasan",
+      "B": "Survey pasar",
+      "C": "Debriefing/penjelasan",
+      "D": "Negosiasi"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada tahap awal proses tender, pemerintah dapat melakukan survey pasar (market survey/market sounding) untuk mengetahui: Seberapa banyak penyedia yang berminat, Ketersediaan barang/jasa di pasar, Tingkat kompetisi, Kemampuan penyedia untuk memenuhi kebutuhan, dan Estimasi harga pasar awal. Ini dilakukan sebelum dokumen tender difinalkan, sehingga bisa dipastikan bahwa pasar siap mengikuti proses pemilihan."
+  },
+  {
+    "id": 39,
+    "soal": "Kebutuhan barang/jasa K/L/PD dituangkan ke dalam spesifikasi teknis/KAK. Berikut yang BUKAN merupakan ketentuan utama dalam menyusun spesifikasi teknis/KAK adalah",
+    "pilihan": {
+      "A": "Penggunaan produk bersertifikat SNI",
+      "B": "Partisipasi kelompok masyarakat",
+      "C": "Penggunaan produk ramah lingkungan",
+      "D": "Penggunaan produk dalam negeri"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Spesifikasi teknis atau Kerangka Acuan Kerja (KAK) merupakan dokumen yang menjelaskan secara rinci kebutuhan barang/jasa, termasuk kualitas, standar, dan persyaratan teknis yang harus dipenuhi. Ketentuan utama biasanya mencakup: Penggunaan produk bersertifikat SNI, Penggunaan produk ramah lingkungan, dan Penggunaan produk dalam negeri. Sedangkan partisipasi kelompok masyarakat bukanlah ketentuan teknis KAK, lebih terkait dengan aspek sosial atau pelibatan masyarakat dalam proyek."
+  },
+  {
+    "id": 40,
+    "soal": "Berikut ini yang TIDAK termasuk Kebijakan Pengadaan Barang/Jasa adalah",
+    "pilihan": {
+      "A": "Mendorong pelibatan usaha non kecil pada Pengadaan Barang/Jasa",
+      "B": "Meningkatkan kualitas perencanaan pengadaan barang/jasa",
+      "C": "Mengembangkan E-marketplace pengadaan barang/jasa",
+      "D": "Mendukung UMKM"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Kebijakan Pengadaan Barang/Jasa biasanya bertujuan untuk: Meningkatkan kualitas perencanaan pengadaan (agar proses pengadaan lebih efisien, tepat sasaran, dan mengurangi risiko pemborosan) dan Mengembangkan E-marketplace pengadaan (untuk mempermudah akses, transparansi, dan efisiensi dalam pengadaan). Sementara mendorong pelibatan usaha non kecil justru bertentangan dengan salah satu prinsip utama pengadaan pemerintah, yaitu memberikan kesempatan yang lebih besar bagi usaha kecil dan menengah untuk ikut serta, mendukung UMKM, dan pemerataan ekonomi."
+  },
+  {
+    "id": 41,
+    "soal": "Dokumen rancangan kontrak dapat bermanfaat bagi Pokja Pemilihan sebagai pedoman dalam",
+    "pilihan": {
+      "A": "Menyusun dokumen penawaran",
+      "B": "Hubungan kerja sama dengan PPK",
+      "C": "Menyusun lebar data pemilihan",
+      "D": "Hubungan pelaksanaan pekerjaan dengan Penyedia"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dokumen rancangan kontrak (draft kontrak) disusun sebelum kontrak resmi ditandatangani. Fungsinya bagi Pokja Pemilihan antara lain sebagai pedoman untuk: Menentukan hak dan kewajiban pihak-pihak yang terlibat, dan Menjadi acuan dalam mengelola hubungan pelaksanaan pekerjaan dengan Penyedia, termasuk syarat pembayaran, jangka waktu, kualitas pekerjaan, dan mekanisme penyelesaian masalah."
+  },
+  {
+    "id": 42,
+    "soal": "Berikut ini yang BUKAN fungsi Layanan Pengadaan Secara Elektronik yaitu",
+    "pilihan": {
+      "A": "PBJ dan infrastrukturnya",
+      "B": "Mengembangkan sistem informasi yang dibutuhkan oleh pemangku kepentingan",
+      "C": "Melaksanakan verifikasi pengguna informasi PBJ",
+      "D": "Melakukan pengembangan karir jabatan fungsional PBJ"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Fungsi LPSE berkaitan dengan penyediaan layanan elektronik untuk mendukung proses pengadaan barang/jasa pemerintah, antara lain: PBJ dan infrastrukturnya (LPSE menyediakan platform untuk proses pengadaan secara elektronik), Mengembangkan sistem informasi yang dibutuhkan pemangku kepentingan (LPSE bertanggung jawab menyediakan informasi yang transparan dan dapat diakses), dan Melaksanakan verifikasi pengguna informasi PBJ (LPSE memverifikasi akun penyedia dan pengguna terkait pengadaan). Sedangkan pengembangan karir jabatan fungsional PBJ bukan termasuk fungsi LPSE karena ini merupakan tugas Biro/Unit SDM atau pembinaan jabatan fungsional, bukan bagian dari layanan pengadaan elektronik."
+  },
+  {
+    "id": 43,
+    "soal": "Tim Pengawas melakukan pengawasan pelaksanaan Swakelola Tipe IV pada tahapan",
+    "pilihan": {
+      "A": "Tahapan perencanaan sampai dengan laporan keuangan",
+      "B": "Tahapan persiapan sampai dengan pemeriksaan oleh Auditor eksternal",
+      "C": "Tahapan persiapan sampai dengan penyerahan hasil pekerjaan",
+      "D": "Tahapan pelaksanaan saja"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Tim Pengawas Swakelola melakukan pengawasan mulai dari tahapan persiapan (setelah perencanaan selesai) hingga penyerahan hasil pekerjaan. Pengawasan mencakup: kemajuan pelaksanaan kegiatan, kesesuaian penggunaan biaya/belanja, penggunaan tenaga kerja dan sumber daya, dan mutu pelaksanaan kegiatan. Pengawasan tidak dimulai dari tahap perencanaan (itu tugas PPK/Pelaksana), dan tidak termasuk audit eksternal (itu tugas auditor independen)."
+  },
+  {
+    "id": 44,
+    "soal": "Menjamin bahwa proses pengelolaan kontrak dapat terselenggara dengan baik dalam pengadaan barang/jasa pemerintah merupakan salah satu tujuan dibentuknya",
+    "pilihan": {
+      "A": "Tim pengelola kontrak",
+      "B": "Tim pemeriksa hasil",
+      "C": "Biro/bagian hukum",
+      "D": "Inspektorat"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Tim Pengelola Kontrak dibentuk untuk memastikan bahwa proses pengelolaan kontrak berjalan sesuai ketentuan, termasuk: Menyusun, menandatangani, dan mengelola kontrak dengan penyedia barang/jasa, Memantau pelaksanaan kontrak, pembayaran, dan penyelesaian masalah yang timbul, serta Menjamin kepatuhan terhadap syarat, ketentuan, dan jadwal yang telah disepakati."
+  },
+  {
+    "id": 45,
+    "soal": "Berikut ini yang BUKAN merupakan indikator suatu barang/jasa disebut sebagai produk dalam negeri adalah",
+    "pilihan": {
+      "A": "Menggunakan sebagian tenaga kerja warga negara Indonesia",
+      "B": "Menggunakan bahan baku yang sebagian berasal dari dalam negeri",
+      "C": "Dipimpin oleh Direksi Warga Negara Indonesia",
+      "D": "Diproduksi oleh perusahaan yang terdaftar di Indonesia"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Indikator suatu barang atau jasa disebut sebagai produk dalam negeri biasanya mengacu pada kriteria formal dan legal: Menggunakan bahan baku yang sebagian berasal dari dalam negeri, Dipimpin oleh Direksi Warga Negara Indonesia, dan Diproduksi oleh perusahaan yang terdaftar di Indonesia. Sementara menggunakan sebagian tenaga kerja WNI bukanlah indikator utama, karena barang/jasa bisa menggunakan tenaga kerja WNI tanpa menjamin statusnya sebagai produk dalam negeri."
+  },
+  {
+    "id": 46,
+    "soal": "Risiko berikut ini terjadi pada tahapan pelaksanaan swakelola yaitu",
+    "pilihan": {
+      "A": "Pagu anggaran yang ditetapkan kurang dari yang dibutuhkan",
+      "B": "Reviu terhadap Rencana Anggaran Biaya (RAB) tidak dilaksanakan sesuai dengan peraturan",
+      "C": "Pelibatan tenaga kerja yang berlebihan",
+      "D": "Perencanaan tidak matang"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pada tahapan pelaksanaan swakelola, risiko yang biasanya terjadi terkait langsung dengan proses kegiatan di lapangan, antara lain: Penggunaan tenaga kerja yang tidak sesuai dengan kebutuhan (misalnya berlebihan atau kurang), Penggunaan material atau sumber daya yang tidak sesuai spesifikasi, dan Keterlambatan pelaksanaan atau penyimpangan prosedur teknis. Sedangkan pagu anggaran kurang dan reviu RAB adalah risiko pada tahap perencanaan."
+  },
+  {
+    "id": 47,
+    "soal": "Kabupaten STU akan melaksanakan Pembangunan Gedung Serbaguna dengan nilai HPS Rp 100 miliar yang masa pelaksanaannya adalah 24 bulan (tahun jamak). Jika penawaran Peserta lebih besar dari 80% HPS maka besaran jaminan uang muka dan jaminan pemeliharaan terhadap nilai kontrak yang dapat diterapkan yaitu",
+    "pilihan": {
+      "A": "Jaminan uang muka 20%, dan jaminan pemeliharaan 10%",
+      "B": "Jaminan uang muka 15% dan jaminan pemeliharaan 10%",
+      "C": "Jaminan uang muka 15% dan jaminan pemeliharaan 5%",
+      "D": "Jaminan uang muka 10%"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Karena penawaran lebih besar dari 80% HPS, maka jaminan pemeliharaan = 5% (bukan 10%). Untuk kontrak tahun jamak, maksimal uang muka adalah 15%. Sehingga kombinasi yang tepat: Jaminan uang muka maksimal 15% dan Jaminan pemeliharaan 5%. Jaminan pemeliharaan 10% hanya berlaku jika penawaran ≤ 80% HPS."
+  },
+  {
+    "id": 48,
+    "soal": "Contoh barang/jasa yang jumlah permintaan atas barang/jasa lebih besar daripada jumlah penawaran sehingga pihak pembeli yang menyampaikan penawaran kepada pihak penjual adalah",
+    "pilihan": {
+      "A": "Jasa penerbangan komersial",
+      "B": "Publikasi ilmiah",
+      "C": "Jasa arbiter",
+      "D": "Pembuatan iklan layanan masyarakat"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Situasi ketika permintaan > penawaran biasanya terjadi pada jasa yang sangat terbatas dan bersifat khusus, di mana hanya sedikit pihak yang mampu menyediakannya. Hal ini disebut sebagai seller's market (pasar yang dikuasai oleh penyedia). Pada jasa arbiter (arbitrase), jumlah tenaga ahli/badan arbiter sangat terbatas, tetapi permintaan tinggi, terutama pada sengketa konstruksi besar, migas, investasi, atau pengadaan pemerintah."
+  },
+  {
+    "id": 49,
+    "soal": "Dalam penyusunan spesifikasi teknis untuk pengadaan AC Split 1 PK sebanyak 5 unit, berikut yang BUKAN merupakan hal yang harus diperhatikan adalah",
+    "pilihan": {
+      "A": "Layanan",
+      "B": "Tenaga Ahli",
+      "C": "Kualitas",
+      "D": "Waktu"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Spesifikasi teknis pengadaan barang (contoh: AC Split) biasanya memperhatikan aspek: Kualitas barang (merek, fitur, efisiensi energi, standarisasi), Waktu pengiriman/pemasangan (kapan harus diserahkan), dan Layanan purna jual (garansi, servis, dukungan teknis). Namun yang tidak relevan adalah Tenaga Ahli, karena tenaga ahli merupakan elemen yang umum pada jasa konsultansi, bukan pengadaan barang yang sifatnya sederhana seperti AC."
+  },
+  {
+    "id": 50,
+    "soal": "Dalam pelaksanaan review dokumen persiapan pengadaan, salah satu aspek yang direview adalah rancangan kontrak. Pada pengadaan Jasa Keamanan, pilihan cara pembayaran yang TIDAK tepat adalah",
+    "pilihan": {
+      "A": "Per bulan",
+      "B": "Sekaligus di akhir kontrak",
+      "C": "Sekaligus di awal kontrak",
+      "D": "Per Triwulan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Jasa keamanan merupakan jasa nonkonstruksi berbasis kinerja berkelanjutan (continuous service). Karena layanan diberikan tiap bulan, maka pembayaran dilakukan berdasarkan progres layanan, bukan di muka. Pembayaran yang lazim untuk jasa keamanan: Per bulan, Per triwulan, atau per termin berdasarkan deliverables. Yang tidak diperbolehkan adalah: Pembayaran sekaligus di awal kontrak, karena belum ada jasa yang diberikan. Pembayaran di awal melanggar prinsip akuntabilitas dan pay-as-you-deliver."
+  },
+  {
+    "id": 51,
+    "soal": "Berikut ini yang TIDAK termasuk dalam ruang lingkup pengawasan yang dilakukan Tim Pengawas Swakelola adalah",
+    "pilihan": {
+      "A": "Kemajuan Pelaksanaan Kegiatan",
+      "B": "Penggunaan biaya untuk belanja bahan",
+      "C": "Penggunaan tenaga kerja",
+      "D": "Penyusunan DIPA/DPA"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Tim Pengawas Swakelola bertugas mengawasi: Kemajuan pelaksanaan kegiatan, Kesesuaian penggunaan biaya/belanja, Penggunaan tenaga kerja dan sumber daya, dan Mutu pelaksanaan kegiatan. Namun Tim Pengawas Swakelola tidak terlibat dalam penyusunan DIPA/DPA, karena: Penyusunan DIPA/DPA adalah tugas perencanaan anggaran, Dilakukan pada level PA/KPA dan unit perencanaan keuangan, dan Bukan pada tahap pelaksanaan swakelola."
+  },
+  {
+    "id": 52,
+    "soal": "Pengadaan barang/jasa berikut ini yang TIDAK memerlukan jaminan pelaksanaan adalah",
+    "pilihan": {
+      "A": "Pengadaan genset sebesar Rp 500 juta",
+      "B": "Pengawasan pembangunan jalan senilai Rp 500 juta",
+      "C": "Renovasi gedung Instalasi Gawat Darurat (IGD) senilai Rp 900 juta",
+      "D": "Pekerjaan perbaikan drainase"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Jaminan Pelaksanaan wajib diberikan oleh penyedia pada saat penandatanganan kontrak, kecuali untuk jasa konsultansi nonkonstruksi, termasuk jasa pengawasan konstruksi. Karena: Jasa pengawasan adalah jasa konsultansi, Konsultansi dibayar berdasarkan output keahlian bukan pekerjaan fisik, dan Oleh karena itu tidak memerlukan jaminan pelaksanaan. Sedangkan pengadaan barang, pekerjaan konstruksi, dan renovasi/pembangunan fisik membutuh jaminan pelaksanaan."
+  },
+  {
+    "id": 53,
+    "soal": "Unit Kerja Pengadaan Barang/Jasa Pemerintah (UKPBJ) pada Provinsi X dibentuk oleh",
+    "pilihan": {
+      "A": "Kepala LKPP",
+      "B": "Inspektur Provinsi X",
+      "C": "Ketua asosiasi pengadaan",
+      "D": "Gubernur Provinsi X"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "UKPBJ merupakan unit organisasi pengadaan barang/jasa pemerintah yang dibentuk oleh Kepala Daerah (untuk level Pemerintah Daerah), sesuai amanat Perpres 16 Tahun 2018 jo. Perpres 12 Tahun 2021. Tingkat Provinsi dibentuk oleh Gubernur, Tingkat Kabupaten/Kota dibentuk oleh Bupati/Walikota, Tingkat Kementerian dibentuk oleh Menteri, dan Tingkat Lembaga dibentuk oleh Pimpinan Lembaga. LKPP hanya membina dan menetapkan kebijakan, bukan membentuk langsung UKPBJ di daerah."
+  },
+  {
+    "id": 54,
+    "soal": "Pada Pelaksanaan kontrak pengadaan computer sebesar Rp 150 juta, ketepatan waktu penyerahan barang merupakan tanggung jawab dari",
+    "pilihan": {
+      "A": "Agen Pengadaan",
+      "B": "PA/KPA",
+      "C": "Penyedia",
+      "D": "PPK"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Dalam pelaksanaan kontrak, pihak yang bertanggung jawab memastikan barang dikirim tepat waktu sesuai jadwal yang tercantum dalam kontrak adalah Penyedia, karena: Penyedia adalah pihak pelaksana pekerjaan sesuai kontrak, Penyedia bertanggung jawab atas mutu, kuantitas, dan ketepatan waktu penyerahan, dan Apabila penyedia terlambat, dapat dikenakan denda keterlambatan oleh PPK. PPK bertugas melakukan pengendalian kontrak dan memastikan penyedia memenuhi kewajibannya."
+  },
+  {
+    "id": 55,
+    "soal": "Pada kondisi tertentu dalam proses tender dilakukan tahapan negosiasi. Pihak yang melaksanakan negosiasi adalah",
+    "pilihan": {
+      "A": "Auditor",
+      "B": "Kelompok Kerja Pemilihan",
+      "C": "Verifikator Keuangan",
+      "D": "Pejabat Pengadaan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada tender/seleksi (pemilihan penyedia melalui Pokja): Negosiasi dilakukan oleh Kelompok Kerja (Pokja) Pemilihan, bukan oleh PPK atau Pejabat Pengadaan. Negosiasi umumnya dilakukan apabila diperlukan klarifikasi dan penajaman teknis maupun harga (terutama dalam metode evaluasi tertentu seperti biaya-durasi atau untuk jasa konsultansi). Pejabat Pengadaan hanya melakukan negosiasi pada metode Pengadaan Langsung, bukan tender."
+  },
+  {
+    "id": 56,
+    "soal": "Berikut ini yang termasuk kegiatan dalam Persiapan Pengadaan melalui Penyedia adalah",
+    "pilihan": {
+      "A": "Penetapan cara pengadaan",
+      "B": "Penyusunan Rencana Anggaran Biaya (RAB)",
+      "C": "Penetapan spesifikasi teknis",
+      "D": "Penetapan metode evaluasi"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Tahapan pengadaan melalui penyedia terbagi menjadi: Perencanaan Pengadaan (Identifikasi kebutuhan, RAB), Persiapan Pengadaan (Penyusunan & penetapan spesifikasi teknis/KAK), Persiapan Pemilihan (Menetapkan metode pemilihan, metode evaluasi, dokumen pemilihan), dan Pelaksanaan Pemilihan (Evaluasi, penetapan pemenang, penandatanganan kontrak). Sehingga yang termasuk tahapan Persiapan Pengadaan adalah penetapan spesifikasi teknis."
+  },
+  {
+    "id": 57,
+    "soal": "Dalam pengadaan Pengembangan aplikasi Elektronik Layanan Kependudukan, tahapan make/membuat pada siklus rantai pasok dapat ditentukan pada kegiatan",
+    "pilihan": {
+      "A": "Penyusunan Rencana Anggaran Biaya",
+      "B": "Penyusunan Dokumen pemilihan",
+      "C": "Rapat Persiapan Penandatanganan Kontrak",
+      "D": "Pelaksanaan User Acceptance Testing (UAT)"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam siklus rantai pasok (supply chain), tahapan make/membuat adalah tahap produksi/pembangunan/pembuatan barang atau jasa, termasuk proses validasi hasilnya. Pada pengembangan aplikasi atau layanan digital, UAT (User Acceptance Testing) adalah bagian dari proses penyelesaian pengembangan aplikasi (produce hasil akhir) untuk memastikan aplikasi siap digunakan, sehingga masuk dalam fase Make pada siklus rantai pasok."
+  },
+  {
+    "id": 58,
+    "soal": "Dalam pelaksanaan kontrak pengadaan Seragam Dinas Pegawai, pembayaran akhir dilakukan oleh PPK kepada Penyedia setelah",
+    "pilihan": {
+      "A": "Berita acara serah terima ditandatangani oleh Penyedia",
+      "B": "Berita acara serah terima ditandatangani oleh PPK dan PA/KPA",
+      "C": "Berita acara serah terima ditandatangani oleh PPK dan Penyedia",
+      "D": "Berita acara selesai dibuat"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pembayaran akhir dalam kontrak pengadaan barang dilakukan setelah barang diserahterimakan secara resmi, yang dibuktikan dengan Berita Acara Serah Terima (BAST). BAST sah apabila ditandatangani oleh kedua belah pihak dalam kontrak, yaitu: PPK sebagai wakil pemerintah dan Penyedia sebagai pihak pelaksana pengadaan. PA/KPA tidak ikut menandatangani BAST karena tugasnya adalah penetapan kebijakan dan persetujuan anggaran, bukan serah terima hasil pekerjaan."
+  },
+  {
+    "id": 59,
+    "soal": "Pemerintah Kabupaten VWX akan meningkatkan kompetensi 50 orang CPNS jabatan Fungsional Pengelola Pengadaan Barang/Jasa Pertama yang bekerja sama dengan salah satu Perguruan Tinggi Negeri. Tipe swakelola yang tepat untuk kegiatan tersebut yaitu",
+    "pilihan": {
+      "A": "Tipe IV",
+      "B": "Tipe III",
+      "C": "Tipe II",
+      "D": "Tipe I"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Karena kegiatan pelatihan dilaksanakan bekerja sama dengan Perguruan Tinggi Negeri, maka klasifikasinya adalah Swakelola Tipe II, yaitu swakelola yang dikerjakan oleh instansi pemerintah lain/PTN/BUMN/BUMD. Tipe I adalah K/L/PD melaksanakan sendiri, Tipe III dilaksanakan oleh Ormas/LSM/Kelompok masyarakat, dan Tipe IV direncanakan dan dilaksanakan oleh Ormas/kelompok masyarakat."
+  },
+  {
+    "id": 60,
+    "soal": "Pihak yang melakukan negosiasi pada tender di mana hanya terdapat satu peserta yang memenuhi persyaratan administrasi, teknis, dan kualifikasi adalah",
+    "pilihan": {
+      "A": "Pejabat Pengadaan",
+      "B": "Pejabat Pembuat Komitmen",
+      "C": "Pengguna Anggaran",
+      "D": "Pokja Pemilihan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pada tender/seleksi, apabila hanya satu peserta yang lulus administrasi, teknis, dan kualifikasi, maka proses bisa dilanjutkan ke negosiasi teknis dan harga, dan pihak yang berwenang melakukan negosiasi adalah Pokja Pemilihan (bukan PPK atau Pejabat Pengadaan). Ini sesuai dengan ketentuan pengadaan barang/jasa (Perpres 16/2018 jo. 12/2021) dan turunannya dalam aturan LKPP tentang proses pemilihan penyedia."
+  },
+  {
+    "id": 61,
+    "soal": "Dalam menyusun spesifikasi pembangunan jalan kabupaten, PPK mempersyaratkan masa pemeliharaan selama 6 bulan. Persyaratan tersebut termasuk dalam aspek spesifikasi",
+    "pilihan": {
+      "A": "Layanan",
+      "B": "Jumlah",
+      "C": "Waktu",
+      "D": "Mutu"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Masa pemeliharaan merupakan bagian dari aspek waktu dalam spesifikasi teknis. Aspek waktu mencakup: Durasi pekerjaan, Jadwal pelaksanaan, Masa pemeliharaan/garansi, dan Tenggat penyerahan. Karena yang dipersyaratkan PPK adalah masa pemeliharaan 6 bulan, maka itu berkaitan langsung dengan jangka waktu kontrak termasuk pasca pekerjaan utama."
+  },
+  {
+    "id": 62,
+    "soal": "Pemerintah Provinsi DEF akan melaksanakan pengadaan jasa keamanan perorangan sebanyak 12 orang yang dikontrak selama 1 tahun (12 bulan). Tata cara pembayaran yang tepat untuk pengadaan tersebut adalah",
+    "pilihan": {
+      "A": "Cicilan",
+      "B": "Lumsum",
+      "C": "Sekaligus",
+      "D": "Bulanan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Untuk pengadaan jasa keamanan perorangan, pembayaran dilakukan berdasarkan output per periode waktu, yaitu karena tenaga keamanan bekerja setiap bulan dan jasa yang diberikan bersifat berkelanjutan. Oleh karena itu, tata cara pembayaran yang tepat adalah pembayaran secara bulanan setelah jasa diberikan. Cicilan untuk pekerjaan konstruksi dengan termin tertentu, lumsum untuk kontrak sekali bayar setelah seluruh pekerjaan selesai, dan sekaligus tidak tepat karena jasa berlangsung 12 bulan."
+  },
+  {
+    "id": 63,
+    "soal": "Berikut ini yang TIDAK termasuk kebijakan Pengadaan Barang/Jasa Pemerintah terkait dengan upaya memperkuat kapasitas kelembagaan dan sumber daya manusia Pengadaan Barang/Jasa adalah",
+    "pilihan": {
+      "A": "Melakukan sertifikasi pengadaan bagi Pelaku Usaha Mikro Kecil",
+      "B": "Mendorong pengelolaan unit kerja pengadaan dilakukan oleh personel yang kompeten",
+      "C": "Mendorong tersedianya Pejabat Pembuat Komitmen",
+      "D": "Peningkatan kapasitas UKPBJ"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Kebijakan penguatan kelembagaan dan SDM PBJ fokus pada: Menyiapkan SDM pemerintah yang kompeten dalam PBJ, Memperkuat unit/organisasi pengadaan dalam K/L/PD, dan Meningkatkan kapasitas UKPBJ, Pokja Pemilihan, PPK, PP, dan Pejabat Pengadaan. Yang menjadi subjek penguatan adalah APARATUR (ASN/SDM Pemerintah), bukan pelaku usaha. Sertifikasi PBJ bagi Pelaku Usaha Mikro Kecil (UMK) termasuk kebijakan penguatan peran pelaku usaha, bukan penguatan kelembagaan pemerintah."
+  },
+  {
+    "id": 64,
+    "soal": "Pemerintah Provinsi RST berencana melakukan kerja sama pelaksanaan Sosialisasi Hidup Sehat Pasca COVID-19 dengan Ikatan Dokter Indonesia (IDI). Berikut ini yang merupakan bahan/data/informasi yang dibutuhkan untuk melakukan perencanaan swakelola adalah",
+    "pilihan": {
+      "A": "Spesifikasi teknis/KAK dan RAB yang sudah ditetapkan PPK",
+      "B": "Laporan swakelola dan dokumentasi",
+      "C": "Daftar nama tenaga kesehatan yang akan menjadi pembicara",
+      "D": "Status hukum Ikatan Dokter Indonesia (IDI)"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pada tahap perencanaan swakelola, khususnya untuk Swakelola Tipe III (karena dilaksanakan bersama organisasi profesi seperti IDI), hal penting yang harus dipastikan terlebih dahulu adalah: Apakah pihak pelaksana (dalam hal ini IDI) merupakan lembaga/organisasi yang sah atau memiliki dasar hukum yang jelas? Karena sebelum masuk ke penyusunan KAK dan RAB, Pemerintah perlu memastikan legalitas mitra kerja sama, supaya kerja sama tidak cacat hukum."
+  },
+  {
+    "id": 65,
+    "soal": "Dalam pelaksanaan swakelola, hal-hal yang TIDAK termasuk tugas Tim Pengawas adalah pada aspek",
+    "pilihan": {
+      "A": "Perencanaan swakelola",
+      "B": "Pelaksanaan administrasi swakelola",
+      "C": "Pelaksanaan fisik swakelola",
+      "D": "Persiapan swakelola"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Tim Pengawas dalam swakelola berfungsi untuk melakukan pengawasan terhadap pelaksanaan swakelola yang sudah disusun dalam perencanaan dan sedang dijalankan. Persiapan swakelola adalah tugas PPK/Pelaksana Swakelola, bukan Tim Pengawas. Pada tahap persiapan, kegiatan masih berupa: Menyusun KAK/Spesifikasi Teknis, Menentukan tim pelaksana, Menetapkan RAB, Menyusun jadwal pelaksanaan, dan Persiapan tenaga kerja, bahan, dan peralatan. Tim Pengawas baru masuk setelah rencana siap dan pelaksanaan dimulai."
+  },
+  {
+    "id": 66,
+    "soal": "Dalam pelaksanaan pengadaan AC Sentral Gedung, dalam proses evaluasi kinerja Penyedia, tingkat respon pada saat terjadi kerusakan merupakan aspek",
+    "pilihan": {
+      "A": "Waktu",
+      "B": "Kualitas",
+      "C": "Kuantitas",
+      "D": "Layanan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam evaluasi kinerja penyedia, khususnya untuk pengadaan barang yang memiliki layanan purna jual (after sales service) seperti AC Sentral Gedung, salah satu indikator yang dinilai adalah seberapa cepat penyedia merespons ketika terjadi kerusakan atau gangguan. Tingkat respons atau response time masuk dalam kategori layanan, karena terkait dengan: Dukungan teknis (technical support), Kecepatan penanganan keluhan (service level), Garansi dan maintenance service, Ketersediaan tenaga teknis, dan Call center atau layanan pengaduan."
+  },
+  {
+    "id": 67,
+    "soal": "Sekretariat Daerah Kabupaten XYZ akan meningkatkan kompetensi 30 orang analis kebijakan. Direncanakan akan menyelenggarakan Diklat Penyusunan Policy Brief dan Memo Kebijakan yang bekerja sama dengan salah satu Perguruan Tinggi Swasta. Tipe swakelola yang tepat untuk kegiatan tersebut yaitu",
+    "pilihan": {
+      "A": "Tipe I",
+      "B": "Tipe IV",
+      "C": "Tipe II",
+      "D": "Tipe III"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Swakelola Tipe III adalah swakelola yang direncanakan oleh K/L/PD sendiri, tetapi dilaksanakan oleh Ormas/LSM/Kelompok masyarakat. Perguruan Tinggi Swasta termasuk dalam kategori lembaga non-pemerintah (berbeda dengan PTN yang termasuk Tipe II). Maka kegiatan pelatihan yang bekerja sama dengan Perguruan Tinggi Swasta termasuk Swakelola Tipe III."
+  },
+  {
+    "id": 68,
+    "soal": "Berikut ini proses pengadaan yang TIDAK wajib mengikuti ketentuan Peraturan Perundang-undangan tentang Pengadaan Barang/Jasa Pemerintah (Peraturan Presiden beserta turunannya) adalah",
+    "pilihan": {
+      "A": "Pengadaan mobil dinas di Pemerintah Daerah",
+      "B": "Pengadaan barang yang memiliki hak paten melalui penunjukan langsung",
+      "C": "Pengadaan dengan dana pinjaman luar negeri di Kementerian",
+      "D": "Pengadaan ATK"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pada prinsipnya seluruh pengadaan yang menggunakan APBN/APBD wajib mengikuti ketentuan Peraturan Presiden tentang Pengadaan Barang/Jasa Pemerintah. Namun untuk pengadaan yang dananya berasal dari pinjaman atau hibah luar negeri (PHLN), berlaku ketentuan donor/lembaga pemberi pinjaman, sehingga tidak wajib mengikuti Perpres, sepanjang sudah diatur dalam loan agreement."
+  },
+  {
+    "id": 69,
+    "soal": "Apabila terjadi perubahan rencana kegiatan dalam swakelola Tipe I oleh Dinas Sosial Kabupaten ABC, siapa yang bertanggung jawab atas hal tersebut?",
+    "pilihan": {
+      "A": "Tim Perencana",
+      "B": "Tim Pelaksana",
+      "C": "Tim Pengawas",
+      "D": "Tim Persiapan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada Swakelola Tipe I, seluruh pelaksanaan kegiatan dilakukan oleh K/L/PD itu sendiri. Ketika terjadi perubahan rencana kegiatan (misalnya pergeseran output, metode pelaksanaan, atau kebutuhan teknis di lapangan), maka Tim Pelaksana yang bertanggung jawab mengelola perubahan tersebut, karena mereka adalah pihak yang melaksanakan kegiatan dan bertanggung jawab atas kontrol pelaksanaan. Karena perubahan terjadi pada tahap pelaksanaan, maka pihak yang bertanggung jawab adalah Tim Pelaksana."
+  },
+  {
+    "id": 70,
+    "soal": "Menetapkan pemenang tender pekerjaan konstruksi Pembangunan Jaringan Transmisi Air Baku di Kabupaten ABCD dengan nilai HPS sebesar Rp 277,5 miliar, merupakan tugas kewenangan dari",
+    "pilihan": {
+      "A": "KPA",
+      "B": "PA",
+      "C": "PPK",
+      "D": "Pokja Pemilihan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Sesuai ketentuan pengadaan barang/jasa pemerintah: Untuk nilai sampai dengan Rp 100 miliar, pemenang ditetapkan oleh Pokja Pemilihan. Untuk nilai di atas Rp 100 miliar, pemenang ditetapkan oleh PA (Pengguna Anggaran). Karena nilai pengadaan Rp 277,5 miliar > Rp 100 miliar, maka kewenangan menetapkan pemenang berada pada PA, bukan Pokja Pemilihan. Pokja Pemilihan hanya mengusulkan pemenang melalui berita acara hasil pemilihan (BAHP)."
+  },
+  {
+    "id": 71,
+    "soal": "Kegiatan yang termasuk dalam tahapan Persiapan Pengadaan melalui Penyedia adalah",
+    "pilihan": {
+      "A": "Penetapan spesifikasi teknis",
+      "B": "Penetapan metode evaluasi",
+      "C": "Penyusunan Rencana Anggaran Biaya (RAB)",
+      "D": "Identifikasi kebutuhan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Tahapan pengadaan melalui penyedia secara garis besar: Perencanaan pengadaan (Identifikasi kebutuhan & penyusunan RAB), Persiapan pengadaan (Penyusunan & penetapan spesifikasi teknis/KAK), Persiapan pemilihan (Penetapan metode evaluasi, metode pemilihan, jadwal), dan Pelaksanaan pemilihan (Evaluasi penawaran, penetapan pemenang). Pada tahap Persiapan Pengadaan, PPK menyiapkan Spesifikasi Teknis/KAK, termasuk memperhatikan TKDN, standar mutu, dan kebutuhan teknis barang/jasa."
+  },
+  {
+    "id": 72,
+    "soal": "Pejabat Penandatangan Kontrak dapat membentuk Tim Pengelolaan Kontrak dalam melaksanakan pekerjaan. Yang BUKAN merupakan unsur tim pengelolaan kontrak adalah",
+    "pilihan": {
+      "A": "Konsultan Pengawas",
+      "B": "Tim Pendukung",
+      "C": "Tim Ahli",
+      "D": "Tim Teknis"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Tim Pengelola Kontrak dibentuk oleh PPK/Pejabat Penandatangan Kontrak untuk membantu pelaksanaan pengelolaan kontrak. Unsur yang dapat masuk dalam Tim Pengelola Kontrak meliputi: Tim Teknis (membantu dalam aspek teknis pelaksanaan), Tim Ahli (memberikan dukungan keahlian tertentu), dan Tim Pendukung (membantu aspek administratif atau operasional). Konsultan Pengawas bukan bagian dari tim pengelola kontrak, melainkan penyedia jasa yang terikat kontrak tersendiri untuk melakukan pengawasan pelaksanaan pekerjaan. Posisinya di luar struktur internal tim pengelola kontrak yang dibentuk oleh PPK."
+  },
+  {
+    "id": 73,
+    "soal": "Bagi Penyedia Pekerjaan Konstruksi yang telah melaksanakan sebagian kontrak dan tidak sanggup menyelesaikan pekerjaan dengan alasan yang tidak dapat diterima PPK, dikenakan sanksi berupa",
+    "pilihan": {
+      "A": "Pencairan Jaminan Penawaran",
+      "B": "Sanksi Pidana",
+      "C": "Sanksi ganti kerugian",
+      "D": "Pencairan Jaminan Pelaksanaan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Ketika penyedia sudah menandatangani dan memulai pelaksanaan kontrak, tetapi gagal menyelesaikan pekerjaan tanpa alasan yang sah, maka jaminan pelaksanaan akan dicairkan sebagai bentuk sanksi. Jaminan Penawaran digunakan pada tahap pemilihan sebelum kontrak, sedangkan Jaminan Pelaksanaan digunakan pada tahap pelaksanaan kontrak. Karena pekerjaan sudah berjalan tetapi tidak selesai, yang dicairkan adalah jaminan pelaksanaan. Ini sesuai dengan prinsip perlindungan kepentingan negara agar tidak mengalami kerugian akibat wanprestasi penyedia."
+  },
+  {
+    "id": 74,
+    "soal": "Komponen biaya yang perlu diperhitungkan dalam penyusunan Harga Perkiraan Sendiri (HPS) dalam pengadaan perencanaan rinci/detail engineering design (DED) jembatan adalah",
+    "pilihan": {
+      "A": "Tenaga ahli dan biaya instalasi",
+      "B": "Tenaga ahli dan biaya survey",
+      "C": "Biaya operasional dan biaya instalasi",
+      "D": "Harga barang dan suku cadang"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "DED jembatan merupakan jasa konsultansi konstruksi, bukan pekerjaan fisik. Sehingga biaya yang dihitung dalam HPS mengacu pada komponen jasa konsultansi, yaitu: Biaya Tenaga Ahli (utama), Biaya Survey/pengumpulan data lapangan, dan Biaya non-personil (operasional pendukung konsultansi). Komponen yang tidak relevan untuk jasa konsultansi: Biaya instalasi untuk barang/instalasi peralatan, Harga barang & suku cadang untuk pengadaan barang, dan Biaya fisik konstruksi untuk tahap pelaksanaan bukan perencanaan."
+  },
+  {
+    "id": 75,
+    "soal": "Berikut ini adalah spesifikasi mutu yang disusun dengan menggunakan pola spesifikasi kinerja adalah",
+    "pilihan": {
+      "A": "Kursi pejabat eselon I dengan bahan kulit sapi",
+      "B": "Mesin fotokopi dengan kecepatan cetak 100 lembar per menit (bpm)",
+      "C": "Pupuk NPK dengan komposisi 16-16-16",
+      "D": "Laptop administrasi perkantoran dengan berat maksimal 2 kg"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Spesifikasi kinerja (performance specification) adalah spesifikasi yang menyebutkan hasil/output atau kemampuan kinerja yang harus dicapai oleh barang/jasa, bukan merek, bahan, atau komponen pembentuknya. Ciri spesifikasi kinerja: Fokus pada hasil/output/kemampuan, Tidak menyebutkan bahan atau merek spesifik, Menyisakan ruang inovasi bagi penyedia. Contoh: kecepatan, kapasitas, daya tahan, output per menit, jarak jangkauan, efisiensi. Mesin fotokopi dengan kecepatan 100 bpm fokus pada kemampuan output, bukan material atau komposisi."
+  },
+  {
+    "id": 76,
+    "soal": "Terdapat permohonan uang muka oleh Penyedia sebesar 20% dari nilai kontrak pembangunan gedung senilai Rp 90 miliar dengan HPS Rp 100 miliar dengan masa pelaksanaan 20 bulan (Kontrak Tahun Jamak). Berdasarkan keadaan tersebut, yang dilakukan PPK ialah",
+    "pilihan": {
+      "A": "Memberikan pembayaran uang muka 20% dari nilai HPS",
+      "B": "Memberikan pembayaran uang muka maksimal 15% dari nilai HPS",
+      "C": "Memberikan pembayaran uang muka 20% dari nilai kontrak",
+      "D": "Memberikan pembayaran uang muka maksimal 15% dari nilai kontrak"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Dalam ketentuan pengadaan pemerintah: Uang muka diberikan berdasarkan nilai kontrak, bukan nilai HPS. Untuk kontrak tahun jamak, besaran maksimal uang muka adalah 15%. Penyedia meminta 20%, namun permintaan tersebut melebihi batas ketentuan, maka hanya dapat diberikan maksimal 15%. Sehingga PPK tidak dapat memberikan 20%, tetapi hanya maksimal 15% dari nilai kontrak, yaitu 15% × Rp 90 miliar = Rp 13,5 miliar."
+  },
+  {
+    "id": 77,
+    "soal": "Salah satu tujuan Pengadaan Barang/Jasa adalah",
+    "pilihan": {
+      "A": "Melaksanakan pengadaan yang lebih transparan",
+      "B": "Meningkatkan pengadaan berkelanjutan",
+      "C": "Menghindari dan mencegah pemborosan keuangan negara",
+      "D": "Menghindari terjadinya pertentangan kepentingan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Dalam Perpres 16 Tahun 2018 jo. Perpres 12 Tahun 2021, tujuan pengadaan barang/jasa pemerintah antara lain adalah untuk: Mendukung pelaksanaan pembangunan nasional, Meningkatkan penggunaan produk dalam negeri, Meningkatkan peran UMK-K/UMi, Mewujudkan pengadaan yang efektif dan efisien, dan Menghindari pemborosan dan kebocoran keuangan negara. Sehingga salah satu tujuan utamanya adalah penggunaan anggaran negara secara efektif dan efisien, yang berarti menghindari pemborosan. Transparan adalah prinsip pengadaan bukan tujuan, pengadaan berkelanjutan adalah kebijakan, dan menghindari konflik kepentingan adalah etika pengadaan."
+  },
+  {
+    "id": 78,
+    "soal": "Tindak lanjut atas Peserta Tender yang tidak memenuhi persyaratan pada proses evaluasi teknis, maka Pokja Pemilihan",
+    "pilihan": {
+      "A": "Memberi keringanan persyaratan",
+      "B": "Menyatakan Peserta gugur",
+      "C": "Meminta Peserta melengkapi persyaratan",
+      "D": "Memberi tambahan waktu"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada proses tender, evaluasi teknis merupakan tahap penilaian kelayakan teknis atas dokumen penawaran. Ketika peserta tidak memenuhi persyaratan teknis, maka secara ketentuan peserta tersebut wajib digugurkan. Pokja tidak boleh: memberikan keringanan, melakukan klarifikasi untuk memperbaiki substansi teknis, meminta perbaikan penawaran, atau menambah waktu pemenuhan syarat. Karena tidak diperbolehkan merubah substansi penawaran setelah batas waktu pemasukan penawaran."
+  },
+  {
+    "id": 79,
+    "soal": "Dalam melaksanakan tugasnya pada tahap penyusunan perencanaan pengadaan, PPK dapat dibantu oleh Tim Teknis. Pihak yang terlibat dalam Tim Teknis yaitu",
+    "pilihan": {
+      "A": "Kementerian/Lembaga terkait",
+      "B": "Asosiasi Profesi",
+      "C": "Organisasi Masyarakat",
+      "D": "Kelompok Masyarakat"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Tim Teknis adalah tim yang dibentuk untuk membantu PPK dalam aspek teknis, terutama pada tahap perencanaan pengadaan maupun pelaksanaan kontrak. Tim Teknis bersumber dari unsur pemerintah atau pihak yang memiliki kompetensi teknis terkait pekerjaan yang direncanakan. Yang lazim dilibatkan: Unit teknis internal instansi, Kementerian/Lembaga terkait (apabila butuh kewenangan/keahlian lintas sektor), dan Dosen/tenaga ahli pemerintah. Bukan termasuk: Asosiasi profesi, Organisasi masyarakat, atau Kelompok masyarakat."
+  },
+  {
+    "id": 80,
+    "soal": "Pemerintah Daerah wajib mengalokasikan belanja barang/jasa untuk penggunaan produk usaha kecil dan/atau koperasi dan hasil produk dalam negeri, berapakah nilai persentase paling sedikit yang wajib dialokasikan dari anggaran belanja barang/jasa yang dikelolanya?",
+    "pilihan": {
+      "A": "40%",
+      "B": "30%",
+      "C": "50%",
+      "D": "60%"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Ketentuan ini diatur dalam Instruksi Presiden (Inpres) No. 2 Tahun 2022 tentang Percepatan Peningkatan Penggunaan Produk Dalam Negeri (P3DN). Dalam Inpres tersebut ditegaskan bahwa: Pemerintah pusat dan daerah wajib mengalokasikan paling sedikit 40% belanja barang/jasa untuk produk UMK-K dan koperasi serta produk dalam negeri. Hal ini untuk: Mendukung UMKM, Meningkatkan daya saing produk lokal, Menggerakkan ekonomi nasional, dan Mengoptimalkan TKDN dalam belanja pemerintah."
+  },
+  {
+    "id": 81,
+    "soal": "Tahapan dalam siklus rantai pasok yang salah satu kegiatannya melakukan pencarian pasokan untuk memenuhi kebutuhan adalah",
+    "pilihan": {
+      "A": "Source/sumber",
+      "B": "Plan/rencana",
+      "C": "Make/membuat",
+      "D": "Deliver/mengantarkan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Dalam konsep Siklus Rantai Pasok (Supply Chain Management) terdapat beberapa tahapan utama: Plan (tahap perencanaan kebutuhan dan strategi pasokan), Source (tahap mencari, memilih, dan memastikan ketersediaan pasokan), Make (tahap produksi atau proses pengolahan), dan Deliver (tahap distribusi atau pengiriman kepada pengguna akhir). Tahap yang berkaitan dengan pencarian pemasok/supplier adalah Source, karena pada tahap ini organisasi melakukan: Identifikasi pemasok potensial, Evaluasi penyedia, Negosiasi dan kontrak pasokan, dan Menjamin ketersediaan barang."
+  },
+  {
+    "id": 82,
+    "soal": "Kontrak berikut ini yang TIDAK dapat diterapkan pada kontrak pekerjaan Jasa Konsultansi Pengembangan Aplikasi Elektronik Perkantoran adalah",
+    "pilihan": {
+      "A": "Kontrak Lumsum",
+      "B": "Kontrak Waktu Penugasan",
+      "C": "Kontrak Payung",
+      "D": "Biaya Plus Imbalan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Jenis kontrak yang umum digunakan dalam jasa konsultansi (termasuk pengembangan aplikasi berbasis jasa) adalah: Lumsum (jika ruang lingkup jelas & output terukur), Waktu Penugasan (jika dibayar berdasarkan waktu kerja tenaga ahli), dan Biaya Plus Imbalan/Cost Plus Fee (jika pekerjaan kompleks dan sulit dipastikan rinciannya di awal). Kontrak Payung (Framework Contract) TIDAK digunakan pada jasa konsultansi, karena: Kontrak payung diperuntukkan bagi barang/jasa lain/umum yang pembeliannya berulang (misal ATK, BBM, layanan internet), Bukan untuk pekerjaan berbasis keahlian/tenaga ahli, dan Tidak sesuai karakteristik jasa konsultansi yang berbasis output deliverables."
+  },
+  {
+    "id": 83,
+    "soal": "Metode evaluasi penawaran yang tepat pada pengadaan barang yang memperhitungkan faktor umur ekonomis, harga, biaya operasional, biaya pemeliharaan, dan nilai sisa dalam jangka waktu operasi tertentu adalah",
+    "pilihan": {
+      "A": "Kualitas",
+      "B": "Kualitas dan biaya",
+      "C": "Sistem nilai",
+      "D": "Biaya selama umur ekonomis"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Metode Biaya Selama Umur Ekonomis (Life Cycle Cost/LCC) digunakan apabila dalam pengadaan barang perlu diperhitungkan total biaya kepemilikan selama masa penggunaan barang tersebut, bukan hanya harga awal pembelian. Yang dihitung meliputi: Harga pembelian awal, Biaya pengoperasian, Biaya pemeliharaan, Biaya perawatan, Nilai sisa/salvage value, dan Umur ekonomis barang. Metode ini sering digunakan pada pengadaan: Kendaraan operasional, Mesin/generator, Peralatan IT berskala besar, dan Infrastruktur yang membutuhkan perawatan jangka panjang."
+  },
+  {
+    "id": 84,
+    "soal": "Dalam pengadaan sofa ruang tunggu kantor, kinerja Penyedia pada aspek kualitas dapat diukur berupa",
+    "pilihan": {
+      "A": "Umur perusahaan",
+      "B": "Waktu penyerahan unit",
+      "C": "Sebaran bengkel resmi",
+      "D": "Bentuk dan dimensi sesuai dengan gambar"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pada pengadaan barang furnitur seperti sofa, aspek kualitas dinilai berdasarkan kesesuaian spesifikasi teknis. Indikator kualitas untuk sofa dapat berupa: desain, bahan pelapis, kerangka, finishing, dan bentuk dan dimensi sesuai gambar teknis. Aspek umur perusahaan atau bengkel resmi tidak mengukur kualitas barang secara langsung (menilai legalitas/kapasitas usaha atau after sales), sementara waktu penyerahan merupakan aspek kinerja waktu, bukan kualitas. Bentuk dan dimensi sesuai gambar langsung mengukur kualitas fisik barang yang diserahkan."
+  },
+  {
+    "id": 85,
+    "soal": "Penetapan pemenang seleksi senilai Rp 20 miliar dilakukan oleh",
+    "pilihan": {
+      "A": "PPK",
+      "B": "Pokja Pemilihan",
+      "C": "PA/KPA",
+      "D": "Pejabat Pengadaan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Seleksi adalah metode pemilihan jasa konsultansi. Batas kewenangan penetapan pemenang mengikuti ketentuan nilai kontrak: Untuk nilai ≤ Rp 10 Miliar, pemenang ditetapkan oleh Pokja Pemilihan. Untuk nilai > Rp 10 Miliar, pemenang ditetapkan oleh PA/KPA. Karena nilai seleksi pada soal adalah Rp 20 miliar, maka masuk kategori di atas Rp 10 miliar, sehingga kewenangan penetapan pemenang berada pada PA/KPA. Pokja Pemilihan hanya mengusulkan calon pemenang, bukan menetapkan untuk nilai di atas Rp 10 miliar."
+  },
+  {
+    "id": 86,
+    "soal": "Metode Penyampaian Dokumen Penawaran Yang Tepat Pada Pengadaan Langsung Jasa Kebersihan Perorangan Senilai Rp. 66 Juta Adalah",
+    "pilihan": {
+      "A": "2 Tahap",
+      "B": "1 Tahap",
+      "C": "2 File",
+      "D": "1 File"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 87,
+    "soal": "Kesalahan Dalam Menetukan Penyelenggara Swakelola Salah Satunya Disebabkan Oleh :",
+    "pilihan": {
+      "A": "Penyusunan Rencana Anggaran Biaya (RAB) Tidak Dilakukan Dengan Tepat",
+      "B": "Identifikasi Kemampuan Pelaksana Swakelola Tidak Dilakukan",
+      "C": "Pengawasan Terhadap Penyusunan Anggaran Tidak Dilakukan",
+      "D": "Kesalahan Dalam Penyusunan Spesifikasi Teknis"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 88,
+    "soal": "Bentuk Kontrak Yang Digunakan Untuk Pengadaan Perlengkapan Kantor Yang Tidak Terdapat Dalam Katalog Elektronik Senilai Rp. 150 Juta Adalah :",
+    "pilihan": {
+      "A": "Surat Perintah Kerja",
+      "B": "Surat Perjanjian",
+      "C": "Surat Pesanan",
+      "D": "Kuitansi"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 89,
+    "soal": "Apabila Pada Tender Barang/Jasa Yang Sederhana Hanya Terdapat 1 (Satu) Peserta Yang Lulus Evaluasi Teknis Dan Harga, Langkah Yang Dapat Dilakukan Selanjutnya Yaitu :",
+    "pilihan": {
+      "A": "Evaluasi Ulang",
+      "B": "Pemasukan Penawaran Ulang",
+      "C": "Tender Dinyatakan Gagal",
+      "D": "Klarifikasi Dan Negosiasi"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 90,
+    "soal": "Kegiatan Pengadaan Barang/Jasa Pemerintah Dimulai Sejak :",
+    "pilihan": {
+      "A": "Identifikasi Kebutuhan Sampai Dengan Penetapan Pemenang Tender",
+      "B": "Pengumuman Tender Sampai Dengan Serah Terima Hasil Pekerjaan",
+      "C": "Pengumuman Tender Sampai Dengan Penetapan Pemenang Tender",
+      "D": "Identifikasi Kebutuhan Sampai Dengan Serah Terima Hasil Pekerjaan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 91,
+    "soal": "Berikut Ini Item Yang Diperlukan Dalam Penyusunan HPS Pengadaan Konsultan Manajemen Konstruksi Pembangunan Rumah Sakit Yaitu :",
+    "pilihan": {
+      "A": "Pajak Penghasilan (Pph)",
+      "B": "Biaya Tidak Terduga",
+      "C": "Biaya Sewa Kantor",
+      "D": "Harga Material"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 92,
+    "soal": "Metode Evaluasi Harga Terendah Digunakan Untuk Pengadaan Yang :",
+    "pilihan": {
+      "A": "Memperhitungkan Factor Unsur Ekonomis",
+      "B": "Harga Adalah Kriteria Evaluasi Uatama",
+      "C": "Inovasi Adalah Kriteria Evaluasi Utama",
+      "D": "Memperhitungkan Nilai Teknis Dan Harga"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 93,
+    "soal": "Kegiatan Penyusunan Perkiraan Biaya Rencana Anggaran Biaya (RAB) Merupaka Keterikatan PBJP Dalam Manajemen Siklus Rantai Pasok Pada Tahap :",
+    "pilihan": {
+      "A": "Make/Membuat",
+      "B": "Deliver/ Mengantarkan",
+      "C": "Plan / Rencana",
+      "D": "Source / Sumber"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 94,
+    "soal": "Rapat Yang Dilaksanakan Setelah Penandatanganan Kontrak Yang Bertujuan Untuk Mereviu Rencana Penilaian Kinerja Pekerjaan Sebagai Dasar Melakukan Evauasi Kemajuan Pekerjaan Adalah Kegiatan :",
+    "pilihan": {
+      "A": "Rapat Persiapan Pelaksanaan Kontrak",
+      "B": "Rapat Persiapan Penandatanganan Kontrak",
+      "C": "Rapat Persiapan Kontrak Kritis",
+      "D": "Rapat Persiapan Penerbitan SPPBJ"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 95,
+    "soal": "Evaluasi Kinerja Penyedia Merupakan Penilaian Terhadap Beberapa Aspek Yaitu :",
+    "pilihan": {
+      "A": "Perencanaan Pengadaan, Persiapan Pengadaan Dan Persiapan Pemilihan",
+      "B": "Kualitas, Kuantitas, Biaya, Waktu Dan Layanan.",
+      "C": "Input, Proses Dan Output",
+      "D": "Pemilihan Penyedia"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 96,
+    "soal": "Vendor Management/Manajemen Penyedia Pada Kegiatan Pengadaan Barang/Jasa Merupakan Salah Satu Penerapan Manajemen Rantai Pasok Pada Level :",
+    "pilihan": {
+      "A": "Taktis",
+      "B": "Operasional",
+      "C": "Strategis",
+      "D": "Dinamis"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 97,
+    "soal": "Manakah Diantara Pekerjaan Berikut Yang Tidak Memerlukan Jaminan Pelaksanaan :",
+    "pilihan": {
+      "A": "Pembangunan Puskesman Kecamatan XYZ Senilai Rp. 900 Juta",
+      "B": "Pengadaan Komputer Dan Perlengkapannnya Senilai Rp. 300 Juta",
+      "C": "Pengadaan Benih Kopi Senilai Rp. 500 Juta",
+      "D": "Pengadaan Jasa Konsultansi"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 98,
+    "soal": "Kategori Berikut Ini Yang Tidak Termasuk Pengadaan Khusus Yaitu :",
+    "pilihan": {
+      "A": "PBJ Di Luar Negeri",
+      "B": "PBJ Untuk Kebutuhan Operasional Kementerian",
+      "C": "PBJ Atas Kerusakan Yang Menggangu Pelayanan Public",
+      "D": "Pbj Untuk Pelaksanaan Operasi Pencarian Dan Pertolongan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 99,
+    "soal": "Pada Swakelola Yang Akan Dilaksanakan Oleh Kelompok Masyarakat, Apabila Akan Melakukan Penandatanganan Kontrak Maka Pihak Yang Melakukan Penadatanganan Kontrak Yaitu :",
+    "pilihan": {
+      "A": "PA Dengan Penyelenggara Swakelola",
+      "B": "PA Dengan Pimpinan Kelompok Masyarakat",
+      "C": "PPK Dengan Tim Pelaksana Swakelola",
+      "D": "PPK Dengan Pimpina Kelompok"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 100,
+    "soal": "Bentuk Kontrak Untuk Belanja ATK Senilai Rp. 25 Juta Yang Dibeli Ditoko Makmur Abadi Adalah :",
+    "pilihan": {
+      "A": "Bukti Pembelian",
+      "B": "Kuitansi",
+      "C": "Surat Perintah Kerja",
+      "D": "Surat Pesanan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 101,
+    "soal": "UKPBJ Kementerian ABCD Menerima Permohonan Bebearapa Paket Pengadaan Sejenis Dan Beberapa PPK Pada Unit Kerja Yang Berbeda. Kepala UKPBJ Menggabungkan Proses Pengadaan Beberapa Paket Tersebut Untuk Menghenat Waktu Dan Biaya. Tindakan Kepala UKPBJ Tersebut Merupakan Penerapan Prinsip Pengadaan Yaitu :",
+    "pilihan": {
+      "A": "Efektif",
+      "B": "Efesien",
+      "C": "Terbuka",
+      "D": "Akuntabel"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 102,
+    "soal": "Berikut Ini Yang Merupakan Salah Satu Manfaat Dilaksanakannya Analisis Pasar Adalah Untuk Menetukan ………..",
+    "pilihan": {
+      "A": "Metode Evaluasi Penawaran",
+      "B": "Metode Pemilihan Penyedia",
+      "C": "Besarnya Jaminan Pemeliharaan",
+      "D": "Besarnya Denda Keterlambatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 103,
+    "soal": "Klausul Berikut Ini Yang Bukan Merupakan Konten Yang Harus Diperhatikan Oleh Pokja Pemilihan Dalam Melakukan Reviu Dokumen Rancangan Kontrak Yaitu :",
+    "pilihan": {
+      "A": "Wakil Sah Pihak Penyedia Dilapangan",
+      "B": "Besaran Uang Muka",
+      "C": "Pemilhan Jenis Kontrak Yang Digunakan",
+      "D": "Tatacara Pembayaran"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 104,
+    "soal": "Berikut Item Yang Tidak Diperlukan Dalam Penyusunan HPS Pengadaan Perencanaan Rinci/Detail Engineering Design (DED) Renovasi Gedung Kantor Yaitu :",
+    "pilihan": {
+      "A": "Biaya Penyusunan Laporan",
+      "B": "Biaya Survey",
+      "C": "Remunerasi Tenaga Ahli",
+      "D": "Gaji Manajer Proyek"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 105,
+    "soal": "Kegiatan Berikut Ini Yang Merupakan Tugas Pejabat Pembuat Komitmen ( PPK ) Ialah………",
+    "pilihan": {
+      "A": "Memilih Penyedia Alat Kesehatan Senilai Rp. 500 Juta Melalui E-Purchasing",
+      "B": "Menetapkan Tim Juri Untuk Pembuatan Logo Instansi Melalui Sayembara",
+      "C": "Menetapkan Besaran Uang Muka Paket Pekerjaan Kontruksi Senilai Rp.11 Miliar",
+      "D": "Memilih Penyedia Alat Berat Senilai Rp. 5 Miliar"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 106,
+    "soal": "Dalam Hal PPK Membutuhkan Bantuan Dalam Penyusunan Kerangka Acuan Kerja Pengadaan Konsultan Kajian Lingkungan Maka Dapat Dibantu Oleh………………",
+    "pilihan": {
+      "A": "Tim Teknis",
+      "B": "Tim Peneliti Kontrak",
+      "C": "Tim Keuangan",
+      "D": "Manajer Keuangan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 107,
+    "soal": "Berikut Ini Yang Merupakan Tujuan Dan Pengadaan Barang/Jasa Pemerintah Adalah…………..",
+    "pilihan": {
+      "A": "Menghindari Dan Mencegah Penyalahgunaan Wewenang",
+      "B": "Menghindari Dan Mecegah Pemberosan Keuangan Negara",
+      "C": "Melaksanakan Tugas Secara Tertib Disertai Rasa Tanggung Jawab",
+      "D": "Mendukung Pelaksanaan Penelitian"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 108,
+    "soal": "Jenis Kontrak Yang Tepat Untuk Pengadaan Seminar Kit Bagi 1.500 Peserta Seminar Dengan Total Nilai Rp.300 Juta Melalui Katalog Elektronik Adalah………………",
+    "pilihan": {
+      "A": "Biaya Plus Imbalan",
+      "B": "Putar Kunci",
+      "C": "Harga Satuan",
+      "D": "Waktu Penugasan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 109,
+    "soal": "Berikut Ini Yang BUKAN Fungsi Layanan Pengadaan Secara Elektronik Yaitu…………",
+    "pilihan": {
+      "A": "Mengembangkan System Informasi Yang Dibutuhkan Oleh Pemangku Kepentingan",
+      "B": "Megelola Seluruh System Informasi PBJ Dan Infrastruktur",
+      "C": "Melakukan Pengembangan Karir Jabatan Fungsional PBJ",
+      "D": "Melaksanakan Verifikasi Pengunaan Informasi PBJ"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 110,
+    "soal": "Peserta Pemilihan Pada Tahapan Kualifikasi Dinyatakan Gugur Ketika Tidak Memenuhi Syarat Tanpa Memberikan Pembobotan/Skor Sebagaimana Tercantum Dalam Dokumen Pemilihan, Metode Tersebut Adalah…………",
+    "pilihan": {
+      "A": "Sistem Kualitas",
+      "B": "Sistem Gugur",
+      "C": "Sistem Peringkat",
+      "D": "Sistem Nilai"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 111,
+    "soal": "Berikut Ini Hal Yang Direviu Oleh Pokja Pemelihan Pada Dokumen Rancangan Kontrak Adalah…………",
+    "pilihan": {
+      "A": "Jenis Kontrak",
+      "B": "Cara Pengadaan",
+      "C": "Metode Evaluasi",
+      "D": "Harga Perkiraan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 112,
+    "soal": "Kementrian JKLM Sebagai Pemilik Anggaran Akan Melakukan Swakelola Yang Dilaksanakan Oleh Fakultas Teknik Perguruan Tnggi Negeri OPQR. Dalam Hal Terjadi Perubahan Kontrak Swakelola, Maka Yang Berhak Mewakili Erguruan Tinggi Negeri OPQR Untuk Melakukan Perubahan Kontrak Adalah………..",
+    "pilihan": {
+      "A": "Dekan Fakultas Teknik Perguruan Tinggi Negeri OPQR",
+      "B": "Ketua Tim Teknis Perguruan Tinggi Negeri OPQR",
+      "C": "Ketua Tim Pelaksana Perguruan Tinggi Negeri OPQR",
+      "D": "Rektor Perguruan Tinggi Negeri OPQR"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 113,
+    "soal": "Pada Pengadaan Mesin Penghancur Kertas Senilai Rp. 90 Juta, Apabila Negosiasi Yang Dilakukan Oleh Para Pihak Tidak Mencapai Kesepakatan Maka Hal Yang Harus Dilakukan Adalah………….",
+    "pilihan": {
+      "A": "Pengadaan Dilanjutkan Dengan Menggunakan Harga Dari Penyedia",
+      "B": "Pengadaan Dinyatakan Gagal Dan Dilakukan Evaluasi Ulang",
+      "C": "Pengadaan Dinyatakan Gagal Dan Dilakukan Ulang Tanpa Mengundang Pelaku Usaha Baru",
+      "D": "Pengadaan Dinyatakan Gagal Dan Dilakukan Pengadaan Ulang Dengan Mengundang Pelaku Usaha Lain"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 114,
+    "soal": "Salah Satu Kegiatan Yang Dilakukan Pada Perencanaan Pengadaan Melalui Penyedia Yaitu………..",
+    "pilihan": {
+      "A": "Menetapkan Besaran Jaminan Penawaran",
+      "B": "Menyusun Strategi Kemaketan",
+      "C": "Menyusu Dokumen Pemilihan",
+      "D": "Menetapkan Jenis Kontrak"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 115,
+    "soal": "Berikut Ini Merupakan Informasi Yang TIDAK Diperlukan Dalam Penyusuanan HPS 10 Unit Lemari Arsip Adalah…………",
+    "pilihan": {
+      "A": "Informasi Harga Dari E-Katalog",
+      "B": "Upah Minimum Regional ( UMR )",
+      "C": "Hasil Survey Pasar",
+      "D": "Kontrak Sejenis Seblumnya"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 116,
+    "soal": "Dinas Sosial Kota Samawa Akan Melaksanakan Swakelola Pemberian Makanan Bagi Panti Jompo Pada Tahun 2024untuk Menghitung Kebutuhan Anggaran Maka Pada Tahun 2023 Dilakukan Penyusunan Rencana Anggaran Dan Biaya. Saudara Diberi Tugas Oleh PPK Untuk Mengumpulkan Sumber Data Dan Informasi Untuk Menyusun RAB Kegiatan Tersebut. Manakah Data Dan Informasi Yang Tepat ?",
+    "pilihan": {
+      "A": "Peraturan Kementerian Keuangan Tentang Standar Biaya Masukan ( SBM ) Dan Peraturan Daerah Kota JKL Tentang Rancangan APBD Tahun 2023",
+      "B": "Proposal Dari Calon Pelaksana Swakelola Dan Remunerasi Tenaga Ahli",
+      "C": "Peraturan Wali Kota Samawa Tentang Standar Satuan Harga Dan Survei Pasar",
+      "D": "Peraturan Kementerian Keuangan Tentang Standar Biaya Masukan ( SBM ) Dan Proposal Dari Calon Pelaksana Swakelola"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 117,
+    "soal": "Kementerian ABCD Berencana Akan Melibatkan Masyarakat Dalam Pembangunan Dan Pengelolaan Bank Sampah Sederhana Dibeberapa Desa, Pengadaan Yang Tepat Dilakukan Dengan Cara………",
+    "pilihan": {
+      "A": "Sayembara",
+      "B": "Kontes",
+      "C": "Melalui Penyedia",
+      "D": "Swakelola"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 118,
+    "soal": "Kegiatan Pemberian Penjelasan Pada Seleksi Jasa Konsultan Penyusunan Kajian Pencegahan Penyakit Menular Dilaksanakan Oleh ............",
+    "pilihan": {
+      "A": "Kepala Ukpbj",
+      "B": "Pokja Pemilihan",
+      "C": "Pejabat Pembuat Komitmen",
+      "D": "Pejabat Pengadaan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 119,
+    "soal": "Pada Pengadaan Konsultan Perencanaan Detail Engineering Design (DED)Pembangunan Gedung 6 Lantai Pelayanan Terpadu Satu Pintu Di Kabupaten XYZ Senilai Rp. 1 Miliar Yang Ruang Lingkup Pekerjaannya Dapat Diuraikan Dengan Pasti Dalam KAK, Metode Evaluasi Penawaran Yang Tepat Adalah….",
+    "pilihan": {
+      "A": "Kualitas Dan Biaya",
+      "B": "Kualitas",
+      "C": "Pagu Anggaran",
+      "D": "Biaya Terendah"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 120,
+    "soal": "Terdapat Paket Pengadaan Jasa Pengawas Pembangunan Sekolah Dasar Dikabupaten ABCD Senilai Rp.300 Juta Jika Anda Sebagai Pokja Yang Melakukan Seleksi, Dokumen Apa Saja Yang Diminta Untuk Kebutuhan Reviu Persiapan Pemilihan?..........",
+    "pilihan": {
+      "A": "Rancangan Kontrak,KAK, Kontrak Tahun Sebelumnya",
+      "B": "Pagu Anggaran,HPS,Dokumen Hasil Survey",
+      "C": "HPS,Rancangan Kontrak, KAK",
+      "D": "Pagu Anggaran, Rancangan Kontrak, Laporan Pertanggungjawaban"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 121,
+    "soal": "Tim Pelaksana Pada Swakelola Oleh Kelompok Masyarakat Melaporkan Pengunaan Keuangan Kepada………..",
+    "pilihan": {
+      "A": "PA Pada K/L/D/P Penanggung Jawab Anggaran",
+      "B": "Tim Perencana Pada K/L/D/P Penggung Jawab Anggaran",
+      "C": "PPK Pada K/L/D/P Penanggung Jawab Anggaran",
+      "D": "Tim Pengawas Pada K/L/D/P Penanggug Jawab Anggaran"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 122,
+    "soal": "Swakelola Melalui Organisasi Kemasyarakatan Sebagai Pelaksana, Direncanakan Oleh K/L/D/P Penanggungjawab Anggaran Serta Diawasi Oleh………",
+    "pilihan": {
+      "A": "Tim Pengawas Dari Kelompok Masyarakat",
+      "B": "PPK Pada K/L/D/P Penanggungjawab Anggaran",
+      "C": "Tim Pengawas Pada Penanggungjawab Angaran",
+      "D": "Tim Pengawas Dari Organisasi Masyarakat"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 123,
+    "soal": "Pada Tender Yang TIDAK Memenuhi Persyaratan Administrasi Pada Saat Evaluasi Penawaran Dengan Metode Harga Terendah, Maka…………",
+    "pilihan": {
+      "A": "Dilanjutkan Untuk Evaluasi Teknis",
+      "B": "Dilanjutkan Untuk Evaluasi Harga",
+      "C": "Dinyatakan Gugur",
+      "D": "Dinyatakan Sebagai Pemenang"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 124,
+    "soal": "Dalam Proses Pengadaan Barang/Jasa, Aktifitas Mendorong Penggunaan Standar Nasional Indonesia ( SNI) Termasuk Salah Satu Dari ………..",
+    "pilihan": {
+      "A": "Persyaratan Pengadaan",
+      "B": "Prinsip Pengadaan",
+      "C": "Kebijakan Pengadaan",
+      "D": "Tujuan Pengadaan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 125,
+    "soal": "Pengadaan Berikut Ini Yang DILARANG Menyebutkan Merek Adalah……….",
+    "pilihan": {
+      "A": "Penyebutan Merek Produk Sanitari ( Wastafel,Kolset Dll )Dalam Pembangunangedung Melalui Tender",
+      "B": "Pengadaan Suku Cadang Mobil Dinas Melalui Pengadaan Langsung",
+      "C": "Pembelian Leptop Merek X Melalui E-Purchasing",
+      "D": "Pengadaan Alat Berat Eksavator Melalui Tender"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 126,
+    "soal": "Pada Pengadaan Pekerjaan Pembangunan Ruang Kelas Baru Sekolah Dasar, Penilaian Kinerja Penyedia Dilakukan Oleh…………",
+    "pilihan": {
+      "A": "PA/KPA",
+      "B": "Pejabat Pengadaan",
+      "C": "Pokja Pemilihan",
+      "D": "PPK"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 127,
+    "soal": "Berikut Ini Yang BUKAN Merupakan Fungsi UKPBJ Adalah………….",
+    "pilihan": {
+      "A": "Penyusunan Dan Penyusulan Pagu Anggaran",
+      "B": "Pelaksanaan Pendampingan, Konsultasi, Dan/Atau Bimbingan Teknis",
+      "C": "Pengelolaan Pengadaan Barang/Jasa",
+      "D": "Pengelolaan Layanan Pengaduan Secara Elektronik ( SPSE )"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 128,
+    "soal": "Kabupaten STU Akan Melaksanakan Pembangunan Gedung Serbaguna Dengan Nilai HPS Rp. 100 Miliar Yang Masa Pelaksanaannya Adalah 24 Bulan ( Tahun Jamak ). Jika Penawaran Peserta Lebih Dari 80% HPS Maka Besaran Jaminan Uang Pemeliharaan Terhadap Nilai Kontrak Yang Dapat Diterapkan Yaitu………….",
+    "pilihan": {
+      "A": "Jaminan Uang Muka 15% ,Dan Jaminan Pemeliharaan 5%",
+      "B": "Jaminan Uang Muka 20%, Dan Jaminan Pemeliharaan 5%",
+      "C": "Jaminan Uang Muka 15%, Dan Jaminan Pemliharaan 10%",
+      "D": "Jaminan Uang Muka 20%, Dan Jaminan Pemeliharaan 10%"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 129,
+    "soal": "Pada Pemerikasaan Hasil Pekerjaan Pembuatan System Aplikasi Elektronik, PPK Menemukan Ada Bagian Pekerjaan Yang Belum Berfungsi Sesuai KAK Tindakan PPK Adalah",
+    "pilihan": {
+      "A": "Melanjutkan Proses Serah Terima Sambal Dilakukan Perbaikan",
+      "B": "Melanjutkan Serah Terima Dan Penyedia Dikenakan Denda",
+      "C": "Memerintahkan Penyedia Untuk Menyelesaikan Kekurangan Hasil Pekerjaan",
+      "D": "Melakukan Addendum Kontrak Dengan Mengeluarkan Lingkup Tersebut Dari Kontrak"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 130,
+    "soal": "Berikut Ini Yang BUKAN Merupakan Kriteria Preferred Supplier Adalah………….",
+    "pilihan": {
+      "A": "Hasil Pekerjaan Memuaskan",
+      "B": "Pernah Mendapatkan Pekerjaan",
+      "C": "Tidak Pernah Masuk Dalam Daftar Hitam",
+      "D": "Masuk Dalam Daftar Penyedia"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 131,
+    "soal": "Cara Pengadaan Yang Tepat Untuk Pembuatan Kajian Pertumbuhan Ekonomi Daerah Yang Dilakukan Bekerjasama Dengan Perguruan Tinggi Swasta Adalah…………..",
+    "pilihan": {
+      "A": "Swakelola Tipe I",
+      "B": "Swakelola Tipe IV",
+      "C": "Swakelola Tipe II",
+      "D": "Swakelola Tipe III"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 132,
+    "soal": "Perselisihan Kontrak Antara PPK Dengan Penyedia, Merupakan Sengketa Pada Ranah Hukum……….",
+    "pilihan": {
+      "A": "Pidana",
+      "B": "Persaingan Usaha",
+      "C": "Perdata",
+      "D": "Administrasi"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 133,
+    "soal": "Tahapan Pelaksanaan Kontrak Pekerjaan Konstruksi Yang Harus Dilakukan Sebelum PPK Menerbitkan Surat Perintah Mulai Kerja ( SPMK ) Yaitu…………",
+    "pilihan": {
+      "A": "Rapat Berkala",
+      "B": "Mobilisasi",
+      "C": "Rapat Show Cause Meeting",
+      "D": "Penyerahan Lokasi Kerja"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pilihan D adalah jawaban yang tepat karena sejalan dengan ketentuan dan tanggung jawab pihak terkait dalam PBJ."
+  },
+  {
+    "id": 134,
+    "soal": "Apabila Dipasar Terdapat Produk Bersertifikat Standar Nasional Indonesia ( SNI ) Yang Memenuhi Kebutuhan Pengguna, Maka PPK Wajib Memanfaatkannya Dalam Penyusunan……….",
+    "pilihan": {
+      "A": "Dokumen Kualifikasi",
+      "B": "Analisa Dampak Lingkungan",
+      "C": "Kinerja Penyedia",
+      "D": "Spesifikasi Teknis"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 135,
+    "soal": "Menghasilkan Barang/Jasa Yang Tepat Dari Setiap Uang Yang Dibelanjakan Dapat Diukur Dari Aspek Kualitas, Kuantitas, Waktu, Biaya, Lokasi, Dan Penyedia Kegiatan Tersebut Merupakan Bagian Dari……..",
+    "pilihan": {
+      "A": "Tujuan Pengadaan",
+      "B": "Etika Pengadaan",
+      "C": "Kebijakan Pengadaan",
+      "D": "Prinsip Pengadaan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pilihan A adalah jawaban yang paling tepat berdasarkan prinsip dan ketentuan dalam pengadaan barang/jasa pemerintah."
+  },
+  {
+    "id": 136,
+    "soal": "Kontrak Berikut Ini Yang TIDAK Dapat Diterapkan Pada Kontrak Pekerjaan Jasa Konsultansi Pengembangan Aplikasi Elektronik Perkantoran Adalah…………",
+    "pilihan": {
+      "A": "Kontrak Lumsum",
+      "B": "Kontrak Waktu Penugasan",
+      "C": "Biaya Plus Imbalan",
+      "D": "Kontrak Payung"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pilihan C merupakan jawaban yang benar karena sesuai dengan etika, prinsip efektivitas, dan peraturan PBJ."
+  },
+  {
+    "id": 137,
+    "soal": "PPK Dalam Melaksanakan Tugasnya Pada Tahap Penyusunan Perencanaan Pengadaan Dapat Dibantu Oleh Tim Teknis, Tim Teknis Dibentuk Dari Unsur…………..",
+    "pilihan": {
+      "A": "Asosiasi Profesi",
+      "B": "Kementrian/Lembaga Terkait",
+      "C": "Kelompok Masyarakat",
+      "D": "Organisasi Masyarakat"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pilihan B mencerminkan penerapan prosedur yang benar sesuai regulasi PBJ dan prinsip transparansi."
+  },
+  {
+    "id": 138,
+    "soal": "Metode penyampaian dokumen penawaran yang tepat pada penunjukan langsung pembangunan fasilitas umum di lingkungan perumahan bagi Masyarakat Berpenghasilan Rendah senilai Rp250 juta adalah…",
+    "pilihan": {
+      "A": "1 File",
+      "B": "2 Tahap",
+      "C": "2 File",
+      "D": "1 Tahap"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Metode penunjukan langsung menggunakan sistem sederhana, sehingga penyampaian dokumen penawaran dilakukan secara langsung dalam 1 file, tanpa tahap pemisahan teknis dan harga."
+  },
+  {
+    "id": 139,
+    "soal": "Kondisi berikut ini yang Tidak memerlukan negosiasi yaitu…",
+    "pilihan": {
+      "A": "Jasa Konsultan Analisis Dampak Lingkungan dengan Seleksi",
+      "B": "Tender dengan 1 pemenang dan 1 pemenang cadangan",
+      "C": "Pengadaan pupuk dengan penunjukan langsung",
+      "D": "Tender dimana….."
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Tender dengan 1 pemenang dan 1 pemenang cadangan tidak memerlukan negosiasi karena seluruh penilaian dan evaluasi sudah dilakukan pada tahap evaluasi penawaran sesuai prosedur."
+  },
+  {
+    "id": 140,
+    "soal": "Balai Diklat Kementerian ABC melaksanakan penyusunan modul pelatihan secara mandiri. Di dalam pelaksanaan dibutuhkan tenaga ahli yang tidak memiliki internal unit kerja. Jumlah tenaga ahli yang dapat dilibatkan dalam situasi tersebut maksimal….",
+    "pilihan": {
+      "A": "50% dari pelaksana Swakelola",
+      "B": "10% dari pelaksana Swakelola",
+      "C": "50% dari penyelenggara Swakelola",
+      "D": "10% dari penyelenggara Swakelola"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Dalam Swakelola, pelibatan tenaga ahli dari luar unit kerja dibatasi maksimal 10% dari total pelaksana Swakelola, untuk menjaga prinsip efisiensi dan kemandirian pelaksanaan."
+  },
+  {
+    "id": 141,
+    "soal": "Hal yang dapat dilakukan dalam pemaketan Pengadaan Barang/Jasa pemerintah adalah…",
+    "pilihan": {
+      "A": "Menggabungkan paket pengadaan barang/jasa yang tersebar di beberapa lokasi yang menurut sifat pekerjaan dan tingkat efisiensinya seharusnya dilakukan di lokasi masing-masing",
+      "B": "Menyatukan beberapa paket Pengadaan Barang/jasa menjadi usaha besar agar tidak dilaksanakan oleh usaha kecil",
+      "C": "Menggabungkan beberapa paket yang menurut sifat dan jenisnya dapat digabung menjadi satu paket",
+      "D": "Menggabungkan beberapa paket yang menurut sifat dan jenis dan pelaku usahanya di pasar berbeda",
+      "E": "Menggabungkan beberapa paket pengadaan langsung yang sejenis dan berdekatan untuk dilakukan melalui Tender"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pemaketan boleh dilakukan jika sifat dan jenis pekerjaan serupa, sehingga efisiensi meningkat. Penggabungan tidak boleh menutup kesempatan bagi usaha kecil."
+  },
+  {
+    "id": 142,
+    "soal": "Swakelola tipe IV dapat dilaksanakan oleh…",
+    "pilihan": {
+      "A": "Universitas Gajah Mada",
+      "B": "Gabungan Kelompok Tani (GAPOKTAN)",
+      "C": "Organisasi Kepemudaan KNPI",
+      "D": "Badan Pusat Statistik"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Swakelola tipe IV dilaksanakan oleh organisasi kemasyarakatan atau organisasi non-pemerintah seperti KNPI, karang taruna, dan lainnya sesuai ketentuan Perpres 16/2018."
+  },
+  {
+    "id": 143,
+    "soal": "Kegiatan yang termasuk dalam tahapan Persiapan Pengadaan melalui Penyedia adalah…",
+    "pilihan": {
+      "A": "Penetapan Rancangan Kontrak",
+      "B": "Penetapan Metode Evaluasi",
+      "C": "Identifikasi Kebutuhan",
+      "D": "Penyusunan Rencana Anggaran Biaya (RAB)"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada tahap Persiapan Pengadaan, salah satu kegiatan penting adalah menetapkan metode evaluasi agar proses pemilihan penyedia dapat berjalan transparan dan sesuai karakteristik pekerjaan."
+  },
+  {
+    "id": 144,
+    "soal": "Hasil pelaksanaan Swakelola secara berkala dilaporkan kemajuan pelaksanaan kegiatan dan penyerapan anggaran oleh…",
+    "pilihan": {
+      "A": "Tim Pelaksana kepada Inspektorat",
+      "B": "Tim Pelaksana kepada PPK",
+      "C": "Tim Pelaksana kepada PA/KPA",
+      "D": "Tim Pelaksana kepada Tim Pengawas"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Tim Pelaksana wajib melaporkan perkembangan pelaksanaan dan penggunaan anggaran kepada PPK sebagai penanggung jawab kontraktual dan administratif pelaksanaan kegiatan."
+  },
+  {
+    "id": 145,
+    "soal": "Berikut ini adalah data pengalaman pekerjaan beberapa pelaku usaha:\n1. PT. A Pengalaman: Pembangunan Ruang Kelas Baru Sekolah Dasar\n2. PT. B Pengalaman: Pemeliharaan Jalan Jenderal Ahmad Yani Kabupaten GHJ\n3. PT. C Pengalaman: Pemasangan Gorong-Gorong Jalan Cut Nyak Dien\n4. PT. D Pengalaman: Pemeliharaan Gedung Serbaguna Kabupaten KLP\n5. PT. E Pengalaman: Pembangunan Jembatan Kabupaten SDF\n\nPenyedia yang dapat diundang untuk menyampaikan penawaran harga pada pembangunan perpustakaan senilai Rp. 185 juta adalah:",
+    "pilihan": {
+      "A": "D dan E",
+      "B": "A dan D",
+      "C": "A dan B",
+      "D": "C dan D"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pekerjaan pembangunan perpustakaan termasuk kategori pekerjaan konstruksi bangunan gedung. Berdasarkan pengalaman sejenis, PT A (pembangunan ruang kelas baru sekolah) dan PT D (pemeliharaan gedung serbaguna) memiliki pengalaman paling relevan dengan pekerjaan yang akan dilaksanakan, sehingga memenuhi kualifikasi untuk diundang."
+  },
+  {
+    "id": 146,
+    "soal": "Penilaian pengalaman tenaga ahli pada proses seleksi konsultan badan usaha merupakan kegiatan…",
+    "pilihan": {
+      "A": "Evaluasi Administrasi",
+      "B": "Evaluasi Kualifikasi",
+      "C": "Evaluasi Bisnis",
+      "D": "Evaluasi Harga"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Penilaian pengalaman tenaga ahli termasuk dalam evaluasi kualifikasi karena bertujuan memastikan keahlian dan pengalaman sesuai kebutuhan pekerjaan konsultansi."
+  },
+  {
+    "id": 147,
+    "soal": "Berikut ini adalah spesifikasi mutu yang disusun dengan menggunakan pola spesifikasi kinerja adalah…",
+    "pilihan": {
+      "A": "Pupuk NPK dengan komposisi 16-16-16",
+      "B": "Pendingin ruangan yang dapat mencapai 16 derajat dalam waktu 5 menit",
+      "C": "Kursi pejabat eselon 1 dengan bahan kulit sapi",
+      "D": "Laptop administrasi…….."
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Spesifikasi kinerja menjelaskan output atau hasil yang diharapkan, bukan detail teknis. Contohnya pendingin ruangan yang mencapai suhu tertentu dalam waktu tertentu."
+  },
+  {
+    "id": 148,
+    "soal": "Pengadaan barang/jasa ini yang TIDAK memerlukan jaminan pelaksanaan adalah…",
+    "pilihan": {
+      "A": "Pengadaan genset sebesar Rp500 juta",
+      "B": "Pekerjaan perbaikan drainase senilai Rp250 juta",
+      "C": "Renovasi gedung Instalasi Gawat Darurat (IGD) senilai Rp900 juta",
+      "D": "Pengawasan pembangunan…."
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Jasa konsultansi seperti pengawasan pembangunan tidak memerlukan jaminan pelaksanaan karena sifatnya berbasis keahlian, bukan fisik barang atau konstruksi."
+  },
+  {
+    "id": 149,
+    "soal": "PT. Maju Jaya telah membuat akun dan terverifikasi pada SIKAP dan telah melaksanakan pekerjaan dengan baik. Penyedia tersebut dapat dikelompokkan dalam kategori…",
+    "pilihan": {
+      "A": "Approved Supplier",
+      "B": "Interest Supplier",
+      "C": "Emergency Supplier",
+      "D": "Preferred Supplier"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Preferred Supplier adalah penyedia yang telah terbukti berkinerja baik dan menjadi rujukan utama dalam pengadaan berdasarkan rekam jejak di SIKAP."
+  },
+  {
+    "id": 150,
+    "soal": "Dinas Pertanian Kabupaten KLM akan melaksanakan pengadaan pembelian 1 unit Traktor senilai Rp250 juta. Tata cara pembayaran yang tepat untuk diterapkan adalah…",
+    "pilihan": {
+      "A": "Cicilan",
+      "B": "Bulanan",
+      "C": "Sekaligus",
+      "D": "Termin"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pembayaran sekaligus dilakukan untuk pengadaan barang sederhana dengan waktu pelaksanaan singkat dan tanpa termin pekerjaan bertahap."
+  },
+  {
+    "id": 151,
+    "soal": "Dalam menyusun spesifikasi pengadaan Laptop untuk CPNS di Kabupaten ABCD yang volumenya disesuaikan dengan formasi, aspek spesifikasi yang dimaksud adalah…",
+    "pilihan": {
+      "A": "Mutu",
+      "B": "Jumlah",
+      "C": "Layanan",
+      "D": "Waktu"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Penentuan volume berdasarkan jumlah kebutuhan menunjukkan aspek jumlah dalam penyusunan spesifikasi teknis pengadaan barang."
+  },
+  {
+    "id": 152,
+    "soal": "Dalam menyusun spesifikasi pada pengadaan regulator gas LPG yang mempersyaratkan masa garansi 1 tahun, aspek spesifikasi tersebut adalah…",
+    "pilihan": {
+      "A": "Waktu",
+      "B": "Jumlah",
+      "C": "Layanan",
+      "D": "Mutu"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Masa garansi termasuk dalam aspek layanan karena berhubungan dengan dukungan purna jual setelah barang diserahkan."
+  },
+  {
+    "id": 153,
+    "soal": "Dalam pelaksanaan kontrak pengadaan jasa catering pelatihan, pembayaran akhir dilakukan oleh PPK setelah…",
+    "pilihan": {
+      "A": "Berita acara serah terima ditandatangani oleh Penyedia",
+      "B": "Berita acara serah terima ditandatangani oleh PPK dan Penyedia",
+      "C": "Berita acara serah terima ditandatangani oleh PA/KPA dan Penyedia",
+      "D": "Berita acara serah terima ditandatangani oleh PPK dan PA/KPA"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pembayaran dilakukan setelah berita acara serah terima pekerjaan ditandatangani oleh PPK dan penyedia sebagai tanda penyelesaian pekerjaan."
+  },
+  {
+    "id": 154,
+    "soal": "Di antara pekerjaan berikut yang TIDAK dapat menggunakan kontrak tahun jamak yaitu…",
+    "pilihan": {
+      "A": "Pembangunan jalur dan jembatan nasional (2022–2024)",
+      "B": "Manajemen konstruksi renovasi sarana sekolah (2022–2024)",
+      "C": "Pembangunan gudang arsip (2022–2023)",
+      "D": "Penyusunan peta jalan transformasi digital (2022–2022)"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Kontrak tahun jamak hanya digunakan untuk kegiatan lebih dari 12 bulan. Penyusunan peta jalan yang selesai di tahun yang sama tidak memenuhi kriteria kontrak tahun jamak."
+  },
+  {
+    "id": 155,
+    "soal": "Metode kualifikasi yang tepat untuk seleksi Jasa Konsultan Perorangan dalam Kajian Tata Kota Rp250 juta adalah…",
+    "pilihan": {
+      "A": "Sistem Gugur",
+      "B": "Pascakualifikasi",
+      "C": "Prakualifikasi",
+      "D": "Sistem Pembobotan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pascakualifikasi digunakan untuk jasa konsultansi dengan nilai relatif kecil dan peserta sedikit, termasuk konsultan perorangan."
+  },
+  {
+    "id": 156,
+    "soal": "Setelah menerima klarifikasi dari Pokja Pemilihan, jawaban sanggah banding disampaikan paling lambat…",
+    "pilihan": {
+      "A": "14 hari kerja",
+      "B": "5 hari kerja",
+      "C": "14 hari kalender",
+      "D": "5 hari kalender"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Sesuai PerLKPP No. 12 Tahun 2021, jawaban sanggah banding disampaikan paling lambat 5 hari kalender sejak klarifikasi diterima."
+  },
+  {
+    "id": 157,
+    "soal": "Berikut ini yang TIDAK termasuk komponen HPS untuk pekerjaan konstruksi adalah…",
+    "pilihan": {
+      "A": "Tenaga Kerja",
+      "B": "Pajak Penghasilan (PPh)",
+      "C": "Peralatan",
+      "D": "Material"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pajak penghasilan bukan komponen harga pokok pelaksanaan tetapi kewajiban pajak penyedia, sehingga tidak diperhitungkan dalam HPS."
+  },
+  {
+    "id": 158,
+    "soal": "Contoh barang/jasa dengan permintaan lebih besar dari penawaran sehingga pembeli yang menawar adalah…",
+    "pilihan": {
+      "A": "Jasa penerbangan komersil",
+      "B": "Pembuatan iklan layanan masyarakat",
+      "C": "Jasa arbiter",
+      "D": "Pengadaan kapal bekas"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Kapal bekas memiliki stok terbatas sehingga pihak pembeli yang biasanya melakukan penawaran untuk memperoleh barang sesuai kebutuhan."
+  },
+  {
+    "id": 159,
+    "soal": "Berikut ini yang TIDAK termasuk jenis kontrak pada pengadaan jasa konsultasi adalah…",
+    "pilihan": {
+      "A": "Kontrak Payung",
+      "B": "Biaya Plus Imbalan",
+      "C": "Kontrak Lumsum",
+      "D": "Waktu Penugasan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Kontrak payung digunakan untuk pengadaan berulang, bukan untuk jasa konsultansi. Jasa konsultansi menggunakan lumsum, waktu penugasan, atau biaya plus imbalan."
+  },
+  {
+    "id": 160,
+    "soal": "Komponen HPS untuk pekerjaan konstruksi TIDAK memperhitungkan biaya berupa…",
+    "pilihan": {
+      "A": "Material",
+      "B": "Remunerasi tenaga ahli",
+      "C": "Tenaga kerja",
+      "D": "Peralatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Remunerasi tenaga ahli termasuk dalam jasa konsultansi, bukan konstruksi, sehingga tidak masuk komponen HPS pekerjaan konstruksi."
+  },
+  {
+    "id": 161,
+    "soal": "Pihak yang menugaskan Pokja Pemilihan melaksanakan tender/seleksi di Pemerintah Daerah adalah…",
+    "pilihan": {
+      "A": "Kepala LKPP",
+      "B": "Kepala Daerah",
+      "C": "Sekretaris Daerah",
+      "D": "Kepala UKPBJ"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Kepala UKPBJ bertanggung jawab menugaskan Pokja Pemilihan untuk melaksanakan proses tender atau seleksi di lingkungan pemerintah daerah."
+  },
+  {
+    "id": 162,
+    "soal": "Pembelian secara elektronik (e-purchasing) melalui katalog elektronik dilaksanakan dengan metode…",
+    "pilihan": {
+      "A": "Seleksi",
+      "B": "Sayembara",
+      "C": "Tender",
+      "D": "Negosiasi harga"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "E-purchasing dilakukan melalui negosiasi harga langsung dalam katalog elektronik antara PPK dan penyedia terdaftar."
+  },
+  {
+    "id": 163,
+    "soal": "Salah satu indikator kinerja penyedia pada aspek layanan adalah…",
+    "pilihan": {
+      "A": "Adanya purna jual",
+      "B": "Kesesuaian kualitas",
+      "C": "Kemampuan pengendalian biaya",
+      "D": "Ketepatan waktu penyerahan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Adanya layanan purna jual merupakan bagian dari aspek layanan karena menunjukkan komitmen penyedia dalam mendukung pengguna pascapengadaan."
+  },
+  {
+    "id": 164,
+    "soal": "Mengembangkan e-marketplace pengadaan barang/jasa termasuk dalam…",
+    "pilihan": {
+      "A": "Etika pengadaan",
+      "B": "Tujuan pengadaan",
+      "C": "Prinsip pengadaan",
+      "D": "Kebijakan pengadaan"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Pengembangan e-marketplace merupakan kebijakan pemerintah untuk mendorong efisiensi, transparansi, dan digitalisasi proses PBJ."
+  },
+  {
+    "id": 165,
+    "soal": "Salah satu contoh pelanggaran etika dalam pengadaan barang/jasa yaitu…",
+    "pilihan": {
+      "A": "PA/KPA tidak melakukan intervensi dalam proses pemilihan penyedia",
+      "B": "Pokja Pemilihan menetapkan kualifikasi tanpa mengarahkan penyedia tertentu",
+      "C": "PPK memberitahukan informasi detail HPS kepada penyedia tertentu",
+      "D": "Pejabat Pengadaan melakukan e-purchasing kepada penyedia lokal"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Memberikan informasi HPS kepada penyedia tertentu merupakan pelanggaran etika karena menimbulkan konflik kepentingan dan mengurangi transparansi."
+  }
+]
