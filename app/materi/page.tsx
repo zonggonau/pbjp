@@ -2,16 +2,16 @@
 
 export default function MateriPage() {
   return (
-    <div className="min-h-screen bg-zinc-50 p-3 sm:p-4 md:p-6 font-sans dark:bg-black">
+    <div className="min-h-screen bg-zinc-50 p-3 sm:p-4 md:p-6 font-sans">
       <div className="mx-auto max-w-4xl">
-        <header className="mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 rounded-xl bg-white p-4 sm:p-6 shadow dark:bg-zinc-900">
+        <header className="mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 rounded-xl bg-white p-4 sm:p-6 shadow">
           <div className="flex-1">
-            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-zinc-900 dark:text-zinc-100">📚 Materi PBJP Level 1 untuk PPK</h1>
-            <p className="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mt-1">Ringkasan Komprehensif Pengadaan Barang/Jasa Pemerintah</p>
+            <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-zinc-900">📚 Materi PBJP Level 1 untuk PPK</h1>
+            <p className="text-xs sm:text-sm text-zinc-600 mt-1">Ringkasan Komprehensif Pengadaan Barang/Jasa Pemerintah</p>
           </div>
           <a
             href="/"
-            className="w-full sm:w-auto text-center rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-700 whitespace-nowrap"
+            className="w-full sm:w-auto text-center rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50 whitespace-nowrap"
           >
             ← Kembali
           </a>

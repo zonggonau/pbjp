@@ -2,37 +2,17 @@
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
   const [nama, setNama] = useState("");
 
   useEffect(() => {
-    // Load dark mode preference
-    const savedDarkMode = localStorage.getItem("darkMode") === "true";
-    setDarkMode(savedDarkMode);
-    if (savedDarkMode) {
-      document.documentElement.classList.add("dark");
-    }
-
-    // Load saved name
     const savedName = localStorage.getItem("pbjp_nama") || "";
     setNama(savedName);
   }, []);
 
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    localStorage.setItem("darkMode", String(newDarkMode));
-    if (newDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  };
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-blue-950">
-      {/* Header with Dark Mode Toggle */}
-      <header className="border-b border-zinc-200 bg-white/80 backdrop-blur-sm dark:border-zinc-800 dark:bg-zinc-900/80">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      {/* Header */}
+      <header className="border-b border-zinc-200 bg-white/80 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -40,27 +20,18 @@ export default function Home() {
                 🏛️
               </div>
               <div>
-                <h1 className="text-sm font-bold text-zinc-900 dark:text-zinc-100 sm:text-base">
+                <h1 className="text-sm font-bold text-zinc-900 sm:text-base">
                   Portal Pembelajaran PBJP
                 </h1>
-                <p className="text-xs text-zinc-600 dark:text-zinc-400">Kabupaten Intan Jaya</p>
+                <p className="text-xs text-zinc-600">Kabupaten Intan Jaya</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <a
-                href="/history"
-                className="rounded-lg border border-zinc-300 px-3 py-2 text-xs font-medium text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800 sm:text-sm"
-              >
-                📊 Riwayat
-              </a>
-              <button
-                onClick={toggleDarkMode}
-                className="rounded-lg border border-zinc-300 p-2 text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                aria-label="Toggle dark mode"
-              >
-                {darkMode ? "☀️" : "🌙"}
-              </button>
-            </div>
+            <a
+              href="/history"
+              className="rounded-lg border border-zinc-300 px-3 py-2 text-xs font-medium text-zinc-700 hover:bg-zinc-50 sm:text-sm"
+            >
+              📊 Riwayat
+            </a>
           </div>
         </div>
       </header>
@@ -256,7 +227,7 @@ export default function Home() {
               © 2024 Portal Pembelajaran PBJP - Kabupaten Intan Jaya
               <br className="sm:hidden" />
               <span className="hidden sm:inline"> • </span>
-              Untuk ASN Kab. Intan Jaya, Provinsi Papua Pegunungan
+              Untuk ASN Kab. Intan Jaya, Provinsi Papua Tengah
             </div>
             <div className="flex gap-4 text-xs sm:text-sm">
               <a href="/materi" className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">
