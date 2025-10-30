@@ -15,6 +15,9 @@ export default function LatihanPage() {
   const [answer, setAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [score, setScore] = useState<number>(0);
+  const [finished, setFinished] = useState<boolean>(false);
+  const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
 
   useEffect(() => {
     fetch("/api/questions")
@@ -31,22 +34,56 @@ export default function LatihanPage() {
   const handleAnswer = (choice: string) => {
     setAnswer(choice);
     setShowResult(true);
+    setUserAnswers(prev => ({ ...prev, [current]: choice }));
   };
 
   const nextQuestion = () => {
     if (current < questions.length - 1) {
-      setCurrent(current + 1);
-      setAnswer(null);
-      setShowResult(false);
+      const nextIndex = current + 1;
+      setCurrent(nextIndex);
+      setAnswer(userAnswers[nextIndex] || null);
+      setShowResult(!!userAnswers[nextIndex]);
     }
   };
 
   const prevQuestion = () => {
     if (current > 0) {
-      setCurrent(current - 1);
-      setAnswer(null);
-      setShowResult(false);
+      const prevIndex = current - 1;
+      setCurrent(prevIndex);
+      setAnswer(userAnswers[prevIndex] || null);
+      setShowResult(!!userAnswers[prevIndex]);
     }
+  };
+
+  const goToQuestion = (index: number) => {
+    setCurrent(index);
+    setAnswer(userAnswers[index] || null);
+    setShowResult(!!userAnswers[index]);
+  };
+
+  const calculateScore = () => {
+    const correctAnswers = questions.filter((q, index) => userAnswers[index] === q.jawaban_benar);
+    setScore(correctAnswers.length);
+  };
+
+  const finishLatihan = () => {
+    calculateScore();
+    setFinished(true);
+  };
+
+  const retryLatihan = () => {
+    setCurrent(0);
+    setAnswer(null);
+    setShowResult(false);
+    setFinished(false);
+    setUserAnswers({});
+    // Reload questions with new random set
+    fetch("/api/questions")
+      .then((r) => r.json())
+      .then((data) => {
+        const shuffled = [...data].sort(() => Math.random() - 0.5);
+        setQuestions(shuffled.slice(0, 20));
+      });
   };
 
   if (loading) {
@@ -71,6 +108,13 @@ export default function LatihanPage() {
 
   const q = questions[current];
   const isCorrect = answer === q.jawaban_benar;
+
+  // Calculate statistics
+  const totalAnswered = Object.keys(userAnswers).length;
+  const correctCount = questions.filter((q, index) => userAnswers[index] === q.jawaban_benar).length;
+  const incorrectCount = totalAnswered - correctCount;
+  const percentage = totalAnswered > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
+  const isPassing = percentage >= 80;
 
   return (
     <div className="min-h-screen bg-zinc-50 p-4 font-sans dark:bg-black">
@@ -159,6 +203,52 @@ export default function LatihanPage() {
             </section>
           )}
 
+          {/* End of Latihan */}
+          {finished && (
+            <section className="rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
+              <h2 className="mb-4 text-xl font-bold text-zinc-900 dark:text-zinc-100">Hasil Latihan</h2>
+              <div className="mb-6">
+                <div className={`mb-4 rounded-lg p-4 ${isPassing ? 'bg-green-50 dark:bg-green-950' : 'bg-red-50 dark:bg-red-950'}`}>
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-3xl">{isPassing ? '🎉' : '😔'}</span>
+                    <div>
+                      <h3 className={`text-xl font-bold ${isPassing ? 'text-green-900 dark:text-green-100' : 'text-red-900 dark:text-red-100'}`}>
+                        {isPassing ? 'LULUS' : 'TIDAK LULUS'}
+                      </h3>
+                      <p className={`text-sm ${isPassing ? 'text-green-700 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
+                        Passing Grade: 80%
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-4 mb-4">
+                  <div className="rounded-lg bg-blue-50 p-4 dark:bg-blue-950">
+                    <div className="text-sm text-blue-700 dark:text-blue-300">Skor Anda</div>
+                    <div className="text-2xl font-bold text-blue-900 dark:text-blue-100">{score}/{questions.length}</div>
+                  </div>
+                  <div className="rounded-lg bg-purple-50 p-4 dark:bg-purple-950">
+                    <div className="text-sm text-purple-700 dark:text-purple-300">Persentase</div>
+                    <div className="text-2xl font-bold text-purple-900 dark:text-purple-100">{percentage}%</div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <button
+                  onClick={retryLatihan}
+                  className="rounded-md bg-blue-600 px-4 py-2 text-sm text-white hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600"
+                >
+                  Latihan Lagi
+                </button>
+                <a
+                  href="/"
+                  className="rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                >
+                  Kembali ke Halaman Utama
+                </a>
+              </div>
+            </section>
+          )}
+
           {/* Navigasi */}
           <div className="flex items-center justify-between rounded-xl bg-white p-4 shadow dark:bg-zinc-900">
             <button
@@ -171,8 +261,7 @@ export default function LatihanPage() {
 
             {showResult && (
               <button
-                onClick={nextQuestion}
-                disabled={current === questions.length - 1}
+                onClick={current === questions.length - 1 ? finishLatihan : nextQuestion}
                 className="rounded-md bg-blue-600 px-6 py-2 text-sm text-white hover:bg-blue-700 disabled:opacity-50 dark:bg-blue-700 dark:hover:bg-blue-600"
               >
                 {current === questions.length - 1 ? "Selesai" : "Lanjut →"}
@@ -190,17 +279,73 @@ export default function LatihanPage() {
             )}
           </div>
 
-          {/* Progress Bar */}
-          <div className="rounded-xl bg-white p-4 shadow dark:bg-zinc-900">
-            <div className="mb-2 flex items-center justify-between text-sm text-zinc-600 dark:text-zinc-400">
-              <span>Progress Latihan</span>
-              <span>{Math.round(((current + 1) / questions.length) * 100)}%</span>
+          {/* Question Navigation Grid */}
+          <div className="rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
+            <h3 className="mb-4 text-lg font-semibold text-zinc-900 dark:text-zinc-100">Navigasi Soal</h3>
+            <div className="grid grid-cols-10 gap-2 mb-6">
+              {questions.map((_, index) => {
+                const isAnswered = userAnswers[index] !== undefined;
+                const isCurrentQ = index === current;
+                let bgColor = "bg-zinc-200 dark:bg-zinc-700";
+                let textColor = "text-zinc-900 dark:text-zinc-100";
+                let borderColor = "";
+
+                if (isAnswered) {
+                  const isCorrectAnswer = userAnswers[index] === questions[index].jawaban_benar;
+                  if (isCorrectAnswer) {
+                    bgColor = "bg-green-500 dark:bg-green-600";
+                    textColor = "text-white";
+                  } else {
+                    bgColor = "bg-red-500 dark:bg-red-600";
+                    textColor = "text-white";
+                  }
+                }
+
+                if (isCurrentQ) {
+                  borderColor = "ring-2 ring-blue-500 ring-offset-2 dark:ring-offset-zinc-900";
+                }
+
+                return (
+                  <button
+                    key={index}
+                    onClick={() => goToQuestion(index)}
+                    className={`h-10 w-10 rounded-md text-sm font-semibold transition-all hover:scale-110 ${bgColor} ${textColor} ${borderColor}`}
+                  >
+                    {index + 1}
+                  </button>
+                );
+              })}
             </div>
-            <div className="h-2 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-700">
-              <div
-                className="h-full bg-blue-600 transition-all duration-300 dark:bg-blue-500"
-                style={{ width: `${((current + 1) / questions.length) * 100}%` }}
-              />
+
+            {/* Statistics */}
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                <div className="rounded-lg bg-zinc-50 p-3 dark:bg-zinc-800">
+                  <div className="text-xs text-zinc-600 dark:text-zinc-400">Terjawab</div>
+                  <div className="text-xl font-bold text-zinc-900 dark:text-zinc-100">{totalAnswered}/{questions.length}</div>
+                </div>
+                <div className="rounded-lg bg-green-50 p-3 dark:bg-green-950">
+                  <div className="text-xs text-green-700 dark:text-green-400">Benar</div>
+                  <div className="text-xl font-bold text-green-900 dark:text-green-100">{correctCount}</div>
+                </div>
+                <div className="rounded-lg bg-red-50 p-3 dark:bg-red-950">
+                  <div className="text-xs text-red-700 dark:text-red-400">Salah</div>
+                  <div className="text-xl font-bold text-red-900 dark:text-red-100">{incorrectCount}</div>
+                </div>
+                <div className="rounded-lg bg-blue-50 p-3 dark:bg-blue-950">
+                  <div className="text-xs text-blue-700 dark:text-blue-400">Nilai</div>
+                  <div className="text-xl font-bold text-blue-900 dark:text-blue-100">{percentage}%</div>
+                </div>
+              </div>
+              
+              {/* Status Kelulusan */}
+              {totalAnswered === questions.length && (
+                <div className={`rounded-lg p-3 text-center ${isPassing ? 'bg-green-100 dark:bg-green-900' : 'bg-red-100 dark:bg-red-900'}`}>
+                  <div className={`text-sm font-semibold ${isPassing ? 'text-green-800 dark:text-green-200' : 'text-red-800 dark:text-red-200'}`}>
+                    {isPassing ? '✓ LULUS' : '✗ TIDAK LULUS'} • Passing Grade: 80%
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </main>

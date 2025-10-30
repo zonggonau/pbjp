@@ -118,7 +118,7 @@ export default function QuizPage() {
       const ans = answers[i]
       if (ans && ans === questions[i].jawaban_benar) score += 1
     }
-    const pass = score >= Math.ceil(total * 0.65)
+    const pass = score >= 80
     const durationSeconds = DURATION_SECONDS - remaining
     const attempt: Attempt = {
       id: String(Date.now()),

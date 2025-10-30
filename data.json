@@ -1979,5 +1979,665 @@
     },
     "jawaban_benar": "C",
     "penjelasan": "Memberikan informasi HPS kepada penyedia tertentu merupakan pelanggaran etika karena menimbulkan konflik kepentingan dan mengurangi transparansi."
+  },
+  {
+    "id": 166,
+    "soal": "Dalam proses pemilihan penyedia jasa konsultan, Pokja Pemilihan diminta oleh salah satu peserta untuk memberikan bocoran nilai HPS agar bisa menyesuaikan penawaran. Jika Pokja memenuhi permintaan tersebut, maka tindakan itu termasuk…",
+    "pilihan": {
+      "A": "Prinsip transparansi",
+      "B": "Tindakan efisien",
+      "C": "Pelanggaran etika pengadaan",
+      "D": "Penerapan prinsip akuntabilitas"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Memberikan informasi HPS kepada penyedia tertentu merupakan pelanggaran etika karena melanggar asas keadilan dan transparansi dalam pengadaan barang/jasa."
+  },
+  {
+    "id": 167,
+    "soal": "PPK menandatangani kontrak dengan penyedia sebelum jaminan pelaksanaan diserahkan. Setelah pekerjaan dimulai, penyedia gagal memenuhi kewajiban. Tindakan PPK tersebut melanggar…",
+    "pilihan": {
+      "A": "Prinsip efisiensi",
+      "B": "Peraturan tentang tata cara penandatanganan kontrak",
+      "C": "Prinsip efektivitas",
+      "D": "Kebijakan penggunaan produk dalam negeri"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "PPK wajib memastikan seluruh persyaratan, termasuk jaminan pelaksanaan, sudah dipenuhi sebelum menandatangani kontrak agar sesuai dengan ketentuan kontraktual PBJ."
+  },
+  {
+    "id": 168,
+    "soal": "Dalam pengadaan alat kesehatan, PPK menetapkan merek tertentu dengan alasan kualitas terbaik tanpa justifikasi teknis. Tindakan PPK tersebut…",
+    "pilihan": {
+      "A": "Dapat dilakukan karena mempercepat proses pengadaan",
+      "B": "Melanggar prinsip persaingan sehat",
+      "C": "Termasuk kebijakan pengadaan yang sah",
+      "D": "Sesuai dengan prinsip efektivitas"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Menentukan merek tanpa justifikasi teknis yang sah dapat menghambat persaingan sehat dan melanggar prinsip transparansi serta non-diskriminasi."
+  },
+  {
+    "id": 169,
+    "soal": "Kegiatan pembangunan jalan desa dilaksanakan secara swakelola oleh kelompok masyarakat. Dalam pelaksanaannya, kelompok masyarakat menyewa alat berat dari pihak ketiga. Hal ini…",
+    "pilihan": {
+      "A": "Diperbolehkan sepanjang sesuai RAB dan kebutuhan teknis",
+      "B": "Dilarang karena termasuk pengadaan melalui penyedia",
+      "C": "Harus mendapat izin LKPP terlebih dahulu",
+      "D": "Diperbolehkan hanya untuk swakelola tipe I"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Dalam swakelola, penggunaan alat atau jasa pihak ketiga diperbolehkan sepanjang mendukung kegiatan utama dan sesuai rencana anggaran biaya yang disetujui."
+  },
+  {
+    "id": 170,
+    "soal": "Seorang PPK menolak hasil evaluasi Pokja Pemilihan karena penyedia pemenang belum memiliki pengalaman sejenis, meskipun harga penawaran paling rendah. Sikap PPK tersebut…",
+    "pilihan": {
+      "A": "Benar karena mempertimbangkan kualifikasi teknis",
+      "B": "Salah karena intervensi hasil evaluasi",
+      "C": "Diperbolehkan jika diminta Kepala Daerah",
+      "D": "Termasuk pelanggaran prinsip efisiensi"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "PPK berhak menolak hasil pemilihan bila ditemukan ketidaksesuaian kualifikasi penyedia dengan ketentuan teknis, untuk menjamin mutu pelaksanaan pekerjaan."
+  },
+  {
+    "id": 171,
+    "soal": "Dalam proses pengadaan, PPK mengundang tiga penyedia lokal agar pemenang proyek tetap berada di wilayah tersebut. Tindakan ini termasuk…",
+    "pilihan": {
+      "A": "Kebijakan afirmasi daerah",
+      "B": "Pelanggaran prinsip terbuka",
+      "C": "Penerapan prinsip keadilan sosial",
+      "D": "Pelaksanaan prinsip efisiensi"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pemilihan penyedia harus dilakukan secara terbuka dan kompetitif. Membatasi hanya pada penyedia lokal tanpa dasar hukum melanggar prinsip keterbukaan dan persaingan sehat."
+  },
+  {
+    "id": 172,
+    "soal": "Dalam pelaksanaan kontrak, penyedia meminta tambahan waktu karena terjadi bencana alam. PPK kemudian menyetujui perubahan jadwal tanpa mengubah nilai kontrak. Tindakan tersebut…",
+    "pilihan": {
+      "A": "Diperbolehkan sebagai addendum waktu",
+      "B": "Tidak sah karena kontrak sudah ditandatangani",
+      "C": "Termasuk pelanggaran kontrak",
+      "D": "Memerlukan persetujuan Kepala Daerah"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Perubahan jadwal akibat keadaan kahar (force majeure) dapat dilakukan melalui addendum waktu tanpa mengubah nilai kontrak, sesuai ketentuan pengelolaan kontrak PBJ."
+  },
+  {
+    "id": 173,
+    "soal": "Dalam tahapan perencanaan pengadaan, PPK tidak melibatkan tim teknis dalam penyusunan HPS. Akibatnya, nilai HPS terlalu rendah dan penyedia gagal melaksanakan pekerjaan. Kesalahan ini terjadi pada tahap…",
+    "pilihan": {
+      "A": "Perencanaan pengadaan",
+      "B": "Pelaksanaan kontrak",
+      "C": "Evaluasi penyedia",
+      "D": "Serah terima pekerjaan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Kesalahan terjadi pada tahap perencanaan karena HPS harus disusun dengan dukungan teknis yang akurat untuk mencerminkan harga pasar dan spesifikasi pekerjaan."
+  },
+  {
+    "id": 174,
+    "soal": "Pejabat Pengadaan menandatangani berita acara hasil pemilihan sebelum semua peserta dievaluasi. Tindakan ini…",
+    "pilihan": {
+      "A": "Dapat diterima karena mempercepat proses",
+      "B": "Melanggar prosedur evaluasi",
+      "C": "Sesuai prinsip efektivitas",
+      "D": "Tidak perlu dipermasalahkan jika penyedia setuju"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Penandatanganan hasil pemilihan sebelum seluruh peserta dievaluasi melanggar prosedur evaluasi dan dapat menyebabkan sanggah dari peserta lain."
+  },
+  {
+    "id": 175,
+    "soal": "Dalam proses pengadaan langsung, penyedia menawarkan harga 10% di bawah HPS namun kualitas bahan di bawah spesifikasi. PPK sebaiknya…",
+    "pilihan": {
+      "A": "Menerima karena harga lebih murah",
+      "B": "Menegosiasi ulang agar sesuai spesifikasi",
+      "C": "Menolak dan menunjuk penyedia lain",
+      "D": "Melanjutkan kontrak dengan catatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Dalam pengadaan langsung, PPK wajib melakukan negosiasi teknis dan harga agar kualitas barang/jasa tetap sesuai spesifikasi meski harga lebih rendah dari HPS."
+  },
+  {
+    "id": 176,
+    "soal": "PPK menemukan bahwa penyedia terlambat menyerahkan laporan mingguan pelaksanaan pekerjaan selama 10 hari tanpa alasan jelas. Langkah yang seharusnya dilakukan PPK adalah…",
+    "pilihan": {
+      "A": "Memberikan peringatan tertulis kepada penyedia",
+      "B": "Langsung memutus kontrak secara sepihak",
+      "C": "Membiarkan karena laporan tidak wajib",
+      "D": "Menunda pembayaran tanpa pemberitahuan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Keterlambatan laporan merupakan pelanggaran administratif ringan, sehingga PPK wajib memberikan peringatan tertulis terlebih dahulu sesuai klausul kontrak."
+  },
+  {
+    "id": 177,
+    "soal": "Dalam proses tender pembangunan jembatan, Pokja menerima hanya dua penawaran sah dari total lima peserta. Apa tindakan yang benar?",
+    "pilihan": {
+      "A": "Menyatakan tender gagal karena peserta kurang dari tiga",
+      "B": "Melanjutkan evaluasi karena ada dua penawaran sah",
+      "C": "Melakukan penunjukan langsung ke salah satu peserta",
+      "D": "Mengulang proses tender seluruhnya"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Selama masih terdapat minimal dua penawaran sah yang memenuhi syarat, proses tender tetap dapat dilanjutkan sesuai PerLKPP No. 12 Tahun 2021."
+  },
+  {
+    "id": 178,
+    "soal": "Seorang PPK mengubah spesifikasi teknis setelah dokumen pemilihan diumumkan untuk menyesuaikan dengan penyedia tertentu. Tindakan ini melanggar prinsip…",
+    "pilihan": {
+      "A": "Efisien",
+      "B": "Transparan",
+      "C": "Persaingan sehat",
+      "D": "Akuntabel"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Mengubah spesifikasi untuk mengarahkan ke penyedia tertentu melanggar prinsip persaingan sehat dan dapat dikategorikan sebagai pelanggaran etika pengadaan."
+  },
+  {
+    "id": 179,
+    "soal": "Pokja Pemilihan menemukan harga penawaran terendah tetapi tidak sesuai spesifikasi teknis. Apa yang harus dilakukan?",
+    "pilihan": {
+      "A": "Menetapkan penawar terendah sebagai pemenang",
+      "B": "Menyatakan penawaran tersebut gugur",
+      "C": "Melakukan negosiasi untuk menyesuaikan spesifikasi",
+      "D": "Menambah waktu evaluasi teknis"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Penawaran yang tidak memenuhi spesifikasi teknis dinyatakan gugur sesuai prinsip evaluasi sistem gugur dan PerLKPP No. 12 Tahun 2021."
+  },
+  {
+    "id": 180,
+    "soal": "Dalam pelaksanaan swakelola, Tim Pelaksana mengusulkan perubahan anggaran tanpa persetujuan PPK. Apa tindakan yang benar?",
+    "pilihan": {
+      "A": "Perubahan otomatis disetujui karena Tim Pelaksana pelaksana teknis",
+      "B": "Perubahan harus mendapat persetujuan PPK terlebih dahulu",
+      "C": "Perubahan disetujui oleh Bendahara Pengeluaran",
+      "D": "Perubahan cukup diberitahukan ke Kepala Dinas"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Setiap perubahan anggaran atau rencana kerja pada swakelola wajib disetujui oleh PPK sebagai penanggung jawab administrasi dan keuangan kegiatan."
+  },
+  {
+    "id": 181,
+    "soal": "Sebuah pekerjaan konstruksi selesai lebih cepat dari waktu kontrak tanpa mengurangi mutu. Apa tindakan PPK?",
+    "pilihan": {
+      "A": "Menolak hasil karena tidak sesuai jadwal kontrak",
+      "B": "Menerima hasil dan memproses pembayaran sesuai ketentuan",
+      "C": "Meminta revisi jadwal kontrak baru",
+      "D": "Mengajukan denda keterlambatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Jika pekerjaan selesai lebih cepat dengan mutu sesuai, hasil dapat diterima dan pembayaran diproses karena tidak ada pelanggaran waktu atau mutu."
+  },
+  {
+    "id": 182,
+    "soal": "PPK menerima laporan bahwa penyedia menggunakan bahan tidak sesuai spesifikasi dalam proyek jalan. Langkah pertama yang harus dilakukan adalah…",
+    "pilihan": {
+      "A": "Langsung memutus kontrak",
+      "B": "Melakukan pemeriksaan lapangan untuk verifikasi",
+      "C": "Menyerahkan kasus ke kepolisian",
+      "D": "Menunda pembayaran akhir"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "PPK wajib melakukan pemeriksaan lapangan untuk memastikan kebenaran laporan sebelum mengambil tindakan kontraktual lebih lanjut."
+  },
+  {
+    "id": 183,
+    "soal": "Pokja Pemilihan diminta oleh Kepala Dinas untuk menetapkan penyedia tertentu karena hubungan dekat. Tindakan yang harus dilakukan Pokja adalah…",
+    "pilihan": {
+      "A": "Mengikuti perintah demi keamanan jabatan",
+      "B": "Menolak intervensi dan melapor ke APIP",
+      "C": "Menunda proses sampai Kepala Dinas menandatangani surat resmi",
+      "D": "Melanjutkan proses tetapi mencatat keberatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pokja wajib menolak intervensi dan melaporkan ke Aparat Pengawasan Intern Pemerintah (APIP) untuk menjaga integritas proses pengadaan."
+  },
+  {
+    "id": 184,
+    "soal": "Dalam proses evaluasi, salah satu penyedia terbukti memalsukan dokumen pengalaman kerja. Langkah yang benar menurut PPK adalah…",
+    "pilihan": {
+      "A": "Memberi kesempatan klarifikasi ulang",
+      "B": "Menyatakan gugur dan memasukkan ke daftar hitam",
+      "C": "Memberi teguran tertulis",
+      "D": "Melanjutkan karena harga paling rendah"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pemalsuan dokumen merupakan pelanggaran berat, penyedia dinyatakan gugur dan dapat diusulkan masuk daftar hitam sesuai ketentuan LKPP."
+  },
+  {
+    "id": 185,
+    "soal": "PPK melakukan perubahan nilai kontrak karena adanya pekerjaan tambahan yang tidak diatur sebelumnya. Syarat agar perubahan tersebut sah adalah…",
+    "pilihan": {
+      "A": "Hanya disetujui oleh penyedia",
+      "B": "Terdapat addendum kontrak yang ditandatangani kedua pihak",
+      "C": "Cukup berdasarkan surat dari Kepala Dinas",
+      "D": "Dilakukan secara lisan dengan kesepakatan bersama"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Setiap perubahan nilai atau ruang lingkup kontrak wajib dituangkan dalam addendum yang disetujui dan ditandatangani kedua belah pihak agar sah secara hukum."
+  },
+  {
+    "id": 186,
+    "soal": "Dalam proses pengadaan alat laboratorium, PPK menetapkan spesifikasi terlalu tinggi dan tidak sesuai kebutuhan riil satuan kerja, akibatnya hanya satu penyedia yang memenuhi syarat. Tindakan PPK ini…",
+    "pilihan": {
+      "A": "Dapat dibenarkan karena menjaga kualitas barang",
+      "B": "Melanggar prinsip efisiensi dan persaingan sehat",
+      "C": "Termasuk kebijakan afirmatif",
+      "D": "Dapat dilakukan dengan persetujuan PA"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Spesifikasi harus disusun proporsional dan sesuai kebutuhan agar tercipta persaingan sehat. Menetapkan spesifikasi yang mengarah ke penyedia tertentu melanggar prinsip efisiensi dan transparansi."
+  },
+  {
+    "id": 187,
+    "soal": "Pada saat pelaksanaan pekerjaan pembangunan gedung, penyedia mengajukan permohonan perubahan jenis material karena stok bahan lama habis di pasaran. PPK dapat menyetujuinya jika…",
+    "pilihan": {
+      "A": "Nilai kontrak tetap dan spesifikasi teknis tidak menurun",
+      "B": "Penyedia bersedia menanggung selisih harga",
+      "C": "PA/KPA memberikan persetujuan tertulis",
+      "D": "Perubahan dilakukan setelah pekerjaan selesai"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Perubahan jenis material diperbolehkan jika mutu tetap terjaga, spesifikasi tidak menurun, dan tidak mengubah nilai kontrak, sesuai dengan ketentuan perubahan kontrak."
+  },
+  {
+    "id": 188,
+    "soal": "Pokja Pemilihan melakukan evaluasi penawaran teknis tanpa membuka file penawaran harga terlebih dahulu. Hal ini sesuai dengan metode evaluasi…",
+    "pilihan": {
+      "A": "Satu file",
+      "B": "Dua tahap",
+      "C": "Dua file",
+      "D": "Gugur berurutan"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Pada metode dua file, penawaran teknis dan harga disampaikan terpisah. Evaluasi dilakukan terhadap file teknis terlebih dahulu sebelum membuka file harga."
+  },
+  {
+    "id": 189,
+    "soal": "Dalam pelaksanaan kontrak pengadaan, PPK menemukan volume pekerjaan yang harus dikurangi dari kontrak karena adanya efisiensi desain. Tindakan PPK yang benar adalah…",
+    "pilihan": {
+      "A": "Mengabaikan perubahan karena tidak berpengaruh pada nilai kontrak",
+      "B": "Membuat addendum kontrak pengurangan volume",
+      "C": "Melaporkan ke PA/KPA tanpa addendum",
+      "D": "Membiarkan penyedia menyelesaikan sesuai kontrak awal"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Perubahan volume pekerjaan yang mempengaruhi kuantitas harus dituangkan dalam addendum kontrak agar sesuai dengan prinsip akuntabilitas dan tertib administrasi."
+  },
+  {
+    "id": 190,
+    "soal": "Dinas Pendidikan melaksanakan Swakelola tipe III dengan melibatkan universitas negeri. Dalam pelaksanaannya, laporan hasil kegiatan harus disampaikan oleh…",
+    "pilihan": {
+      "A": "PPK kepada PA/KPA",
+      "B": "Tim Pelaksana Perguruan Tinggi kepada PPK",
+      "C": "Tim Pengawas kepada Pokja Pemilihan",
+      "D": "Universitas kepada LKPP"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Dalam Swakelola tipe III, pelaksanaan dilakukan oleh Perguruan Tinggi dan hasil kegiatan dilaporkan oleh Tim Pelaksana kepada PPK untuk evaluasi dan pelaporan keuangan."
+  },
+  {
+    "id": 191,
+    "soal": "PPK ingin melakukan pemilihan penyedia untuk pekerjaan jasa kebersihan senilai Rp90 juta. Metode yang paling tepat digunakan adalah…",
+    "pilihan": {
+      "A": "Tender cepat",
+      "B": "Tender umum",
+      "C": "Pengadaan langsung",
+      "D": "Penunjukan langsung"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Untuk pekerjaan dengan nilai paling banyak Rp200 juta, metode yang digunakan adalah pengadaan langsung sesuai Perpres 16/2018."
+  },
+  {
+    "id": 192,
+    "soal": "Dalam evaluasi penawaran tender, Pokja menemukan dua penyedia dengan harga sama dan nilai teknis identik. Keputusan yang tepat adalah…",
+    "pilihan": {
+      "A": "Menetapkan pemenang berdasarkan waktu pemasukan penawaran tercepat",
+      "B": "Memilih penyedia dengan pengalaman sejenis lebih banyak",
+      "C": "Melakukan undian secara terbuka",
+      "D": "Melakukan klarifikasi ulang dokumen teknis"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Jika terdapat hasil evaluasi yang identik, penetapan pemenang dilakukan melalui undian secara terbuka sesuai prinsip transparansi dan keadilan."
+  },
+  {
+    "id": 193,
+    "soal": "PPK memutuskan untuk menunda proses pemilihan penyedia karena pagu anggaran belum disahkan. Langkah ini…",
+    "pilihan": {
+      "A": "Tidak sesuai karena pengadaan dapat dimulai lebih awal",
+      "B": "Benar karena pengadaan harus berdasarkan pagu anggaran yang sah",
+      "C": "Melanggar prinsip efisiensi",
+      "D": "Hanya diperbolehkan untuk Swakelola"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "PPK wajib memastikan ketersediaan anggaran sebelum melaksanakan pengadaan agar tidak menimbulkan kewajiban negara tanpa dasar hukum."
+  },
+  {
+    "id": 194,
+    "soal": "Dalam proses Swakelola, Tim Pelaksana menggunakan sisa anggaran dari kegiatan sebelumnya tanpa persetujuan PPK. Hal ini…",
+    "pilihan": {
+      "A": "Diperbolehkan jika kegiatan serupa",
+      "B": "Melanggar ketentuan pengelolaan keuangan negara",
+      "C": "Boleh dilakukan setelah laporan akhir disetujui",
+      "D": "Termasuk efisiensi kegiatan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Sisa anggaran tidak boleh digunakan kembali tanpa prosedur pengesahan. Penggunaan dana di luar persetujuan melanggar aturan pengelolaan keuangan negara."
+  },
+  {
+    "id": 195,
+    "soal": "Seorang PPK menerima hadiah berupa voucher dari penyedia setelah kontrak selesai. Walaupun tidak ada maksud suap, tindakan tersebut…",
+    "pilihan": {
+      "A": "Tidak masalah karena kontrak sudah selesai",
+      "B": "Diperbolehkan jika nilainya kecil",
+      "C": "Melanggar etika pengadaan",
+      "D": "Dapat dibenarkan jika dilaporkan ke PA"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "PPK wajib menjaga integritas dan menghindari segala bentuk gratifikasi dari penyedia, meskipun setelah kontrak selesai, karena hal tersebut melanggar etika dan kode perilaku PBJ."
+  },
+  {
+    "id": 196,
+    "soal": "PPK menunjuk penyedia tanpa melalui proses pemilihan karena alasan waktu yang mendesak, padahal tidak termasuk kondisi darurat. Tindakan PPK ini termasuk pelanggaran terhadap prinsip pengadaan yaitu…",
+    "pilihan": {
+      "A": "Efisien",
+      "B": "Transparan",
+      "C": "Terbuka",
+      "D": "Akuntabel"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Penunjukan penyedia tanpa proses pemilihan melanggar prinsip keterbukaan dan persaingan sehat dalam pengadaan barang/jasa pemerintah. Prinsip terbuka menuntut setiap penyedia memiliki kesempatan yang sama untuk ikut serta dalam proses pengadaan."
+  },
+  {
+    "id": 197,
+    "soal": "Dalam pelaksanaan pengadaan jasa kebersihan kantor senilai Rp190 juta, Pejabat Pengadaan tidak membuat Berita Acara Hasil Negosiasi. Akibatnya, terjadi perbedaan harga dalam kontrak. Hal ini menunjukkan pelanggaran pada aspek…",
+    "pilihan": {
+      "A": "Dokumentasi dan administrasi pengadaan",
+      "B": "Kualitas barang/jasa",
+      "C": "Penetapan penyedia",
+      "D": "Rencana umum pengadaan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Berita Acara Hasil Negosiasi merupakan dokumen penting yang menjadi dasar penetapan harga dalam kontrak. Tidak dibuatnya dokumen ini melanggar ketentuan administrasi pengadaan dan berpotensi menyebabkan ketidaksesuaian antara negosiasi dan pelaksanaan kontrak."
+  },
+  {
+    "id": 198,
+    "soal": "PPK mengizinkan penyedia menambah volume pekerjaan tanpa membuat addendum kontrak dengan alasan pekerjaan mendesak. Tindakan ini…",
+    "pilihan": {
+      "A": "Dapat dibenarkan karena kebutuhan mendesak",
+      "B": "Melanggar prinsip akuntabilitas dan tertib administrasi",
+      "C": "Diperbolehkan selama tidak menambah nilai kontrak",
+      "D": "Sah apabila disetujui Pokja"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Perubahan volume pekerjaan wajib dituangkan dalam addendum kontrak untuk menjaga tertib administrasi dan akuntabilitas keuangan negara. Setiap perubahan tanpa dokumen sah berisiko menjadi temuan audit."
+  },
+  {
+    "id": 199,
+    "soal": "PPK menggabungkan pengadaan alat kantor dan bahan kebersihan menjadi satu paket agar nilainya lebih besar. Tindakan ini…",
+    "pilihan": {
+      "A": "Dibenarkan karena efisien",
+      "B": "Melanggar prinsip efektivitas",
+      "C": "Melanggar prinsip persaingan sehat dan keadilan",
+      "D": "Sesuai prinsip efisiensi"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Penggabungan paket yang tidak sejenis melanggar prinsip keadilan dan persaingan sehat karena menyulitkan usaha kecil berpartisipasi. Pemaketan harus didasarkan pada kesamaan jenis dan fungsi pekerjaan."
+  },
+  {
+    "id": 200,
+    "soal": "Dalam proses evaluasi penawaran, Pokja menemukan bahwa penyedia dengan harga terendah tidak memenuhi persyaratan teknis. Langkah yang tepat adalah…",
+    "pilihan": {
+      "A": "Menetapkan sebagai pemenang karena harga terendah",
+      "B": "Mengulang proses tender",
+      "C": "Menetapkan penyedia dengan penawaran sesuai syarat teknis",
+      "D": "Melakukan klarifikasi ulang kepada penyedia tersebut"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Kesesuaian terhadap persyaratan teknis adalah prioritas utama. Penyedia yang tidak memenuhi syarat teknis harus digugurkan meskipun harga penawarannya paling rendah."
+  },
+  {
+    "id": 201,
+    "soal": "Seorang PPK melakukan addendum kontrak untuk memperpanjang waktu pelaksanaan karena keterlambatan akibat penyedia. Tindakan ini…",
+    "pilihan": {
+      "A": "Dibenarkan tanpa denda karena hasil pekerjaan baik",
+      "B": "Melanggar ketentuan kontrak",
+      "C": "Diperbolehkan dengan pemberian denda keterlambatan",
+      "D": "Harus mendapatkan persetujuan kepala UKPBJ"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "Addendum untuk memperpanjang waktu karena keterlambatan penyedia diperbolehkan dengan tetap mengenakan denda keterlambatan sesuai ketentuan kontrak."
+  },
+  {
+    "id": 202,
+    "soal": "Dalam pelaksanaan Swakelola tipe II, Tim Pelaksana melibatkan tenaga ahli dari pihak luar tanpa izin PA/KPA. Hal ini…",
+    "pilihan": {
+      "A": "Diperbolehkan sepanjang sesuai kebutuhan",
+      "B": "Melanggar ketentuan pelaksanaan Swakelola",
+      "C": "Tidak bermasalah karena tenaga ahli dibayar mandiri",
+      "D": "Termasuk kebijakan efisiensi"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Swakelola tipe II dilaksanakan oleh Kementerian/Lembaga lain. Pelibatan pihak luar harus mendapat persetujuan PA/KPA agar sesuai dengan prinsip akuntabilitas dan transparansi."
+  },
+  {
+    "id": 203,
+    "soal": "Pokja Pemilihan melakukan perubahan dokumen pemilihan setelah masa pemasukan penawaran ditutup. Hal ini termasuk…",
+    "pilihan": {
+      "A": "Diperbolehkan dengan berita acara perubahan",
+      "B": "Pelanggaran terhadap prinsip keadilan dan keterbukaan",
+      "C": "Sesuai jika ada persetujuan peserta",
+      "D": "Langkah efisien untuk memperbaiki dokumen"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Perubahan dokumen setelah batas waktu pemasukan penawaran melanggar prinsip keadilan dan keterbukaan karena dapat merugikan peserta pengadaan."
+  },
+  {
+    "id": 204,
+    "soal": "Penyedia mengundurkan diri setelah penetapan pemenang tender tanpa alasan sah. Langkah yang dapat diambil PPK adalah…",
+    "pilihan": {
+      "A": "Menetapkan penyedia berikutnya sebagai pemenang cadangan",
+      "B": "Melakukan tender ulang",
+      "C": "Melanjutkan dengan penyedia yang sama",
+      "D": "Membatalkan seluruh proses pengadaan"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Jika penyedia pemenang mengundurkan diri tanpa alasan sah, maka PPK dapat menetapkan pemenang cadangan sesuai ketentuan yang berlaku tanpa melakukan tender ulang."
+  },
+  {
+    "id": 205,
+    "soal": "Dalam pengadaan jasa konsultan perencana gedung, PPK menetapkan metode evaluasi harga terendah. Tindakan ini…",
+    "pilihan": {
+      "A": "Sesuai karena efisien",
+      "B": "Melanggar ketentuan pemilihan jasa konsultansi",
+      "C": "Diperbolehkan jika nilai kontrak kecil",
+      "D": "Sah jika disetujui PA/KPA"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Untuk jasa konsultansi, metode evaluasi harga terendah tidak boleh digunakan karena mengutamakan kualitas dan keahlian. Metode yang sesuai adalah Kualitas, Kualitas dan Biaya, atau Pagu Anggaran."
+  },
+  {
+    "id": 206,
+    "soal": "Dalam database penyedia Dinas Perhubungan Kabupaten ABC, terdapat PT Nusantara Transindo yang memiliki reputasi sangat baik dan selalu memenuhi target waktu pengiriman suku cadang kendaraan dinas selama tiga tahun berturut-turut. Karena kinerjanya yang stabil dan kualitas barangnya selalu sesuai spesifikasi, PT Nusantara Transindo digolongkan sebagai…",
+    "pilihan": {
+      "A": "Approved Supplier",
+      "B": "Verified Supplier",
+      "C": "Preferred Supplier",
+      "D": "Emergency Supplier"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "PT Nusantara Transindo termasuk *Preferred Supplier* karena telah menunjukkan kinerja tinggi dan keandalan secara konsisten. Preferred Supplier adalah penyedia yang menjadi rujukan utama instansi karena kualitas dan ketepatan waktu yang terbukti dalam jangka panjang."
+  },
+  {
+    "id": 207,
+    "soal": "Dinas Kesehatan melakukan pengadaan vaksin dalam kondisi wabah penyakit menular. Karena sifatnya darurat, pengadaan dilakukan langsung kepada PT BioHealth Indonesia yang memiliki izin resmi dari Kementerian Kesehatan. Berdasarkan situasi tersebut, kategori penyedia yang paling tepat adalah…",
+    "pilihan": {
+      "A": "Preferred Supplier",
+      "B": "Verified Supplier",
+      "C": "Emergency Supplier",
+      "D": "Approved Supplier"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "PT BioHealth Indonesia termasuk *Emergency Supplier* karena pengadaannya dilakukan dalam kondisi darurat yang memerlukan respons cepat tanpa melalui proses tender normal. Pengadaan seperti ini diatur khusus untuk keadaan bencana atau kedaruratan kesehatan."
+  },
+  {
+    "id": 208,
+    "soal": "PT Bangun Cipta Mandiri baru terdaftar di sistem SIKaP dan telah melengkapi semua dokumen administrasi seperti NPWP, NIB, dan laporan keuangan, namun belum memiliki rekam jejak pekerjaan di pemerintah. Kategori penyedia yang tepat untuk PT Bangun Cipta Mandiri adalah…",
+    "pilihan": {
+      "A": "Verified Supplier",
+      "B": "Approved Supplier",
+      "C": "Preferred Supplier",
+      "D": "Emergency Supplier"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "PT Bangun Cipta Mandiri termasuk *Verified Supplier* karena baru melewati tahap verifikasi administrasi di SIKaP namun belum memiliki rekam jejak kinerja di instansi pemerintah. Verified Supplier biasanya dinilai dari kelengkapan legalitas dan kelayakan dasar usaha."
+  },
+  {
+    "id": 209,
+    "soal": "PT Sumber Alam Lestari telah beberapa kali memenangkan tender pekerjaan pengadaan alat berat dan selalu menyelesaikan pekerjaan tepat waktu dengan hasil memuaskan. Berdasarkan evaluasi UKPBJ, penyedia ini layak dimasukkan dalam daftar utama penyedia yang direkomendasikan untuk paket sejenis. Kategori penyedia tersebut adalah…",
+    "pilihan": {
+      "A": "Approved Supplier",
+      "B": "Preferred Supplier",
+      "C": "Verified Supplier",
+      "D": "Emergency Supplier"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "PT Sumber Alam Lestari adalah *Preferred Supplier* karena telah terbukti memiliki rekam jejak kinerja yang baik dan menjadi rujukan utama dalam pengadaan alat berat. Preferred Supplier dipilih karena konsistensi mutu dan keandalannya."
+  },
+  {
+    "id": 210,
+    "soal": "PT IndoTekno telah lolos proses verifikasi dokumen legal, pernah memenangkan satu proyek kecil, dan telah mendapatkan evaluasi kinerja baik dari PPK. Namun belum masuk daftar penyedia prioritas. Berdasarkan statusnya, PT IndoTekno termasuk…",
+    "pilihan": {
+      "A": "Emergency Supplier",
+      "B": "Preferred Supplier",
+      "C": "Approved Supplier",
+      "D": "Verified Supplier"
+    },
+    "jawaban_benar": "C",
+    "penjelasan": "PT IndoTekno termasuk *Approved Supplier* karena telah lulus verifikasi administratif dan memiliki pengalaman terbatas dengan kinerja baik. Approved Supplier adalah penyedia yang sudah bisa dipercaya untuk pekerjaan umum tetapi belum masuk kategori prioritas seperti Preferred Supplier."
+  },
+  {
+    "id": 211,
+    "soal": "Dalam tahapan siklus pengadaan barang/jasa, kegiatan penyusunan Kerangka Acuan Kerja (KAK) termasuk dalam tahap",
+    "pilihan": {
+      "A": "Perencanaan pengadaan",
+      "B": "Persiapan pemilihan",
+      "C": "Pelaksanaan kontrak",
+      "D": "Evaluasi penyedia"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Penyusunan KAK merupakan bagian dari tahapan perencanaan pengadaan karena di dalamnya dirumuskan latar belakang, tujuan, ruang lingkup, serta output kegiatan. Dokumen ini menjadi dasar bagi PPK dan Pokja dalam menyiapkan pemilihan penyedia."
+  },
+  {
+    "id": 212,
+    "soal": "PPK menetapkan penyedia yang menawarkan harga di bawah 80% dari HPS tanpa meminta klarifikasi terlebih dahulu. Tindakan ini melanggar prinsip",
+    "pilihan": {
+      "A": "Efisien",
+      "B": "Efektif",
+      "C": "Transparan",
+      "D": "Akuntabel"
+    },
+    "jawaban_benar": "D",
+    "penjelasan": "Harga penawaran yang terlalu rendah perlu diklarifikasi untuk memastikan kewajaran biaya dan kemampuan penyedia. Jika PPK langsung menetapkan tanpa klarifikasi, maka keputusan tersebut tidak dapat dipertanggungjawabkan, sehingga melanggar prinsip akuntabilitas."
+  },
+  {
+    "id": 213,
+    "soal": "Dalam kontrak konstruksi, apabila pembayaran dilakukan berdasarkan progres pekerjaan yang telah diperiksa dan disetujui oleh PPK, maka jenis pembayaran yang digunakan adalah",
+    "pilihan": {
+      "A": "Pembayaran termin",
+      "B": "Pembayaran sekaligus",
+      "C": "Pembayaran bertahap",
+      "D": "Pembayaran di muka"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Pembayaran termin dilakukan berdasarkan kemajuan fisik pekerjaan yang telah disetujui PPK. Sistem ini umum digunakan dalam pekerjaan konstruksi dengan jangka waktu pelaksanaan lebih dari satu bulan."
+  },
+  {
+    "id": 214,
+    "soal": "Dalam menyusun spesifikasi teknis, penyebutan merek dagang diperbolehkan apabila",
+    "pilihan": {
+      "A": "Produk merek tersebut paling banyak digunakan di pasar",
+      "B": "Tidak ada produk sejenis di pasaran yang memenuhi kebutuhan",
+      "C": "Penyedia meminta agar merek disebutkan",
+      "D": "PPK mendapat rekomendasi dari distributor resmi"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Sesuai Perpres 16/2018, penyebutan merek hanya diperbolehkan jika barang/jasa yang dibutuhkan hanya dapat dipenuhi oleh satu produk tertentu (proprietary goods). Hal ini harus dibuktikan dengan kajian teknis dari pengguna barang/jasa."
+  },
+  {
+    "id": 215,
+    "soal": "PPK menolak hasil pemilihan penyedia karena tidak sesuai dengan kebutuhan teknis meskipun Pokja Pemilihan telah menetapkan pemenang. Tindakan PPK ini termasuk bagian dari",
+    "pilihan": {
+      "A": "Fungsi kontrol pelaksanaan kontrak",
+      "B": "Kewenangan PPK dalam memastikan kesesuaian teknis",
+      "C": "Evaluasi kinerja penyedia",
+      "D": "Penyusunan laporan pelaksanaan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "PPK memiliki tanggung jawab untuk memastikan hasil pemilihan penyedia sesuai kebutuhan teknis yang telah ditetapkan dalam KAK. Oleh karena itu, PPK dapat menolak hasil pemilihan jika ditemukan ketidaksesuaian teknis."
+  },
+  {
+    "id": 216,
+    "soal": "Kontrak payung (framework contract) digunakan dalam kondisi pengadaan",
+    "pilihan": {
+      "A": "Barang/jasa berulang dengan volume pasti",
+      "B": "Barang/jasa berulang dengan volume belum pasti",
+      "C": "Barang/jasa tunggal dengan volume tetap",
+      "D": "Barang/jasa darurat dengan kebutuhan mendesak"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Kontrak payung digunakan untuk pengadaan berulang dalam periode tertentu dengan volume dan waktu kebutuhan yang belum pasti. Contohnya pengadaan alat tulis kantor atau layanan pembersihan yang dilakukan berkali-kali dalam satu tahun."
+  },
+  {
+    "id": 217,
+    "soal": "Dalam manajemen rantai pasok PBJ, kegiatan yang termasuk pada level operasional adalah",
+    "pilihan": {
+      "A": "Penetapan kebijakan pengadaan nasional",
+      "B": "Pemantauan kontrak dan penerimaan barang",
+      "C": "Pembinaan penyedia dan pengawasan UKPBJ",
+      "D": "Penyusunan strategi pengadaan tahunan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Level operasional dalam manajemen rantai pasok berkaitan dengan pelaksanaan harian seperti penerimaan barang, pemeriksaan kualitas, dan pengawasan pelaksanaan kontrak oleh PPK."
+  },
+  {
+    "id": 218,
+    "soal": "Dalam pengadaan barang/jasa pemerintah, prinsip ‘adil’ bermakna bahwa",
+    "pilihan": {
+      "A": "Semua penyedia diberi peluang yang sama tanpa diskriminasi",
+      "B": "PPK harus menetapkan pemenang dengan harga terendah",
+      "C": "Penyedia lokal selalu diprioritaskan",
+      "D": "Proses pengadaan harus selesai cepat"
+    },
+    "jawaban_benar": "A",
+    "penjelasan": "Prinsip adil berarti seluruh penyedia memiliki kesempatan yang sama untuk berpartisipasi tanpa adanya perlakuan khusus atau diskriminasi, baik dari segi asal daerah, besar usaha, maupun hubungan dengan instansi pengguna."
+  },
+  {
+    "id": 219,
+    "soal": "Penyedia mengajukan permintaan pembayaran setelah pekerjaan selesai 100% dan telah diperiksa oleh PPK. Jenis kontrak yang paling sesuai untuk kondisi ini adalah",
+    "pilihan": {
+      "A": "Kontrak harga satuan",
+      "B": "Kontrak lumpsum",
+      "C": "Kontrak payung",
+      "D": "Kontrak biaya plus imbalan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Pada kontrak lumpsum, pembayaran dilakukan sekaligus setelah pekerjaan selesai seluruhnya dan hasil pekerjaan diterima dengan baik oleh PPK."
+  },
+  {
+    "id": 220,
+    "soal": "Dalam pelaksanaan kontrak, perubahan spesifikasi teknis diperbolehkan apabila",
+    "pilihan": {
+      "A": "Nilai kontrak bertambah untuk meningkatkan kualitas",
+      "B": "Tidak mengubah tujuan utama dan hasil pekerjaan",
+      "C": "Diusulkan oleh penyedia untuk efisiensi biaya",
+      "D": "PPK ingin menambah fitur tambahan"
+    },
+    "jawaban_benar": "B",
+    "penjelasan": "Perubahan spesifikasi diperbolehkan sepanjang tidak mengubah ruang lingkup dan tujuan utama pekerjaan, serta tetap memenuhi kebutuhan pengguna. Hal ini harus dituangkan dalam addendum kontrak."
   }
 ]
