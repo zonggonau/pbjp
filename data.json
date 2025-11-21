@@ -3349,9 +3349,7 @@
   "difficulty": "easy"
 },
 {
-  "id": 131","question": "Dalam melakukan pemaketan, hal berikut yang TIDAK perlu dipertimbangkan adalah…","options": {"a": "Besaran uang muka","b": "Kesamaan jenis pekerjaan",
-  "c": "Lokasi pekerjaan",
-  "d": "Waktu pelaksanaan pekerjaan"
+  "id": 131","question": "Dalam melakukan pemaketan, hal berikut yang TIDAK perlu dipertimbangkan adalah…","options": {"a": "Besaran uang muka","b": "Kesamaan jenis pekerjaan","c": "Lokasi pekerjaan","d": "Waktu pelaksanaan pekerjaan"
 },
 "answer": "a",
 "explanation": {
@@ -4462,508 +4460,1036 @@
 "difficulty": "easy"
 },
 {
-  "id": 174,
-  "question": "Dalam penyusunan spesifikasi teknis untuk pengadaan AC Split 1 PK sebanyak 5 unit, berikut ini yang BUKAN merupakan hal yang harus diperhatikan adalah…",
-  "options": {
-    "a": "Daya listrik yang dibutuhkan",
-    "b": "Kapasitas pendinginan (1 PK)",
-    "c": "Tenaga ahli",
-    "d": "Fitur tambahan seperti mode hemat energi"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Tenaga ahli **bukan** bagian dari spesifikasi teknis pengadaan AC Split. Spesifikasi teknis AC fokus pada kapasitas, daya, fitur, dimensi, dan standar mutu, bukan sumber daya manusia.",
-    "why_others_wrong": {
-      "a": "Daya listrik penting untuk memastikan AC sesuai dengan kapasitas instalasi listrik.",
-      "b": "Kapasitas pendinginan (1 PK) merupakan elemen utama spesifikasi.",
-      "d": "Fitur seperti mode hemat energi dan SNI adalah bagian dari spesifikasi mutu produk."
-    }
-  },
-  "tags": ["spesifikasi teknis", "AC Split", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 174,
+"question": "Dalam penyusunan spesifikasi teknis untuk pengadaan AC Split 1 PK sebanyak 5 unit, berikut ini yang BUKAN merupakan hal yang harus diperhatikan adalah…",
+"options": {
+  "a": "Daya listrik yang dibutuhkan",
+  "b": "Kapasitas pendinginan (1 PK)",
+  "c": "Tenaga ahli",
+  "d": "Fitur tambahan seperti mode hemat energi"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Tenaga ahli **bukan** bagian dari spesifikasi teknis pengadaan AC Split. Spesifikasi teknis AC fokus pada kapasitas, daya, fitur, dimensi, dan standar mutu, bukan sumber daya manusia.",
+  "why_others_wrong": {
+    "a": "Daya listrik penting untuk memastikan AC sesuai dengan kapasitas instalasi listrik.",
+    "b": "Kapasitas pendinginan (1 PK) merupakan elemen utama spesifikasi.",
+    "d": "Fitur seperti mode hemat energi dan SNI adalah bagian dari spesifikasi mutu produk."
+  }
+},
+"tags": [
+  "spesifikasi teknis",
+  "AC Split",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 175,
-  "question": "Dalam proses negosiasi, penyedia tidak bersedia menurunkan harga karena penawarannya sebesar 90% dari nilai HPS. Atas kondisi tersebut, langkah yang tepat adalah…",
-  "options": {
-    "a": "Membatalkan proses negosiasi dan melakukan tender ulang",
-    "b": "Melanjutkan proses karena harga masih dinilai wajar",
-    "c": "Meminta penyedia menaikkan harga agar mendekati HPS",
-    "d": "Mengusulkan addendum untuk menurunkan spesifikasi barang"
-  },
-  "answer": "b",
-  "explanation": {
-    "correct": "Jika penyedia menawar sebesar 90% dari HPS dan harga tersebut dinilai **wajar**, maka proses tetap dapat dilanjutkan. Tidak ada kewajiban bagi penyedia untuk menurunkan harga lebih jauh.",
-    "why_others_wrong": {
-      "a": "Tidak ada dasar untuk membatalkan proses karena harga masih dalam batas kewajaran.",
-      "c": "Penyedia tidak boleh diminta menaikkan harga; negosiasi bukan untuk menaikkan harga.",
-      "d": "Addendum tidak dapat digunakan untuk menurunkan spesifikasi demi menyesuaikan harga."
-    }
-  },
-  "tags": ["negosiasi", "HPS", "evaluasi harga", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 175,
+"question": "Dalam proses negosiasi, penyedia tidak bersedia menurunkan harga karena penawarannya sebesar 90% dari nilai HPS. Atas kondisi tersebut, langkah yang tepat adalah…",
+"options": {
+  "a": "Membatalkan proses negosiasi dan melakukan tender ulang",
+  "b": "Melanjutkan proses karena harga masih dinilai wajar",
+  "c": "Meminta penyedia menaikkan harga agar mendekati HPS",
+  "d": "Mengusulkan addendum untuk menurunkan spesifikasi barang"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Jika penyedia menawar sebesar 90% dari HPS dan harga tersebut dinilai **wajar**, maka proses tetap dapat dilanjutkan. Tidak ada kewajiban bagi penyedia untuk menurunkan harga lebih jauh.",
+  "why_others_wrong": {
+    "a": "Tidak ada dasar untuk membatalkan proses karena harga masih dalam batas kewajaran.",
+    "c": "Penyedia tidak boleh diminta menaikkan harga; negosiasi bukan untuk menaikkan harga.",
+    "d": "Addendum tidak dapat digunakan untuk menurunkan spesifikasi demi menyesuaikan harga."
+  }
+},
+"tags": [
+  "negosiasi",
+  "HPS",
+  "evaluasi harga",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 176,
-  "question": "Dalam proses pengadaan barang/jasa, aktivitas mendorong penggunaan Standar Nasional Indonesia (SNI) termasuk salah satu dari…",
-  "options": {
-    "a": "Metode pemilihan penyedia",
-    "b": "Prosedur pemaketan pengadaan",
-    "c": "Tahapan evaluasi administrasi",
-    "d": "Kebijakan pengadaan"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Mendorong penggunaan produk bersertifikat **SNI** merupakan bagian dari **kebijakan pengadaan**, khususnya kebijakan untuk mendukung peningkatan kualitas barang/jasa dan keberpihakan pada produk dalam negeri.",
-    "why_others_wrong": {
-      "a": "Metode pemilihan tidak mengatur kewajiban penggunaan SNI.",
-      "b": "Pemaketan mengatur cara menyusun paket pengadaan, bukan penerapan standar SNI.",
-      "c": "Evaluasi administrasi memeriksa kelengkapan dokumen, bukan standar produk."
-    }
-  },
-  "tags": ["kebijakan pengadaan", "SNI", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 176,
+"question": "Dalam proses pengadaan barang/jasa, aktivitas mendorong penggunaan Standar Nasional Indonesia (SNI) termasuk salah satu dari…",
+"options": {
+  "a": "Metode pemilihan penyedia",
+  "b": "Prosedur pemaketan pengadaan",
+  "c": "Tahapan evaluasi administrasi",
+  "d": "Kebijakan pengadaan"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Mendorong penggunaan produk bersertifikat **SNI** merupakan bagian dari **kebijakan pengadaan**, khususnya kebijakan untuk mendukung peningkatan kualitas barang/jasa dan keberpihakan pada produk dalam negeri.",
+  "why_others_wrong": {
+    "a": "Metode pemilihan tidak mengatur kewajiban penggunaan SNI.",
+    "b": "Pemaketan mengatur cara menyusun paket pengadaan, bukan penerapan standar SNI.",
+    "c": "Evaluasi administrasi memeriksa kelengkapan dokumen, bukan standar produk."
+  }
+},
+"tags": [
+  "kebijakan pengadaan",
+  "SNI",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 177,
-  "question": "Dalam proses persiapan pengadaan, dokumen yang perlu dipersiapkan oleh PPK adalah…",
-  "options": {
-    "a": "Spesifikasi teknis atau Term of Reference (TOR), Harga Perkiraan Sendiri (HPS), dan rancangan kontrak",
-    "b": "Dokumen penawaran teknis, penawaran harga, dan jaminan penawaran",
-    "c": "Berita acara evaluasi administrasi, teknis, dan harga",
-    "d": "Laporan hasil pelaksanaan pekerjaan dan BAST"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "PPK bertanggung jawab menyiapkan dokumen **spesifikasi teknis/TOR**, **HPS**, dan **rancangan kontrak** sebagai bagian dari proses persiapan pengadaan. Ketiga dokumen ini menjadi dasar bagi pemilihan penyedia.",
-    "why_others_wrong": {
-      "b": "Dokumen tersebut disiapkan oleh peserta tender, bukan PPK.",
-      "c": "Berita acara evaluasi dibuat oleh Pokja Pemilihan, bukan PPK.",
-      "d": "Laporan pelaksanaan pekerjaan dan BAST disusun pada tahap pelaksanaan kontrak, bukan persiapan pengadaan."
-    }
-  },
-  "tags": ["persiapan pengadaan", "PPK", "dokumen pengadaan", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 177,
+"question": "Dalam proses persiapan pengadaan, dokumen yang perlu dipersiapkan oleh PPK adalah…",
+"options": {
+  "a": "Spesifikasi teknis atau Term of Reference (TOR), Harga Perkiraan Sendiri (HPS), dan rancangan kontrak",
+  "b": "Dokumen penawaran teknis, penawaran harga, dan jaminan penawaran",
+  "c": "Berita acara evaluasi administrasi, teknis, dan harga",
+  "d": "Laporan hasil pelaksanaan pekerjaan dan BAST"
+},
+"answer": "a",
+"explanation": {
+  "correct": "PPK bertanggung jawab menyiapkan dokumen **spesifikasi teknis/TOR**, **HPS**, dan **rancangan kontrak** sebagai bagian dari proses persiapan pengadaan. Ketiga dokumen ini menjadi dasar bagi pemilihan penyedia.",
+  "why_others_wrong": {
+    "b": "Dokumen tersebut disiapkan oleh peserta tender, bukan PPK.",
+    "c": "Berita acara evaluasi dibuat oleh Pokja Pemilihan, bukan PPK.",
+    "d": "Laporan pelaksanaan pekerjaan dan BAST disusun pada tahap pelaksanaan kontrak, bukan persiapan pengadaan."
+  }
+},
+"tags": [
+  "persiapan pengadaan",
+  "PPK",
+  "dokumen pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 178,
-  "question": "Dalam rangka pemeliharaan bronjong (struktur sederhana perkuatan tebing sungai), Dinas PUPR melaksanakan pekerjaan tersebut dengan cara swakelola. Pengawasan swakelola tersebut dilakukan oleh…",
-  "options": {
-    "a": "Pokja Pemilihan",
-    "b": "Kelompok Masyarakat",
-    "c": "Tim Pengawasan dari Dinas PUPR",
-    "d": "Penyedia jasa konstruksi"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Pada pelaksanaan swakelola yang dilakukan oleh instansi pemerintah, pengawasan dilakukan oleh **Tim Pengawasan dari instansi pelaksana**, dalam hal ini Dinas PUPR. Tim ini bertugas memastikan pekerjaan dilaksanakan sesuai rencana dan spesifikasi.",
-    "why_others_wrong": {
-      "a": "Pokja Pemilihan tidak terlibat dalam swakelola; mereka hanya menangani proses pemilihan penyedia.",
-      "b": "Kelompok masyarakat hanya menjadi pelaksana pada Swakelola Tipe III atau sebagai penerima manfaat, bukan pengawas.",
-      "d": "Penyedia konstruksi tidak terlibat karena pekerjaan dilakukan secara swakelola, bukan melalui penyedia."
-    }
-  },
-  "tags": ["swakelola", "tim pengawasan", "PUPR", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 178,
+"question": "Dalam rangka pemeliharaan bronjong (struktur sederhana perkuatan tebing sungai), Dinas PUPR melaksanakan pekerjaan tersebut dengan cara swakelola. Pengawasan swakelola tersebut dilakukan oleh…",
+"options": {
+  "a": "Pokja Pemilihan",
+  "b": "Kelompok Masyarakat",
+  "c": "Tim Pengawasan dari Dinas PUPR",
+  "d": "Penyedia jasa konstruksi"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Pada pelaksanaan swakelola yang dilakukan oleh instansi pemerintah, pengawasan dilakukan oleh **Tim Pengawasan dari instansi pelaksana**, dalam hal ini Dinas PUPR. Tim ini bertugas memastikan pekerjaan dilaksanakan sesuai rencana dan spesifikasi.",
+  "why_others_wrong": {
+    "a": "Pokja Pemilihan tidak terlibat dalam swakelola; mereka hanya menangani proses pemilihan penyedia.",
+    "b": "Kelompok masyarakat hanya menjadi pelaksana pada Swakelola Tipe III atau sebagai penerima manfaat, bukan pengawas.",
+    "d": "Penyedia konstruksi tidak terlibat karena pekerjaan dilakukan secara swakelola, bukan melalui penyedia."
+  }
+},
+"tags": [
+  "swakelola",
+  "tim pengawasan",
+  "PUPR",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 179,
-  "question": "Dalam rangka penyusunan Harga Perkiraan Sendiri (HPS) pengadaan konsultan pengembangan aplikasi perpajakan elektronik, komponen biaya yang perlu dihitungkan adalah…",
-  "options": {
-    "a": "Biaya bahan bangunan",
-    "b": "Biaya sewa alat berat",
-    "c": "Biaya pemeliharaan gedung",
-    "d": "Tenaga analis sistem"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Dalam HPS pengadaan jasa konsultansi TI seperti pengembangan aplikasi, komponen biaya utama yang wajib dihitung adalah **remunerasi tenaga ahli**, salah satunya **tenaga analis sistem (system analyst)**. Tenaga ini memegang peran inti dalam analisis kebutuhan dan perancangan sistem.",
-    "why_others_wrong": {
-      "a": "Biaya bahan bangunan tidak relevan karena bukan pekerjaan konstruksi.",
-      "b": "Sewa alat berat hanya diperlukan untuk pekerjaan konstruksi fisik, bukan jasa konsultansi TI.",
-      "c": "Biaya pemeliharaan gedung tidak termasuk komponen HPS jasa konsultansi."
-    }
-  },
-  "tags": ["HPS", "jasa konsultansi", "TI", "system analyst", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 179,
+"question": "Dalam rangka penyusunan Harga Perkiraan Sendiri (HPS) pengadaan konsultan pengembangan aplikasi perpajakan elektronik, komponen biaya yang perlu dihitungkan adalah…",
+"options": {
+  "a": "Biaya bahan bangunan",
+  "b": "Biaya sewa alat berat",
+  "c": "Biaya pemeliharaan gedung",
+  "d": "Tenaga analis sistem"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Dalam HPS pengadaan jasa konsultansi TI seperti pengembangan aplikasi, komponen biaya utama yang wajib dihitung adalah **remunerasi tenaga ahli**, salah satunya **tenaga analis sistem (system analyst)**. Tenaga ini memegang peran inti dalam analisis kebutuhan dan perancangan sistem.",
+  "why_others_wrong": {
+    "a": "Biaya bahan bangunan tidak relevan karena bukan pekerjaan konstruksi.",
+    "b": "Sewa alat berat hanya diperlukan untuk pekerjaan konstruksi fisik, bukan jasa konsultansi TI.",
+    "c": "Biaya pemeliharaan gedung tidak termasuk komponen HPS jasa konsultansi."
+  }
+},
+"tags": [
+  "HPS",
+  "jasa konsultansi",
+  "TI",
+  "system analyst",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 180,
-  "question": "Dalam rangka penyusunan Harga Perkiraan Sendiri (HPS) untuk pengadaan kajian Analisis Dampak Lingkungan (AMDAL), komponen biaya yang perlu diperhitungkan adalah…",
-  "options": {
-    "a": "Biaya pembangunan fasilitas perkantoran",
-    "b": "Tenaga ahli dan biaya survei",
-    "c": "Biaya pengadaan peralatan berat",
-    "d": "Biaya pengiriman barang"
-  },
-  "answer": "b",
-  "explanation": {
-    "correct": "Dalam penyusunan HPS untuk kajian AMDAL, komponen utama yang harus dihitung adalah **tenaga ahli** (biaya personel) dan **biaya survei lapangan**. Kajian AMDAL membutuhkan pakar lingkungan, analis dampak, serta kegiatan survei data primer dan sekunder.",
-    "why_others_wrong": {
-      "a": "Biaya pembangunan kantor tidak relevan untuk jasa konsultansi maupun kajian AMDAL.",
-      "c": "Pengadaan peralatan berat tidak diperlukan karena AMDAL adalah kajian berbasis analisis, bukan konstruksi.",
-      "d": "Biaya pengiriman barang tidak relevan dalam jasa konsultansi lingkungan."
-    }
-  },
-  "tags": ["HPS", "jasa konsultansi", "AMDAL", "tenaga ahli", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 180,
+"question": "Dalam rangka penyusunan Harga Perkiraan Sendiri (HPS) untuk pengadaan kajian Analisis Dampak Lingkungan (AMDAL), komponen biaya yang perlu diperhitungkan adalah…",
+"options": {
+  "a": "Biaya pembangunan fasilitas perkantoran",
+  "b": "Tenaga ahli dan biaya survei",
+  "c": "Biaya pengadaan peralatan berat",
+  "d": "Biaya pengiriman barang"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Dalam penyusunan HPS untuk kajian AMDAL, komponen utama yang harus dihitung adalah **tenaga ahli** (biaya personel) dan **biaya survei lapangan**. Kajian AMDAL membutuhkan pakar lingkungan, analis dampak, serta kegiatan survei data primer dan sekunder.",
+  "why_others_wrong": {
+    "a": "Biaya pembangunan kantor tidak relevan untuk jasa konsultansi maupun kajian AMDAL.",
+    "c": "Pengadaan peralatan berat tidak diperlukan karena AMDAL adalah kajian berbasis analisis, bukan konstruksi.",
+    "d": "Biaya pengiriman barang tidak relevan dalam jasa konsultansi lingkungan."
+  }
+},
+"tags": [
+  "HPS",
+  "jasa konsultansi",
+  "AMDAL",
+  "tenaga ahli",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 181,
-  "question": "Dalam seleksi pengadaan jasa konsultasi, apabila negosiasi yang dilakukan oleh para pihak tidak mencapai kesepakatan, maka hal yang harus dilakukan adalah…",
-  "options": {
-    "a": "Membatalkan proses seleksi dan mengulang dari awal",
-    "b": "Memberikan pekerjaan langsung kepada peserta dengan harga terendah",
-    "c": "Melakukan addendum untuk mengubah ruang lingkup pekerjaan",
-    "d": "Melakukan negosiasi dengan calon pemenang pada peringkat berikutnya"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Jika negosiasi dengan peringkat pertama gagal mencapai kesepakatan, Pokja Pemilihan atau PPK harus **melanjutkan negosiasi dengan peserta pada peringkat berikutnya**, sesuai ketentuan seleksi jasa konsultansi.",
-    "why_others_wrong": {
-      "a": "Pembatalan proses seleksi tidak dilakukan selama masih ada calon yang memenuhi syarat.",
-      "b": "Tidak boleh memberikan pekerjaan langsung; harus melalui proses sesuai urutan peringkat.",
-      "c": "Addendum tidak dapat digunakan untuk mengubah ruang lingkup demi menyesuaikan harga negosiasi."
-    }
-  },
-  "tags": ["seleksi konsultansi", "negosiasi", "pokja", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 181,
+"question": "Dalam seleksi pengadaan jasa konsultasi, apabila negosiasi yang dilakukan oleh para pihak tidak mencapai kesepakatan, maka hal yang harus dilakukan adalah…",
+"options": {
+  "a": "Membatalkan proses seleksi dan mengulang dari awal",
+  "b": "Memberikan pekerjaan langsung kepada peserta dengan harga terendah",
+  "c": "Melakukan addendum untuk mengubah ruang lingkup pekerjaan",
+  "d": "Melakukan negosiasi dengan calon pemenang pada peringkat berikutnya"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Jika negosiasi dengan peringkat pertama gagal mencapai kesepakatan, Pokja Pemilihan atau PPK harus **melanjutkan negosiasi dengan peserta pada peringkat berikutnya**, sesuai ketentuan seleksi jasa konsultansi.",
+  "why_others_wrong": {
+    "a": "Pembatalan proses seleksi tidak dilakukan selama masih ada calon yang memenuhi syarat.",
+    "b": "Tidak boleh memberikan pekerjaan langsung; harus melalui proses sesuai urutan peringkat.",
+    "c": "Addendum tidak dapat digunakan untuk mengubah ruang lingkup demi menyesuaikan harga negosiasi."
+  }
+},
+"tags": [
+  "seleksi konsultansi",
+  "negosiasi",
+  "pokja",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 182,
-  "question": "Informasi berikut ini yang BUKAN merupakan output dari kegiatan identifikasi kebutuhan adalah…",
-  "options": {
-    "a": "Jumlah pendaftar pemilihan",
-    "b": "Jumlah barang yang dibutuhkan",
-    "c": "Jenis layanan atau pekerjaan yang diperlukan",
-    "d": "Spesifikasi barang/jasa yang dibutuhkan"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "Jumlah pendaftar pemilihan **bukan** output dari identifikasi kebutuhan. Itu adalah data yang muncul pada tahap pemilihan penyedia, bukan saat mengidentifikasi kebutuhan organisasi.",
-    "why_others_wrong": {
-      "b": "Jumlah barang adalah salah satu output utama identifikasi kebutuhan.",
-      "c": "Jenis layanan atau pekerjaan termasuk output awal untuk menentukan ruang lingkup pekerjaan.",
-      "d": "Spesifikasi kebutuhan merupakan hasil langsung dari proses identifikasi kebutuhan."
-    }
-  },
-  "tags": ["identifikasi kebutuhan", "perencanaan pengadaan", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 182,
+"question": "Informasi berikut ini yang BUKAN merupakan output dari kegiatan identifikasi kebutuhan adalah…",
+"options": {
+  "a": "Jumlah pendaftar pemilihan",
+  "b": "Jumlah barang yang dibutuhkan",
+  "c": "Jenis layanan atau pekerjaan yang diperlukan",
+  "d": "Spesifikasi barang/jasa yang dibutuhkan"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Jumlah pendaftar pemilihan **bukan** output dari identifikasi kebutuhan. Itu adalah data yang muncul pada tahap pemilihan penyedia, bukan saat mengidentifikasi kebutuhan organisasi.",
+  "why_others_wrong": {
+    "b": "Jumlah barang adalah salah satu output utama identifikasi kebutuhan.",
+    "c": "Jenis layanan atau pekerjaan termasuk output awal untuk menentukan ruang lingkup pekerjaan.",
+    "d": "Spesifikasi kebutuhan merupakan hasil langsung dari proses identifikasi kebutuhan."
+  }
+},
+"tags": [
+  "identifikasi kebutuhan",
+  "perencanaan pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 183,
-  "question": "Data atau informasi yang ada pada kuitansi dalam proses pengadaan barang/jasa adalah…",
-  "options": {
-    "a": "Metode pemilihan penyedia dan nomor RUP",
-    "b": "Rincian spesifikasi teknis barang secara lengkap",
-    "c": "Nama pembeli, nama penyedia, dan jumlah pembayaran",
-    "d": "Berita acara serah terima pekerjaan"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Kuitansi dalam pengadaan barang/jasa minimal memuat **nama pembeli**, **nama penyedia**, dan **jumlah pembayaran**. Ketiga informasi ini merupakan elemen dasar bukti transaksi.",
-    "why_others_wrong": {
-      "a": "Metode pemilihan dan RUP tidak dicantumkan dalam kuitansi.",
-      "b": "Spesifikasi teknis lengkap bukan bagian dari kuitansi, melainkan dokumen kontrak atau SPK.",
-      "d": "Berita acara serah terima merupakan dokumen terpisah, bukan bagian dari kuitansi."
-    }
-  },
-  "tags": ["kuitansi", "dokumen pembayaran", "pengadaan langsung", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 183,
+"question": "Data atau informasi yang ada pada kuitansi dalam proses pengadaan barang/jasa adalah…",
+"options": {
+  "a": "Metode pemilihan penyedia dan nomor RUP",
+  "b": "Rincian spesifikasi teknis barang secara lengkap",
+  "c": "Nama pembeli, nama penyedia, dan jumlah pembayaran",
+  "d": "Berita acara serah terima pekerjaan"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Kuitansi dalam pengadaan barang/jasa minimal memuat **nama pembeli**, **nama penyedia**, dan **jumlah pembayaran**. Ketiga informasi ini merupakan elemen dasar bukti transaksi.",
+  "why_others_wrong": {
+    "a": "Metode pemilihan dan RUP tidak dicantumkan dalam kuitansi.",
+    "b": "Spesifikasi teknis lengkap bukan bagian dari kuitansi, melainkan dokumen kontrak atau SPK.",
+    "d": "Berita acara serah terima merupakan dokumen terpisah, bukan bagian dari kuitansi."
+  }
+},
+"tags": [
+  "kuitansi",
+  "dokumen pembayaran",
+  "pengadaan langsung",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 184,
-  "question": "Di antara pekerjaan berikut ini yang TIDAK dapat menggunakan kontrak tahun jamak adalah…",
-  "options": {
-    "a": "Pembangunan gedung pemerintah yang berlangsung dua tahun anggaran",
-    "b": "Penyusunan Rencana Tata Ruang Wilayah yang dimulai Februari 2024 dan selesai November 2024",
-    "c": "Pekerjaan jalan yang melewati dua tahun anggaran",
-    "d": "Pembangunan jembatan yang memerlukan waktu lebih dari satu tahun anggaran"
-  },
-  "answer": "b",
-  "explanation": {
-    "correct": "Kontrak tahun jamak hanya digunakan jika pekerjaan melewati **minimal dua tahun anggaran**. Penyusunan RTRW yang dimulai Februari 2024 dan selesai November 2024 **masih dalam tahun anggaran yang sama**, sehingga tidak memenuhi syarat kontrak tahun jamak.",
-    "why_others_wrong": {
-      "a": "Pekerjaan pembangunan yang melewati dua tahun anggaran dapat menggunakan kontrak tahun jamak.",
-      "c": "Pekerjaan jalan lintas tahun diperbolehkan menggunakan kontrak tahun jamak.",
-      "d": "Pembangunan jembatan yang memerlukan waktu lebih dari satu tahun anggaran juga dapat menggunakan kontrak tahun jamak."
-    }
-  },
-  "tags": ["kontrak tahun jamak", "RTRW", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 184,
+"question": "Di antara pekerjaan berikut ini yang TIDAK dapat menggunakan kontrak tahun jamak adalah…",
+"options": {
+  "a": "Pembangunan gedung pemerintah yang berlangsung dua tahun anggaran",
+  "b": "Penyusunan Rencana Tata Ruang Wilayah yang dimulai Februari 2024 dan selesai November 2024",
+  "c": "Pekerjaan jalan yang melewati dua tahun anggaran",
+  "d": "Pembangunan jembatan yang memerlukan waktu lebih dari satu tahun anggaran"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Kontrak tahun jamak hanya digunakan jika pekerjaan melewati **minimal dua tahun anggaran**. Penyusunan RTRW yang dimulai Februari 2024 dan selesai November 2024 **masih dalam tahun anggaran yang sama**, sehingga tidak memenuhi syarat kontrak tahun jamak.",
+  "why_others_wrong": {
+    "a": "Pekerjaan pembangunan yang melewati dua tahun anggaran dapat menggunakan kontrak tahun jamak.",
+    "c": "Pekerjaan jalan lintas tahun diperbolehkan menggunakan kontrak tahun jamak.",
+    "d": "Pembangunan jembatan yang memerlukan waktu lebih dari satu tahun anggaran juga dapat menggunakan kontrak tahun jamak."
+  }
+},
+"tags": [
+  "kontrak tahun jamak",
+  "RTRW",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 185,
-  "question": "Dinas Kesehatan Kabupaten MNO menyelenggarakan kerja sama swakelola dengan Ikatan Bidan Indonesia (IBI) untuk sosialisasi pencegahan polio. Di dalam kontrak dinyatakan membutuhkan tenaga ahli lain yang tidak dimiliki IBI. Pelibatan tenaga ahli dalam situasi tersebut diperbolehkan maksimal…",
-  "options": {
-    "a": "10% dari pelaksanaan swakelola",
-    "b": "25% dari pelaksanaan swakelola",
-    "c": "50% dari pelaksanaan swakelola",
-    "d": "100% selama disetujui PPK"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "Pada Swakelola Tipe III (kerja sama dengan Ormas seperti IBI), tenaga ahli dari luar hanya boleh dilibatkan **maksimal 10%** dari total pelaksanaan swakelola. Ini bertujuan menjaga agar organisasi pelaksana tetap menjadi pelaksana utama.",
-    "why_others_wrong": {
-      "b": "25% melebihi batas ketentuan pelibatan tenaga ahli luar.",
-      "c": "50% berarti sebagian besar pekerjaan dilakukan pihak lain, melanggar prinsip swakelola.",
-      "d": "Tidak ada ketentuan yang memperbolehkan 100% tenaga ahli luar walaupun disetujui PPK."
-    }
-  },
-  "tags": ["swakelola", "tenaga ahli", "Tipe III", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 185,
+"question": "Dinas Kesehatan Kabupaten MNO menyelenggarakan kerja sama swakelola dengan Ikatan Bidan Indonesia (IBI) untuk sosialisasi pencegahan polio. Di dalam kontrak dinyatakan membutuhkan tenaga ahli lain yang tidak dimiliki IBI. Pelibatan tenaga ahli dalam situasi tersebut diperbolehkan maksimal…",
+"options": {
+  "a": "10% dari pelaksanaan swakelola",
+  "b": "25% dari pelaksanaan swakelola",
+  "c": "50% dari pelaksanaan swakelola",
+  "d": "100% selama disetujui PPK"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Pada Swakelola Tipe III (kerja sama dengan Ormas seperti IBI), tenaga ahli dari luar hanya boleh dilibatkan **maksimal 10%** dari total pelaksanaan swakelola. Ini bertujuan menjaga agar organisasi pelaksana tetap menjadi pelaksana utama.",
+  "why_others_wrong": {
+    "b": "25% melebihi batas ketentuan pelibatan tenaga ahli luar.",
+    "c": "50% berarti sebagian besar pekerjaan dilakukan pihak lain, melanggar prinsip swakelola.",
+    "d": "Tidak ada ketentuan yang memperbolehkan 100% tenaga ahli luar walaupun disetujui PPK."
+  }
+},
+"tags": [
+  "swakelola",
+  "tenaga ahli",
+  "Tipe III",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 186,
-  "question": "Dinas Kesehatan Provinsi PQR akan melaksanakan kegiatan Swakelola Tipe IV. Pihak yang menetapkan Tim Pengawas pada swakelola tersebut adalah…",
-  "options": {
-    "a": "PPK Dinas Kesehatan",
-    "b": "Pokja Pemilihan",
-    "c": "Ketua Tim Pelaksana Swakelola",
-    "d": "Pimpinan Kelompok Masyarakat"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Pada Swakelola Tipe IV (dilaksanakan oleh kelompok masyarakat), **Tim Pengawas ditetapkan oleh pimpinan kelompok masyarakat** sebagai pihak pelaksana swakelola. Pemerintah hanya berperan menetapkan rencana dan melakukan monitoring secara umum.",
-    "why_others_wrong": {
-      "a": "PPK hanya menetapkan rencana, anggaran, dan melakukan pengendalian umum, bukan menetapkan tim pengawas.",
-      "b": "Pokja Pemilihan tidak terlibat dalam kegiatan swakelola.",
-      "c": "Ketua Tim Pelaksana melaksanakan kegiatan, tetapi bukan pihak yang menetapkan tim pengawas."
-    }
-  },
-  "tags": ["swakelola", "tipe IV", "tim pengawas", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 186,
+"question": "Dinas Kesehatan Provinsi PQR akan melaksanakan kegiatan Swakelola Tipe IV. Pihak yang menetapkan Tim Pengawas pada swakelola tersebut adalah…",
+"options": {
+  "a": "PPK Dinas Kesehatan",
+  "b": "Pokja Pemilihan",
+  "c": "Ketua Tim Pelaksana Swakelola",
+  "d": "Pimpinan Kelompok Masyarakat"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Pada Swakelola Tipe IV (dilaksanakan oleh kelompok masyarakat), **Tim Pengawas ditetapkan oleh pimpinan kelompok masyarakat** sebagai pihak pelaksana swakelola. Pemerintah hanya berperan menetapkan rencana dan melakukan monitoring secara umum.",
+  "why_others_wrong": {
+    "a": "PPK hanya menetapkan rencana, anggaran, dan melakukan pengendalian umum, bukan menetapkan tim pengawas.",
+    "b": "Pokja Pemilihan tidak terlibat dalam kegiatan swakelola.",
+    "c": "Ketua Tim Pelaksana melaksanakan kegiatan, tetapi bukan pihak yang menetapkan tim pengawas."
+  }
+},
+"tags": [
+  "swakelola",
+  "tipe IV",
+  "tim pengawas",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 187,
-  "question": "Dinas Pekerjaan Umum Kabupaten PQR akan melaksanakan pengadaan peningkatan jalan dengan nilai HPS sebesar 300 juta rupiah. Dalam Sistem Informasi Kinerja Penyedia (SIKAP) belum ada pelaku usaha yang terkualifikasi. Metode pengadaan yang tepat adalah…",
-  "options": {
-    "a": "Tender cepat",
-    "b": "Pengadaan langsung",
-    "c": "Seleksi umum",
-    "d": "Tender umum"
-  },
-  "answer": "b",
-  "explanation": {
-    "correct": "Dengan nilai HPS 300 juta dan tidak adanya penyedia terkualifikasi di SIKAP, metode yang tepat adalah **pengadaan langsung**. Pengadaan langsung dapat digunakan untuk paket pekerjaan konstruksi dengan nilai sampai maksimal 2,5 miliar dan tidak memerlukan penyedia yang sudah terkualifikasi di SIKAP.",
-    "why_others_wrong": {
-      "a": "Tender cepat hanya dapat dilakukan jika penyedia sudah terkualifikasi di SIKAP.",
-      "c": "Seleksi umum digunakan untuk jasa konsultansi, bukan pekerjaan konstruksi.",
-      "d": "Tender umum tidak diperlukan untuk paket dengan nilai kecil seperti 300 juta."
-    }
-  },
-  "tags": ["pengadaan langsung", "SIKAP", "konstruksi", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 187,
+"question": "Dinas Pekerjaan Umum Kabupaten PQR akan melaksanakan pengadaan peningkatan jalan dengan nilai HPS sebesar 300 juta rupiah. Dalam Sistem Informasi Kinerja Penyedia (SIKAP) belum ada pelaku usaha yang terkualifikasi. Metode pengadaan yang tepat adalah…",
+"options": {
+  "a": "Tender cepat",
+  "b": "Pengadaan langsung",
+  "c": "Seleksi umum",
+  "d": "Tender umum"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Dengan nilai HPS 300 juta dan tidak adanya penyedia terkualifikasi di SIKAP, metode yang tepat adalah **pengadaan langsung**. Pengadaan langsung dapat digunakan untuk paket pekerjaan konstruksi dengan nilai sampai maksimal 2,5 miliar dan tidak memerlukan penyedia yang sudah terkualifikasi di SIKAP.",
+  "why_others_wrong": {
+    "a": "Tender cepat hanya dapat dilakukan jika penyedia sudah terkualifikasi di SIKAP.",
+    "c": "Seleksi umum digunakan untuk jasa konsultansi, bukan pekerjaan konstruksi.",
+    "d": "Tender umum tidak diperlukan untuk paket dengan nilai kecil seperti 300 juta."
+  }
+},
+"tags": [
+  "pengadaan langsung",
+  "SIKAP",
+  "konstruksi",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 188,
-  "question": "Dinas Pekerjaan Umum Kabupaten XYZ memiliki daftar penyedia, salah satunya di bidang jalan dan jembatan. Berdasarkan tabel daftar penyedia tersebut, PT. ABC adalah pelaku usaha yang menjadi rujukan utama untuk perbaikan jalan ketika terjadi kondisi darurat seperti longsor. Berdasarkan informasi tersebut, PT. ABC masuk dalam kategori…",
-  "options": {
-    "a": "Preferred Supplier",
-    "b": "Approved Supplier",
-    "c": "Emergency Supplier",
-    "d": "General Supplier"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Penyedia yang menjadi rujukan utama untuk pekerjaan darurat seperti longsor, banjir, atau kerusakan infrastruktur mendadak dikategorikan sebagai **Emergency Supplier**, yaitu penyedia yang dapat diandalkan dalam kondisi darurat dengan respon cepat.",
-    "why_others_wrong": {
-      "a": "Preferred Supplier adalah penyedia yang direkomendasikan karena kinerja tinggi, namun tidak spesifik untuk kondisi darurat.",
-      "b": "Approved Supplier adalah penyedia yang memenuhi persyaratan minimum, bukan penyedia darurat.",
-      "d": "General Supplier adalah penyedia umum tanpa peran khusus dalam kondisi darurat."
-    }
-  },
-  "tags": ["supplier", "emergency supplier", "kondisi darurat", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 188,
+"question": "Dinas Pekerjaan Umum Kabupaten XYZ memiliki daftar penyedia, salah satunya di bidang jalan dan jembatan. Berdasarkan tabel daftar penyedia tersebut, PT. ABC adalah pelaku usaha yang menjadi rujukan utama untuk perbaikan jalan ketika terjadi kondisi darurat seperti longsor. Berdasarkan informasi tersebut, PT. ABC masuk dalam kategori…",
+"options": {
+  "a": "Preferred Supplier",
+  "b": "Approved Supplier",
+  "c": "Emergency Supplier",
+  "d": "General Supplier"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Penyedia yang menjadi rujukan utama untuk pekerjaan darurat seperti longsor, banjir, atau kerusakan infrastruktur mendadak dikategorikan sebagai **Emergency Supplier**, yaitu penyedia yang dapat diandalkan dalam kondisi darurat dengan respon cepat.",
+  "why_others_wrong": {
+    "a": "Preferred Supplier adalah penyedia yang direkomendasikan karena kinerja tinggi, namun tidak spesifik untuk kondisi darurat.",
+    "b": "Approved Supplier adalah penyedia yang memenuhi persyaratan minimum, bukan penyedia darurat.",
+    "d": "General Supplier adalah penyedia umum tanpa peran khusus dalam kondisi darurat."
+  }
+},
+"tags": [
+  "supplier",
+  "emergency supplier",
+  "kondisi darurat",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 189,
-  "question": "Dinas Pekerjaan Umum Provinsi ABC melalui PPK telah menandatangani kontrak pembangunan pasar modern, namun masih terdapat bangunan parkir eksisting di lokasi pekerjaan sehingga lokasi belum dapat diserahkan kepada penyedia. Kondisi ini ditetapkan oleh PPK sebagai…",
-  "options": {
-    "a": "Peristiwa kompensasi",
-    "b": "Cacat mutu pekerjaan",
-    "c": "Perubahan ruang lingkup",
-    "d": "Keterlambatan penyedia"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "Ketika PPK tidak dapat menyerahkan lokasi pekerjaan akibat kondisi di luar kendali penyedia—seperti masih adanya bangunan eksisting—situasi ini dikategorikan sebagai **peristiwa kompensasi**. Penyedia berhak mendapatkan penyesuaian waktu atau biaya sesuai ketentuan kontrak.",
-    "why_others_wrong": {
-      "b": "Cacat mutu pekerjaan hanya terjadi jika hasil pekerjaan penyedia tidak memenuhi spesifikasi, bukan masalah lokasi.",
-      "c": "Perubahan ruang lingkup terkait perubahan desain atau volume pekerjaan, bukan keterlambatan penyerahan lokasi.",
-      "d": "Keterlambatan penyedia tidak relevan karena hambatan berasal dari pihak PPK."
-    }
-  },
-  "tags": ["kontrak", "peristiwa kompensasi", "penyerahan lokasi", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 189,
+"question": "Dinas Pekerjaan Umum Provinsi ABC melalui PPK telah menandatangani kontrak pembangunan pasar modern, namun masih terdapat bangunan parkir eksisting di lokasi pekerjaan sehingga lokasi belum dapat diserahkan kepada penyedia. Kondisi ini ditetapkan oleh PPK sebagai…",
+"options": {
+  "a": "Peristiwa kompensasi",
+  "b": "Cacat mutu pekerjaan",
+  "c": "Perubahan ruang lingkup",
+  "d": "Keterlambatan penyedia"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Ketika PPK tidak dapat menyerahkan lokasi pekerjaan akibat kondisi di luar kendali penyedia—seperti masih adanya bangunan eksisting—situasi ini dikategorikan sebagai **peristiwa kompensasi**. Penyedia berhak mendapatkan penyesuaian waktu atau biaya sesuai ketentuan kontrak.",
+  "why_others_wrong": {
+    "b": "Cacat mutu pekerjaan hanya terjadi jika hasil pekerjaan penyedia tidak memenuhi spesifikasi, bukan masalah lokasi.",
+    "c": "Perubahan ruang lingkup terkait perubahan desain atau volume pekerjaan, bukan keterlambatan penyerahan lokasi.",
+    "d": "Keterlambatan penyedia tidak relevan karena hambatan berasal dari pihak PPK."
+  }
+},
+"tags": [
+  "kontrak",
+  "peristiwa kompensasi",
+  "penyerahan lokasi",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 190,
-  "question": "Dinas Pemuda dan Olahraga akan melakukan perencanaan pekerjaan swakelola seminar anti narkoba. Bahan data dan/atau informasi yang diperlukan dalam menyusun perencanaan kegiatan swakelola adalah…",
-  "options": {
-    "a": "Daftar penyedia pelatihan yang pernah bekerja sama",
-    "b": "Jumlah peserta yang akan hadir pada seminar",
-    "c": "Rincian daftar belanja panitia eksternal",
-    "d": "Data Identifikasi kebutuhan dan Honorarium yang diatur dalam SBM"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Dalam menyusun perencanaan kegiatan swakelola, salah satu data penting yang diperlukan adalah **data identifikasi kebutuhan dan honorarium yang diatur dalam Standar Biaya Masukan (SBM)**. SBM menjadi acuan resmi untuk menentukan besaran honorarium narasumber, moderator, panitia, dan tenaga ahli.",
-    "why_others_wrong": {
-      "a": "Daftar penyedia tidak relevan karena kegiatan dilakukan dengan swakelola, bukan penyedia.",
-      "b": "Jumlah peserta memang diperlukan, tetapi bukan bahan informasi utama dalam konteks pertanyaan ini.",
-      "c": "Daftar belanja panitia eksternal tidak terkait karena kegiatan swakelola dilaksanakan oleh internal atau kelompok masyarakat."
-    }
-  },
-  "tags": ["swakelola", "perencanaan", "SBM", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 190,
+"question": "Dinas Pemuda dan Olahraga akan melakukan perencanaan pekerjaan swakelola seminar anti narkoba. Bahan data dan/atau informasi yang diperlukan dalam menyusun perencanaan kegiatan swakelola adalah…",
+"options": {
+  "a": "Daftar penyedia pelatihan yang pernah bekerja sama",
+  "b": "Jumlah peserta yang akan hadir pada seminar",
+  "c": "Rincian daftar belanja panitia eksternal",
+  "d": "Data Identifikasi kebutuhan dan Honorarium yang diatur dalam SBM"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Dalam menyusun perencanaan kegiatan swakelola, salah satu data penting yang diperlukan adalah **data identifikasi kebutuhan dan honorarium yang diatur dalam Standar Biaya Masukan (SBM)**. SBM menjadi acuan resmi untuk menentukan besaran honorarium narasumber, moderator, panitia, dan tenaga ahli.",
+  "why_others_wrong": {
+    "a": "Daftar penyedia tidak relevan karena kegiatan dilakukan dengan swakelola, bukan penyedia.",
+    "b": "Jumlah peserta memang diperlukan, tetapi bukan bahan informasi utama dalam konteks pertanyaan ini.",
+    "c": "Daftar belanja panitia eksternal tidak terkait karena kegiatan swakelola dilaksanakan oleh internal atau kelompok masyarakat."
+  }
+},
+"tags": [
+  "swakelola",
+  "perencanaan",
+  "SBM",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 191,
-  "question": "Dinas Pertanian Kabupaten ABCD akan melaksanakan pembelian pupuk organik melalui e-purchasing dengan nilai HPS sebesar Rp195 juta. Pihak yang melaksanakan proses pemilihan penyedia adalah…",
-  "options": {
-    "a": "Pejabat Pengadaan",
-    "b": "Pokja Pemilihan",
-    "c": "PPK",
-    "d": "PA/KPA"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "Untuk pengadaan melalui e-purchasing dengan nilai HPS Rp195 juta, proses pemilihan penyedia dilakukan oleh **Pejabat Pengadaan**. Pejabat Pengadaan berwenang melakukan pemilihan untuk pengadaan langsung dan e-purchasing dengan nilai sampai Rp200 juta.",
-    "why_others_wrong": {
-      "b": "Pokja Pemilihan hanya menangani tender/seleksi, bukan e-purchasing dengan nilai kecil.",
-      "c": "PPK bertanggung jawab pada persiapan dan pelaksanaan kontrak, bukan proses pemilihan e-purchasing.",
-      "d": "PA/KPA tidak melakukan proses pemilihan penyedia, mereka menetapkan anggaran dan kebijakan."
-    }
-  },
-  "tags": ["e-purchasing", "pejabat pengadaan", "pengadaan langsung", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 191,
+"question": "Dinas Pertanian Kabupaten ABCD akan melaksanakan pembelian pupuk organik melalui e-purchasing dengan nilai HPS sebesar Rp195 juta. Pihak yang melaksanakan proses pemilihan penyedia adalah…",
+"options": {
+  "a": "Pejabat Pengadaan",
+  "b": "Pokja Pemilihan",
+  "c": "PPK",
+  "d": "PA/KPA"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Untuk pengadaan melalui e-purchasing dengan nilai HPS Rp195 juta, proses pemilihan penyedia dilakukan oleh **Pejabat Pengadaan**. Pejabat Pengadaan berwenang melakukan pemilihan untuk pengadaan langsung dan e-purchasing dengan nilai sampai Rp200 juta.",
+  "why_others_wrong": {
+    "b": "Pokja Pemilihan hanya menangani tender/seleksi, bukan e-purchasing dengan nilai kecil.",
+    "c": "PPK bertanggung jawab pada persiapan dan pelaksanaan kontrak, bukan proses pemilihan e-purchasing.",
+    "d": "PA/KPA tidak melakukan proses pemilihan penyedia, mereka menetapkan anggaran dan kebijakan."
+  }
+},
+"tags": [
+  "e-purchasing",
+  "pejabat pengadaan",
+  "pengadaan langsung",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 192,
-  "question": "Dinas Pertanian Kabupaten KLM akan melaksanakan pengadaan pembelian 1 unit traktor dengan durasi kontrak selama 1 bulan dan nilai Rp250 juta. Tata cara pembayaran yang tepat untuk diterapkan adalah…",
-  "options": {
-    "a": "Bulanan",
-    "b": "Termin berdasarkan progres pekerjaan",
-    "c": "Sekaligus",
-    "d": "Triwulanan"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Pembelian barang seperti **traktor** dengan durasi kontrak singkat (1 bulan) dan lingkup pekerjaan yang bersifat pembelian barang jadi, tepat menggunakan **pembayaran sekaligus**. Hal ini sesuai ketentuan bahwa untuk pembelian barang siap pakai, pembayaran dilakukan setelah barang diterima dengan baik.",
-    "why_others_wrong": {
-      "a": "Pembayaran bulanan digunakan untuk layanan berulang (recurring services), bukan pembelian barang.",
-      "b": "Termin progres digunakan untuk konstruksi atau pekerjaan jasa non-barang, bukan pembelian traktor.",
-      "d": "Pembayaran triwulanan tidak relevan karena durasi kontrak hanya 1 bulan."
-    }
-  },
-  "tags": ["pembayaran", "kontrak", "pengadaan barang", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 192,
+"question": "Dinas Pertanian Kabupaten KLM akan melaksanakan pengadaan pembelian 1 unit traktor dengan durasi kontrak selama 1 bulan dan nilai Rp250 juta. Tata cara pembayaran yang tepat untuk diterapkan adalah…",
+"options": {
+  "a": "Bulanan",
+  "b": "Termin berdasarkan progres pekerjaan",
+  "c": "Sekaligus",
+  "d": "Triwulanan"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Pembelian barang seperti **traktor** dengan durasi kontrak singkat (1 bulan) dan lingkup pekerjaan yang bersifat pembelian barang jadi, tepat menggunakan **pembayaran sekaligus**. Hal ini sesuai ketentuan bahwa untuk pembelian barang siap pakai, pembayaran dilakukan setelah barang diterima dengan baik.",
+  "why_others_wrong": {
+    "a": "Pembayaran bulanan digunakan untuk layanan berulang (recurring services), bukan pembelian barang.",
+    "b": "Termin progres digunakan untuk konstruksi atau pekerjaan jasa non-barang, bukan pembelian traktor.",
+    "d": "Pembayaran triwulanan tidak relevan karena durasi kontrak hanya 1 bulan."
+  }
+},
+"tags": [
+  "pembayaran",
+  "kontrak",
+  "pengadaan barang",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 193,
-  "question": "Jaminan penawaran dapat dikenakan kepada peserta tender pekerjaan pembangunan jembatan dengan nilai Rp25 miliar. Besaran jaminan penawaran yang tepat adalah…",
-  "options": {
-    "a": "0,5% dari nilai HPS",
-    "b": "2% dari nilai HPS",
-    "c": "5% dari nilai HPS",
-    "d": "1% dari nilai HPS"
-  },
-  "answer": "d",
-  "explanation": {
-    "correct": "Sesuai ketentuan pengadaan barang/jasa, **jaminan penawaran ditetapkan sebesar 1%–3% dari nilai HPS**. Untuk pekerjaan besar seperti pembangunan jembatan Rp25 miliar, angka **1% dari nilai HPS** merupakan besaran yang umum dan sesuai regulasi.",
-    "why_others_wrong": {
-      "a": "0,5% terlalu rendah dan tidak sesuai rentang minimal jaminan penawaran.",
-      "b": "2% diperbolehkan, tetapi soal menyebutkan angka yang tepat—yaitu 1%.",
-      "c": "5% melebihi batas maksimum yang diperbolehkan."
-    }
-  },
-  "tags": ["jaminan penawaran", "tender", "konstruksi", "PBJ"],
-  "difficulty": "medium"
-}
-,
+"id": 193,
+"question": "Jaminan penawaran dapat dikenakan kepada peserta tender pekerjaan pembangunan jembatan dengan nilai Rp25 miliar. Besaran jaminan penawaran yang tepat adalah…",
+"options": {
+  "a": "0,5% dari nilai HPS",
+  "b": "2% dari nilai HPS",
+  "c": "5% dari nilai HPS",
+  "d": "1% dari nilai HPS"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Sesuai ketentuan pengadaan barang/jasa, **jaminan penawaran ditetapkan sebesar 1%–3% dari nilai HPS**. Untuk pekerjaan besar seperti pembangunan jembatan Rp25 miliar, angka **1% dari nilai HPS** merupakan besaran yang umum dan sesuai regulasi.",
+  "why_others_wrong": {
+    "a": "0,5% terlalu rendah dan tidak sesuai rentang minimal jaminan penawaran.",
+    "b": "2% diperbolehkan, tetapi soal menyebutkan angka yang tepat—yaitu 1%.",
+    "c": "5% melebihi batas maksimum yang diperbolehkan."
+  }
+},
+"tags": [
+  "jaminan penawaran",
+  "tender",
+  "konstruksi",
+  "PBJ"
+],
+"difficulty": "medium"
+},
 {
-  "id": 194,
-  "question": "Dokumen berikut ini yang TIDAK termasuk dokumen yang disusun pada tahapan persiapan pengadaan adalah…",
-  "options": {
-    "a": "Spesifikasi teknis",
-    "b": "Rencana Umum Pengadaan (RUP)",
-    "c": "Harga Perkiraan Sendiri (HPS)",
-    "d": "Rancangan kontrak"
-  },
-  "answer": "b",
-  "explanation": {
-    "correct": "Rencana Umum Pengadaan (RUP) **bukan bagian dari tahapan persiapan pengadaan oleh PPK**. RUP disusun dan diumumkan oleh PA/KPA pada tahap perencanaan anggaran, sebelum persiapan pengadaan dimulai.",
-    "why_others_wrong": {
-      "a": "Spesifikasi teknis merupakan salah satu dokumen utama pada tahap persiapan pengadaan.",
-      "c": "HPS disusun oleh PPK sebagai dasar pemilihan penyedia.",
-      "d": "Rancangan kontrak wajib disusun pada persiapan pengadaan sebelum proses pemilihan penyedia."
-    }
-  },
-  "tags": ["persiapan pengadaan", "dokumen pengadaan", "RUP", "PBJ"],
-  "difficulty": "easy"
-}
-,
-
+"id": 194,
+"question": "Dokumen berikut ini yang TIDAK termasuk dokumen yang disusun pada tahapan persiapan pengadaan adalah…",
+"options": {
+  "a": "Spesifikasi teknis",
+  "b": "Rencana Umum Pengadaan (RUP)",
+  "c": "Harga Perkiraan Sendiri (HPS)",
+  "d": "Rancangan kontrak"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Rencana Umum Pengadaan (RUP) **bukan bagian dari tahapan persiapan pengadaan oleh PPK**. RUP disusun dan diumumkan oleh PA/KPA pada tahap perencanaan anggaran, sebelum persiapan pengadaan dimulai.",
+  "why_others_wrong": {
+    "a": "Spesifikasi teknis merupakan salah satu dokumen utama pada tahap persiapan pengadaan.",
+    "c": "HPS disusun oleh PPK sebagai dasar pemilihan penyedia.",
+    "d": "Rancangan kontrak wajib disusun pada persiapan pengadaan sebelum proses pemilihan penyedia."
+  }
+},
+"tags": [
+  "persiapan pengadaan",
+  "dokumen pengadaan",
+  "RUP",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 195,
-  "question": "Dokumen berikut ini yang TIDAK termasuk dokumen yang disusun pada tahapan persiapan pengadaan adalah…",
-  "options": {
-    "a": "Dokumen anggaran (DIPA/DPA)",
-    "b": "Spesifikasi teknis atau KAK/TOR",
-    "c": "Harga Perkiraan Sendiri (HPS)",
-    "d": "Rancangan kontrak"
-  },
-  "answer": "a",
-  "explanation": {
-    "correct": "Dokumen anggaran **DIPA/DPA** tidak disusun pada tahapan persiapan pengadaan. Dokumen tersebut disiapkan pada tahap perencanaan anggaran oleh PA/KPA, sebelum PPK menyusun dokumen persiapan pengadaan.",
-    "why_others_wrong": {
-      "b": "Spesifikasi teknis/KAK merupakan dokumen utama yang disusun PPK pada persiapan pengadaan.",
-      "c": "HPS wajib disusun PPK sebagai dasar perhitungan nilai kontrak pada tahap persiapan.",
-      "d": "Rancangan kontrak merupakan bagian dari persiapan proses pemilihan penyedia."
-    }
-  },
-  "tags": ["persiapan pengadaan", "dokumen pengadaan", "DIPA", "PBJ"],
-  "difficulty": "easy"
-}
-,
+"id": 195,
+"question": "Dokumen berikut ini yang TIDAK termasuk dokumen yang disusun pada tahapan persiapan pengadaan adalah…",
+"options": {
+  "a": "Dokumen anggaran (DIPA/DPA)",
+  "b": "Spesifikasi teknis atau KAK/TOR",
+  "c": "Harga Perkiraan Sendiri (HPS)",
+  "d": "Rancangan kontrak"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Dokumen anggaran **DIPA/DPA** tidak disusun pada tahapan persiapan pengadaan. Dokumen tersebut disiapkan pada tahap perencanaan anggaran oleh PA/KPA, sebelum PPK menyusun dokumen persiapan pengadaan.",
+  "why_others_wrong": {
+    "b": "Spesifikasi teknis/KAK merupakan dokumen utama yang disusun PPK pada persiapan pengadaan.",
+    "c": "HPS wajib disusun PPK sebagai dasar perhitungan nilai kontrak pada tahap persiapan.",
+    "d": "Rancangan kontrak merupakan bagian dari persiapan proses pemilihan penyedia."
+  }
+},
+"tags": [
+  "persiapan pengadaan",
+  "dokumen pengadaan",
+  "DIPA",
+  "PBJ"
+],
+"difficulty": "easy"
+},
 {
-  "id": 196,
-  "question": "Dokumen berikut ini yang TIDAK termasuk sebagai jaminan dalam pengadaan barang/jasa adalah…",
-  "options": {
-    "a": "Jaminan Penawaran",
-    "b": "Jaminan Pelaksanaan",
-    "c": "Jaminan Perencanaan",
-    "d": "Jaminan Pemeliharaan"
-  },
-  "answer": "c",
-  "explanation": {
-    "correct": "Tidak ada yang disebut **jaminan perencanaan** dalam regulasi pengadaan barang/jasa. Jaminan yang diatur dalam PBJ hanya meliputi: jaminan penawaran, jaminan pelaksanaan, jaminan uang muka, dan jaminan pemeliharaan.",
-    "why_others_wrong": {
-      "a": "Jaminan penawaran digunakan pada proses tender/seleksi untuk menjamin kesungguhan peserta.",
-      "b": "Jaminan pelaksanaan menjamin penyedia melaksanakan kontrak sesuai ketentuan.",
-      "d": "Jaminan pemeliharaan digunakan pada pekerjaan yang memiliki masa pemeliharaan untuk menjamin perbaikan jika ada kerusakan."
-    }
-  },
-  "tags": ["jaminan", "pengadaan", "PBJ"],
-  "difficulty": "easy"
+"id": 196,
+"question": "Dokumen berikut ini yang TIDAK termasuk sebagai jaminan dalam pengadaan barang/jasa adalah…",
+"options": {
+  "a": "Jaminan Penawaran",
+  "b": "Jaminan Pelaksanaan",
+  "c": "Jaminan Perencanaan",
+  "d": "Jaminan Pemeliharaan"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Tidak ada yang disebut **jaminan perencanaan** dalam regulasi pengadaan barang/jasa. Jaminan yang diatur dalam PBJ hanya meliputi: jaminan penawaran, jaminan pelaksanaan, jaminan uang muka, dan jaminan pemeliharaan.",
+  "why_others_wrong": {
+    "a": "Jaminan penawaran digunakan pada proses tender/seleksi untuk menjamin kesungguhan peserta.",
+    "b": "Jaminan pelaksanaan menjamin penyedia melaksanakan kontrak sesuai ketentuan.",
+    "d": "Jaminan pemeliharaan digunakan pada pekerjaan yang memiliki masa pemeliharaan untuk menjamin perbaikan jika ada kerusakan."
+  }
+},
+"tags": [
+  "jaminan",
+  "pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 197,
+"question": "Dokumen berikut yang TIDAK termasuk sebagai jaminan dalam pengadaan barang/jasa adalah…",
+"options": {
+  "a": "Jaminan Penawaran",
+  "b": "Jaminan Perencanaan",
+  "c": "Jaminan Pelaksanaan",
+  "d": "Jaminan Uang Muka"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Tidak ada dokumen yang bernama **Jaminan Perencanaan** dalam pengadaan barang/jasa pemerintah. Regulasi PBJ hanya mengenal jaminan penawaran, jaminan pelaksanaan, jaminan uang muka, dan jaminan pemeliharaan.",
+  "why_others_wrong": {
+    "a": "Jaminan penawaran digunakan untuk menjamin kesungguhan peserta tender.",
+    "c": "Jaminan pelaksanaan memberikan perlindungan jika penyedia tidak menjalankan kontrak.",
+    "d": "Jaminan uang muka menjamin dana uang muka digunakan sesuai ketentuan."
+  }
+},
+"tags": [
+  "jaminan",
+  "pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 198,
+"question": "Dokumen rancangan kontrak dapat bermanfaat bagi Pokja Pemilihan sebagai pedoman dalam menyusun…",
+"options": {
+  "a": "Rencana Umum Pengadaan (RUP)",
+  "b": "Berita Acara Evaluasi Penawaran",
+  "c": "Dokumen Pelaksanaan Anggaran (DPA)",
+  "d": "Lembar Data Pemilihan (LDP)"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Rancangan kontrak menjadi pedoman penting bagi Pokja Pemilihan untuk menyusun **Lembar Data Pemilihan (LDP)**, karena kedua dokumen harus selaras pada syarat-syarat khusus, ruang lingkup pekerjaan, jadwal, serta ketentuan pembayaran.",
+  "why_others_wrong": {
+    "a": "RUP disusun oleh PA/KPA pada tahap perencanaan, bukan oleh Pokja.",
+    "b": "Berita acara evaluasi penawaran disusun setelah proses evaluasi, bukan berdasarkan rancangan kontrak.",
+    "c": "DPA adalah dokumen anggaran, tidak digunakan oleh Pokja dalam penyusunan LDP."
+  }
+},
+"tags": [
+  "rancangan kontrak",
+  "LDP",
+  "Pokja Pemilihan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 199,
+"question": "Dokumen yang dapat digunakan oleh PPK untuk melakukan pengendalian kontrak adalah…",
+"options": {
+  "a": "Dokumen perencanaan, dokumen KAK, dan dokumen addendum kontrak",
+  "b": "Dokumen penawaran teknis, dokumen penawaran harga, dan jaminan penawaran",
+  "c": "Berita acara evaluasi administrasi, teknis, dan harga",
+  "d": "RUP, DIPA/DPA, dan dokumen usulan anggaran"
+},
+"answer": "a",
+"explanation": {
+  "correct": "PPK melakukan pengendalian kontrak menggunakan **dokumen perencanaan**, **Kerangka Acuan Kerja (KAK)**, dan jika terjadi perubahan, **dokumen addendum kontrak**. Ketiga dokumen tersebut menjadi rujukan untuk memastikan kontrak berjalan sesuai ruang lingkup, jadwal, dan biaya.",
+  "why_others_wrong": {
+    "b": "Dokumen penawaran adalah milik penyedia dan digunakan pada tahap pemilihan, bukan pengendalian kontrak.",
+    "c": "Berita acara evaluasi merupakan dokumen Pokja Pemilihan, bukan alat pengendalian kontrak.",
+    "d": "RUP dan DIPA/DPA adalah dokumen perencanaan anggaran, tidak digunakan untuk pengendalian kontrak."
+  }
+},
+"tags": [
+  "pengendalian kontrak",
+  "PPK",
+  "dokumen kontrak",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 200,
+"question": "Apabila terjadi pengaturan tender oleh sesama peserta, maka penyelesaian sengketa tersebut dapat diselesaikan melalui…",
+"options": {
+  "a": "Majelis Arbitrase Nasional Indonesia (BANI)",
+  "b": "Pengadilan Tata Usaha Negara (PTUN)",
+  "c": "Ranah hukum persaingan usaha",
+  "d": "Inspektorat Jenderal Kementerian/Lembaga"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Pengaturan tender oleh peserta (kolusi, kartel, atau persekongkolan) merupakan pelanggaran **hukum persaingan usaha**. Penyelesaiannya berada dalam kewenangan **Komisi Pengawas Persaingan Usaha (KPPU)**.",
+  "why_others_wrong": {
+    "a": "BANI menangani sengketa kontrak melalui arbitrase, bukan pelanggaran persaingan usaha.",
+    "b": "PTUN tidak menangani perselisihan antar penyedia dalam pengaturan tender.",
+    "d": "Inspektorat menangani pelanggaran internal, bukan sengketa persaingan usaha antar pelaku usaha."
+  }
+},
+"tags": [
+  "persaingan usaha",
+  "tender",
+  "KPPU",
+  "PBJ"
+],
+"difficulty": "medium"
+},
+{
+"id": 201,
+"question": "Evaluasi kinerja penyedia merupakan penilaian terhadap beberapa aspek, yaitu…",
+"options": {
+  "a": "Kualitas, kuantitas, biaya, waktu, dan layanan",
+  "b": "Kualitas, jaminan, pengalaman, dan legalitas",
+  "c": "Kuantitas, durasi kontrak, dan kemampuan modal",
+  "d": "Waktu, spesifikasi teknis, dan metode pemilihan"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Evaluasi kinerja penyedia dalam pengadaan barang/jasa menilai **5 aspek utama**, yaitu: kualitas, kuantitas, biaya, waktu, dan layanan. Kelima aspek ini digunakan untuk menilai apakah penyedia memenuhi standar hasil pekerjaan yang telah ditetapkan.",
+  "why_others_wrong": {
+    "b": "Jaminan, pengalaman, dan legalitas adalah bagian dari evaluasi kualifikasi, bukan evaluasi kinerja.",
+    "c": "Durasi kontrak dan kemampuan modal tidak termasuk aspek evaluasi kinerja.",
+    "d": "Spesifikasi teknis dan metode pemilihan adalah bagian dari perencanaan pengadaan, bukan evaluasi kinerja."
+  }
+},
+"tags": [
+  "evaluasi kinerja",
+  "penyedia",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 202,
+"question": "Garansi tidak diperlukan pada pengadaan sewa kendaraan antar jemput pegawai karena…",
+"options": {
+  "a": "Kendaraan sewa selalu disediakan oleh penyedia tanpa risiko kerusakan",
+  "b": "PPK tidak memiliki kewenangan meminta garansi",
+  "c": "Pengadaan sewa tidak memerlukan kontrak tertulis",
+  "d": "Sewa kendaraan merupakan jasa layanan, sehingga tidak memerlukan garansi barang"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Pada pengadaan **sewa kendaraan**, objek kontraknya adalah *jasa layanan*, bukan barang. Garansi hanya diwajibkan untuk pengadaan barang atau pekerjaan yang menghasilkan barang. Karena sewa kendaraan tidak menghasilkan barang, maka **tidak diperlukan garansi**.",
+  "why_others_wrong": {
+    "a": "Penyedia tetap memiliki risiko, tetapi alasan ini bukan dasar regulasi pengadaan.",
+    "b": "PPK dapat meminta garansi jika relevan, tetapi tidak wajib untuk jasa sewa.",
+    "c": "Sewa kendaraan tetap memerlukan kontrak, tetapi tidak terkait dengan kebutuhan garansi."
+  }
+},
+"tags": [
+  "garansi",
+  "sewa kendaraan",
+  "jasa layanan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 203,
+"question": "Hal berikut ini yang BUKAN merupakan manfaat adanya kebijakan pengadaan yang menggunakan transaksi elektronik adalah…",
+"options": {
+  "a": "Meningkatkan transparansi proses pengadaan",
+  "b": "Mempermudah monitoring dan audit secara real-time",
+  "c": "Memberikan kesempatan berusaha hanya bagi penyedia teknologi informasi",
+  "d": "Memperluas akses pasar bagi seluruh pelaku usaha"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Transaksi elektronik dalam pengadaan dibuat untuk **memperluas akses pasar bagi semua pelaku usaha**, bukan hanya penyedia teknologi informasi. Pernyataan bahwa transaksi elektronik memberikan kesempatan hanya bagi penyedia TI adalah keliru dan bukan manfaat dari kebijakan ini.",
+  "why_others_wrong": {
+    "a": "Transparansi adalah salah satu manfaat utama transaksi elektronik.",
+    "b": "Sistem elektronik memungkinkan monitoring dan audit lebih mudah dan cepat.",
+    "d": "Salah satu tujuan SPSE dan e-marketplace adalah membuka akses yang lebih luas bagi berbagai pelaku usaha."
+  }
+},
+"tags": [
+  "transaksi elektronik",
+  "SPSE",
+  "kebijakan pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 204,
+"question": "Hal yang dapat dilakukan dalam pemaketan pengadaan barang/jasa pemerintah adalah…",
+"options": {
+  "a": "Menggabungkan paket yang berbeda jenis pekerjaan meskipun tidak efisien",
+  "b": "Memecah beberapa paket pengadaan yang tersebar di beberapa lokasi bila secara sifat pekerjaan dan efisiensi memang seharusnya dikerjakan di masing-masing lokasi",
+  "c": "Memecah paket untuk menghindari metode pemilihan tertentu",
+  "d": "Menggabungkan seluruh paket di berbagai lokasi agar nilai menjadi lebih besar"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Pemaketan dapat dilakukan dengan **memecah paket berdasarkan lokasi**, apabila sifat pekerjaan dan tingkat efisiensinya lebih tepat dilaksanakan pada masing-masing lokasi. Ini sesuai prinsip efisiensi, efektivitas, serta memperluas kesempatan usaha.",
+  "why_others_wrong": {
+    "a": "Menggabungkan pekerjaan berbeda tanpa mempertimbangkan efisiensi justru melanggar prinsip pengadaan.",
+    "c": "Memecah paket untuk menghindari metode pemilihan adalah pelanggaran (prohibited packaging).",
+    "d": "Menggabungkan seluruh paket agar nilainya menjadi besar bukan praktik pemaketan yang sesuai ketentuan."
+  }
+},
+"tags": [
+  "pemaketan",
+  "perencanaan pengadaan",
+  "PBJ"
+],
+"difficulty": "medium"
+},
+{
+"id": 205,
+"question": "Hal yang TIDAK perlu diperhatikan oleh Pokja Pemilihan dalam mereviu dokumen persiapan pengadaan adalah…",
+"options": {
+  "a": "Kesesuaian spesifikasi teknis dengan kebutuhan",
+  "b": "Kelengkapan rancangan kontrak",
+  "c": "Kewajaran Harga Perkiraan Sendiri (HPS)",
+  "d": "Jumlah karyawan calon pelaksana pekerjaan yang siap untuk ditugaskan"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Pokja Pemilihan tidak menilai **jumlah karyawan calon pelaksana pekerjaan** pada tahap reviu dokumen persiapan pengadaan. Hal tersebut baru dievaluasi pada tahap **evaluasi kualifikasi** setelah pemilihan penyedia dimulai.",
+  "why_others_wrong": {
+    "a": "Pokja wajib mereviu apakah spesifikasi teknis sesuai kebutuhan dan tidak mengarah pada merek tertentu.",
+    "b": "Rancangan kontrak harus direviu untuk memastikan kesesuaian antara dokumen pemilihan dan pelaksanaan kontrak.",
+    "c": "Kewajaran HPS merupakan salah satu aspek penting yang harus direviu Pokja."
+  }
+},
+"tags": [
+  "pokja pemilihan",
+  "reviu dokumen",
+  "persiapan pengadaan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 206,
+"question": "Hasil pelaksanaan swakelola secara berkala dilaporkan oleh Tim Pelaksana kepada PPK dalam bentuk…",
+"options": {
+  "a": "Laporan kemajuan pelaksanaan kegiatan dan penyerapan anggaran",
+  "b": "Dokumen penawaran teknis dan penawaran harga",
+  "c": "Berita acara evaluasi kualifikasi penyedia",
+  "d": "Laporan hasil audit internal instansi"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Dalam swakelola, **Tim Pelaksana wajib menyampaikan laporan kemajuan kegiatan dan penyerapan anggaran** kepada PPK secara berkala. Laporan ini digunakan PPK untuk memantau perkembangan pelaksanaan dan memastikan kesesuaian dengan perencanaan.",
+  "why_others_wrong": {
+    "b": "Dokumen penawaran adalah bagian dari proses pemilihan penyedia, bukan swakelola.",
+    "c": "Berita acara evaluasi kualifikasi hanya berlaku pada pemilihan penyedia, bukan swakelola.",
+    "d": "Laporan audit internal disusun oleh APIP, bukan Tim Pelaksana swakelola."
+  }
+},
+"tags": [
+  "swakelola",
+  "pelaporan",
+  "PPK",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 207,
+"question": "Hubungan kontrak antara PPK dan penyedia barang/jasa termasuk dalam ranah hukum…",
+"options": {
+  "a": "Pidana",
+  "b": "Administrasi negara",
+  "c": "Perdata",
+  "d": "Persaingan usaha"
+},
+"answer": "c",
+"explanation": {
+  "correct": "Kontrak pengadaan antara PPK dan penyedia merupakan **perjanjian hukum privat**, sehingga berada dalam **ranah hukum perdata**. Hubungan ini diatur berdasarkan kesepakatan para pihak sebagaimana diatur dalam KUH Perdata.",
+  "why_others_wrong": {
+    "a": "Pidana hanya berlaku jika terdapat tindak kejahatan, bukan mekanisme kontrak.",
+    "b": "Administrasi negara mengatur kewenangan pejabat, bukan hubungan kontraktual antara PPK dan penyedia.",
+    "d": "Persaingan usaha terkait kartel atau pengaturan tender, bukan hubungan kontrak."
+  }
+},
+"tags": [
+  "kontrak",
+  "PPK",
+  "penyedia",
+  "hukum perdata",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 208,
+"question": "Informasi manakah dari pilihan berikut yang harus dicantumkan dalam Rencana Umum Pengadaan (RUP)?",
+"options": {
+  "a": "Rancangan kontrak secara lengkap",
+  "b": "Daftar tenaga ahli yang akan digunakan penyedia",
+  "c": "Metode evaluasi yang akan digunakan Pokja",
+  "d": "Target mulai pelaksanaan pemilihan"
+},
+"answer": "d",
+"explanation": {
+  "correct": "RUP wajib memuat **target mulai pelaksanaan pemilihan** untuk setiap paket. Informasi ini diperlukan agar masyarakat dan pelaku usaha mengetahui rencana jadwal pemilihan dan dapat mempersiapkan diri.",
+  "why_others_wrong": {
+    "a": "Rancangan kontrak disusun pada tahap persiapan pengadaan oleh PPK, bukan dicantumkan dalam RUP.",
+    "b": "Daftar tenaga ahli milik penyedia baru dinilai pada tahap evaluasi kualifikasi, bukan bagian dari RUP.",
+    "c": "Metode evaluasi ditetapkan oleh PPK dan dimuat dalam dokumen pemilihan, bukan dalam RUP."
+  }
+},
+"tags": [
+  "RUP",
+  "perencanaan pengadaan",
+  "jadwal pemilihan",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 209,
+"question": "Informasi mengenai pengadaan barang/jasa yang dapat diketahui secara luas oleh penyedia yang berminat serta oleh masyarakat umum merupakan salah satu prinsip pengadaan, yaitu…",
+"options": {
+  "a": "Transparan",
+  "b": "Efisien",
+  "c": "Bersaing",
+  "d": "Akuntabel"
+},
+"answer": "a",
+"explanation": {
+  "correct": "Prinsip **transparan** menekankan bahwa seluruh informasi pengadaan harus dapat diakses secara terbuka oleh pelaku usaha dan masyarakat. Termasuk pengumuman RUP, dokumen pemilihan, jadwal, hasil evaluasi, dan pemenang.",
+  "why_others_wrong": {
+    "b": "Efisien terkait penggunaan sumber daya secara optimal, bukan keterbukaan informasi.",
+    "c": "Bersaing memastikan peluang usaha terbuka bagi semua penyedia, tetapi bukan tentang keterbukaan informasi kepada publik.",
+    "d": "Akuntabel berkaitan dengan pertanggungjawaban, bukan keterbukaan informasi."
+  }
+},
+"tags": [
+  "prinsip pengadaan",
+  "transparansi",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 210,
+"question": "Informasi yang TIDAK tercantum dalam Rencana Umum Pengadaan (RUP) adalah…",
+"options": {
+  "a": "Nama paket pengadaan",
+  "b": "Pagu anggaran",
+  "c": "Metode penawaran",
+  "d": "Target jadwal pelaksanaan pemilihan"
+},
+"answer": "c",
+"explanation": {
+  "correct": "RUP tidak memuat **metode penawaran**. RUP hanya berisi informasi tingkat perencanaan seperti nama paket, pagu, lokasi, dan target jadwal pelaksanaan pemilihan. Metode penawaran ditetapkan kemudian dalam dokumen pemilihan.",
+  "why_others_wrong": {
+    "a": "Nama paket pengadaan adalah informasi wajib dalam RUP.",
+    "b": "Pagu anggaran selalu dicantumkan dalam RUP sebagai dasar perencanaan.",
+    "d": "Target jadwal pelaksanaan pemilihan juga merupakan komponen wajib dalam RUP."
+  }
+},
+"tags": [
+  "RUP",
+  "perencanaan",
+  "informasi RUP",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 211,
+"question": "Instansi X merencanakan perbaikan kebocoran atap aula yang berpotensi merusak furnitur yang ada. Namun anggaran tidak tersedia sehingga pengadaan dibatalkan. Tindakan untuk tidak melakukan perbaikan merupakan salah satu strategi penanganan risiko, yaitu…",
+"options": {
+  "a": "Mengurangi (mitigation)",
+  "b": "Menerima (acceptance)",
+  "c": "Mengalihkan (transfer)",
+  "d": "Menghindari (avoidance)"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Ketika risiko diketahui tetapi **tidak dilakukan tindakan apa pun** karena keterbatasan anggaran atau keputusan manajemen, maka strategi yang digunakan adalah **menerima risiko (risk acceptance)**. Risiko tetap diterima tanpa tindakan mitigasi.",
+  "why_others_wrong": {
+    "a": "Mengurangi berarti mengambil langkah untuk menurunkan dampak atau kemungkinan risiko, namun tidak ada tindakan yang dilakukan dalam kasus ini.",
+    "c": "Mengalihkan berarti memindahkan risiko ke pihak lain (misal: melalui asuransi), tidak relevan dengan skenario ini.",
+    "d": "Menghindari berarti menghentikan aktivitas yang menyebabkan risiko, bukan membiarkan risiko tetap ada."
+  }
+},
+"tags": [
+  "manajemen risiko",
+  "pengadaan",
+  "strategi risiko",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 212,
+"question": "Item berikut ini yang BUKAN merupakan hal-hal yang harus ditentukan dalam penyusunan Rencana Umum Pengadaan (RUP) adalah…",
+"options": {
+  "a": "Nama paket pekerjaan",
+  "b": "Pagu anggaran",
+  "c": "Lokasi pekerjaan",
+  "d": "Jenis kontrak"
+},
+"answer": "d",
+"explanation": {
+  "correct": "Jenis kontrak **tidak dicantumkan dalam RUP**. RUP hanya berisi informasi dasar seperti nama paket, pagu anggaran, lokasi, dan jadwal rencana pelaksanaan pemilihan. Penetapan jenis kontrak dilakukan pada tahap **persiapan pengadaan** oleh PPK.",
+  "why_others_wrong": {
+    "a": "Nama paket merupakan informasi wajib dalam RUP.",
+    "b": "Pagu anggaran adalah elemen utama dalam penyusunan RUP.",
+    "c": "Lokasi pekerjaan wajib dicantumkan untuk memberikan informasi kepada masyarakat dan penyedia."
+  }
+},
+"tags": [
+  "RUP",
+  "perencanaan pengadaan",
+  "jenis kontrak",
+  "PBJ"
+],
+"difficulty": "easy"
+},
+{
+"id": 213,
+"question": "Item yang TIDAK diperlukan dalam penyusunan HPS pengadaan jasa konsultasi penyusunan kajian naskah akademis adalah…",
+"options": {
+  "a": "Honorarium tenaga ahli",
+  "b": "Gaji pelaksana lapangan",
+  "c": "Biaya rapat dan koordinasi",
+  "d": "Biaya pengumpulan data dan survei"
+},
+"answer": "b",
+"explanation": {
+  "correct": "Dalam pengadaan **jasa konsultasi**, terutama penyusunan kajian atau naskah akademis, komponen biaya mencakup honorarium tenaga ahli, biaya operasional, survei, rapat, dan penyusunan laporan. **Gaji pelaksana lapangan** tidak diperlukan karena tidak ada kegiatan konstruksi atau pekerjaan fisik.",
+  "why_others_wrong": {
+    "a": "Honorarium tenaga ahli merupakan komponen utama dalam HPS jasa konsultansi.",
+    "c": "Rapat dan koordinasi diperlukan dalam penyusunan dokumen kajian.",
+    "d": "Pengumpulan data dan survei merupakan bagian dari proses penyusunan naskah akademis."
+  }
+},
+"tags": [
+  "HPS",
+  "jasa konsultansi",
+  "kajian",
+  "PBJ"
+],
+"difficulty": "easy"
 }
