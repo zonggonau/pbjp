@@ -2860,4 +2860,577 @@
   },
   "tags": ["perencanaan pengadaan", "PPK", "PBJ"],
   "difficulty": "easy"
+},
+{
+  "id": 113,
+  "question": "Berikut ini yang TIDAK termasuk persyaratan teknis penyedia jasa konsultasi badan usaha adalah…",
+  "options": {
+    "a": "Tenaga ahli dengan kualifikasi yang relevan",
+    "b": "Menyampaikan metode pelaksanaan pekerjaan",
+    "c": "Pengalaman pekerjaan sejenis",
+    "d": "Daftar peralatan pendukung (bila diperlukan)"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Menyampaikan metode pelaksanaan pekerjaan **bukan** merupakan persyaratan teknis pada tahap kualifikasi penyedia jasa konsultasi badan usaha. Metode pelaksanaan merupakan bagian dari **dokumen penawaran teknis**, bukan dokumen kualifikasi.",
+    "why_others_wrong": {
+      "a": "Tenaga ahli relevan merupakan syarat teknis utama dalam kualifikasi penyedia konsultansi badan usaha.",
+      "c": "Pengalaman pekerjaan sejenis adalah salah satu persyaratan teknis utama untuk menilai kemampuan penyedia.",
+      "d": "Daftar peralatan pendukung dapat diminta sebagai bagian dari persyaratan teknis, terutama untuk konsultansi yang memerlukan alat khusus (survey, geoteknik, pemetaan, dll.)."
+    }
+  },
+  "tags": ["konsultansi", "persyaratan teknis", "kualifikasi", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 114,
+  "question": "Berikut ini yang TIDAK termasuk unsur kualifikasi yang dievaluasi adalah…",
+  "options": {
+    "a": "Pengalaman penyedia",
+    "b": "Legalitas badan usaha",
+    "c": "Kemampuan teknis dan sumber daya manusia",
+    "d": "Harga"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Harga **bukan** unsur yang dievaluasi pada tahap kualifikasi. Evaluasi kualifikasi hanya menilai aspek legalitas, pengalaman, kemampuan teknis, personel, serta kemampuan keuangan penyedia. Harga baru dievaluasi pada tahap evaluasi penawaran, bukan pada tahap kualifikasi.",
+    "why_others_wrong": {
+      "a": "Pengalaman penyedia adalah unsur utama kualifikasi untuk menilai kompetensi penyedia.",
+      "b": "Legalitas badan usaha wajib dievaluasi untuk memastikan keabsahan penyedia.",
+      "c": "Kemampuan teknis dan SDM adalah bagian dari evaluasi kualifikasi, terutama untuk pekerjaan bernilai tinggi atau kompleks."
+    }
+  },
+  "tags": ["kualifikasi", "evaluasi", "pengadaan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 115,
+  "question": "Berikut ini yang BUKAN merupakan e-marketplace pengadaan barang/jasa adalah…",
+  "options": {
+    "a": "Sistem Informasi Kinerja Penyedia",
+    "b": "E-Katalog LKPP",
+    "c": "Toko Daring LKPP",
+    "d": "E-Purchasing melalui Katalog Elektronik"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Sistem Informasi Kinerja Penyedia **bukan** e-marketplace pengadaan. Sistem ini hanya berfungsi untuk mencatat dan menampilkan rekam jejak serta penilaian kinerja penyedia, bukan untuk transaksi atau pembelian barang/jasa.",
+    "why_others_wrong": {
+      "b": "E-Katalog adalah e-marketplace resmi pemerintah berisi produk dengan spesifikasi dan harga tetap.",
+      "c": "Toko Daring adalah platform marketplace yang bekerja sama dengan LKPP untuk pengadaan pemerintah.",
+      "d": "E-Purchasing adalah mekanisme pembelian melalui e-marketplace (E-Katalog)."
+    }
+  },
+  "tags": ["e-marketplace", "LKPP", "pengadaan elektronik", "kinerja penyedia"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 116,
+  "question": "Biro Perekonomian Provinsi RSTU bekerja sama dengan salah satu perguruan tinggi swasta melaksanakan swakelola survei kepuasan pelayanan publik. Persiapan dan pengawasan swakelola tersebut dilakukan oleh…",
+  "options": {
+    "a": "Perguruan tinggi swasta sebagai pelaksana swakelola",
+    "b": "Aparat Pengawas Internal Pemerintah (APIP)",
+    "c": "Tim dari Biro Perekonomian",
+    "d": "Pokja Pemilihan UKPBJ"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Dalam Swakelola Tipe II, pelaksana kegiatan adalah lembaga non-pemerintah (dalam hal ini perguruan tinggi swasta), sedangkan **persiapan, perencanaan, dan pengawasan tetap dilakukan oleh pihak penanggung jawab kegiatan**, yaitu Biro Perekonomian Provinsi RSTU.",
+    "why_others_wrong": {
+      "a": "Perguruan tinggi swasta hanya bertindak sebagai pelaksana swakelola, bukan pengawas atau penyusun persiapan.",
+      "b": "APIP melakukan audit dan pengawasan internal pemerintah, bukan pengawasan teknis swakelola.",
+      "d": "Pokja Pemilihan UKPBJ hanya berperan dalam pemilihan penyedia, tidak terlibat dalam swakelola."
+    }
+  },
+  "tags": ["swakelola", "pengawasan", "PPK", "pelaksana swakelola"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 117,
+  "question": "Cara pengadaan yang tepat untuk pembuatan naskah akademis peraturan daerah tentang penggunaan produk usaha mikro, kecil dan koperasi yang dilakukan bekerja sama dengan perguruan tinggi swasta adalah…",
+  "options": {
+    "a": "Pengadaan Langsung jasa konsultansi",
+    "b": "Tender seleksi jasa konsultansi badan usaha",
+    "c": "Swakelola Tipe II",
+    "d": "Swakelola Tipe III"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Swakelola Tipe III adalah cara pengadaan yang tepat bila pemerintah bekerja sama dengan perguruan tinggi swasta untuk pembuatan naskah akademis. Pada Swakelola Tipe III, **pemerintah bekerja sama dengan organisasi masyarakat/instansi non-pemerintah (termasuk perguruan tinggi swasta)** sebagai pelaksana kegiatan, sementara perencanaan dan pengawasan tetap dilakukan oleh instansi pemerintah.",
+    "why_others_wrong": {
+      "a": "Pengadaan Langsung digunakan untuk jasa konsultansi dengan nilai tertentu, tetapi tidak relevan ketika model kerja sama yang dikehendaki adalah swakelola.",
+      "b": "Tender seleksi digunakan untuk memilih konsultan badan usaha, bukan perguruan tinggi sebagai lembaga nirlaba.",
+      "c": "Swakelola Tipe II melibatkan lembaga pemerintah lain (seperti BUMN/BUMD/perguruan tinggi negeri), bukan perguruan tinggi swasta."
+    }
+  },
+  "tags": ["swakelola", "Tipe III", "konsultansi", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 118,
+  "question": "Cara pengadaan yang tepat untuk penyusunan Rencana Tata Ruang Wilayah (RT/RW) yang dilakukan bekerja sama dengan perguruan tinggi negeri adalah…",
+  "options": {
+    "a": "Pengadaan Langsung jasa konsultansi",
+    "b": "Swakelola Tipe II",
+    "c": "Swakelola Tipe III",
+    "d": "Seleksi jasa konsultansi badan usaha"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Swakelola Tipe II adalah cara pengadaan yang tepat bila pemerintah bekerja sama dengan **perguruan tinggi negeri**. Pada Swakelola Tipe II, pelaksana kegiatan adalah instansi pemerintah lain, BUMN/BUMD, atau perguruan tinggi negeri, sementara perencanaan dan pengawasan dilakukan oleh K/L/D.",
+    "why_others_wrong": {
+      "a": "Pengadaan Langsung digunakan untuk jasa konsultansi dengan nilai tertentu, namun tidak tepat untuk kerja sama kelembagaan dengan perguruan tinggi negeri.",
+      "c": "Swakelola Tipe III digunakan bila pelaksana kegiatan adalah organisasi masyarakat atau perguruan tinggi swasta, bukan perguruan tinggi negeri.",
+      "d": "Seleksi jasa konsultansi badan usaha digunakan untuk konsultan badan usaha, bukan lembaga pemerintah seperti perguruan tinggi negeri."
+    }
+  },
+  "tags": ["swakelola", "Tipe II", "RT/RW", "pengadaan"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 119,
+  "question": "Contoh pelanggaran etika dalam pengadaan barang/jasa adalah…",
+  "options": {
+    "a": "Pejabat pengadaan melakukan survei harga untuk penyusunan HPS",
+    "b": "PPK melakukan klarifikasi teknis kepada penyedia",
+    "c": "Pejabat pengadaan melakukan e-purchasing kepada perusahaan yang memberikan cashback",
+    "d": "Pokja meminta penjelasan tambahan kepada peserta tender"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Melakukan e-purchasing kepada perusahaan yang memberikan **cashback** merupakan pelanggaran etika pengadaan karena termasuk **gratifikasi/keuntungan pribadi**, yang dilarang dalam prinsip etika PBJ. Cashback, bonus, atau bentuk kompensasi lain kepada pejabat adalah konflik kepentingan.",
+    "why_others_wrong": {
+      "a": "Survei harga adalah kegiatan normal dan wajib dalam penyusunan HPS.",
+      "b": "Klarifikasi teknis diperbolehkan sepanjang tidak mengubah substansi penawaran.",
+      "d": "Meminta penjelasan tambahan kepada peserta tender adalah kegiatan normal dalam proses evaluasi."
+    }
+  },
+  "tags": ["etika pengadaan", "gratifikasi", "e-purchasing", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 120,
+  "question": "Dalam hal terdapat pengadaan yang memiliki karakteristik spesifikasi jelas dan standar, maka metode evaluasi yang ideal digunakan adalah…",
+  "options": {
+    "a": "Evaluasi harga terendah",
+    "b": "Evaluasi kualitas dan biaya",
+    "c": "Evaluasi kualitas saja",
+    "d": "Evaluasi sistem nilai"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Jika barang/jasa memiliki **spesifikasi yang jelas, umum, dan standar**, maka metode evaluasi yang paling tepat adalah **evaluasi harga terendah**. Karena seluruh penyedia dapat menawarkan barang dengan kualitas yang sama, maka harga menjadi pembeda utamanya.",
+    "why_others_wrong": {
+      "b": "Evaluasi kualitas dan biaya digunakan untuk konsultansi atau pekerjaan kompleks yang sulit distandarkan.",
+      "c": "Evaluasi kualitas saja digunakan untuk jasa konsultansi perorangan atau pekerjaan berbasis keahlian.",
+      "d": "Evaluasi sistem nilai digunakan ketika ada banyak variabel teknis yang perlu diberi bobot, bukan untuk barang standar."
+    }
+  },
+  "tags": ["evaluasi penawaran", "harga terendah", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 121,
+  "question": "Dalam hal terdapat perbedaan antara kondisi lapangan pada saat pelaksanaan dengan spesifikasi teknis dalam dokumen kontrak, maka dapat dilakukan perubahan kontrak. Hal tersebut dapat diterapkan pada…",
+  "options": {
+    "a": "Kontrak lumsum saja",
+    "b": "Kontrak harga satuan saja",
+    "c": "Kontrak gabungan saja",
+    "d": "Semua jenis kontrak"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Perubahan kontrak karena perbedaan kondisi lapangan **dapat diterapkan pada semua jenis kontrak** (lumsum, harga satuan, maupun gabungan) sesuai ketentuan Perpres 16/2018 jo. 12/2021. Perubahan ini dilakukan melalui addendum untuk memastikan pekerjaan tetap dapat dilaksanakan sesuai kebutuhan aktual.",
+    "why_others_wrong": {
+      "a": "Kontrak lumsum tetap dapat diubah, asalkan perubahan tidak mengubah output utama dan dilakukan melalui addendum.",
+      "b": "Kontrak harga satuan sangat fleksibel untuk perubahan volume akibat kondisi lapangan.",
+      "c": "Kontrak gabungan juga memungkinkan perubahan pada bagian harga satuan dan penyesuaian teknis pada bagian lumsum."
+    }
+  },
+  "tags": ["kontrak", "addendum", "konstruksi", "PPK"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 122,
+  "question": "Dalam hal terdapat perbedaan antara kondisi lapangan pada saat pelaksanaan dengan gambar dan/atau spesifikasi teknis/KAK yang ditentukan dalam dokumen kontrak, maka tindakan yang harus dilakukan adalah…",
+  "options": {
+    "a": "PPK menghentikan sementara pekerjaan hingga kondisi kembali normal",
+    "b": "PPK bersama penyedia melakukan perubahan kontrak",
+    "c": "Penyedia menyesuaikan pekerjaan tanpa pemberitahuan kepada PPK",
+    "d": "Pokja Pemilihan melakukan evaluasi ulang dokumen pemilihan"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Jika terdapat perbedaan antara kondisi lapangan dengan gambar atau spesifikasi teknis/KAK dalam dokumen kontrak, maka **PPK bersama penyedia wajib melakukan perubahan kontrak (addendum)**. Hal ini diatur dalam Perpres 16/2018 jo. 12/2021 sebagai bagian dari penyesuaian teknis yang sah.",
+    "why_others_wrong": {
+      "a": "Menghentikan pekerjaan tidak wajib dilakukan kecuali ada kondisi darurat; yang benar adalah melakukan addendum.",
+      "c": "Penyedia tidak boleh mengubah pekerjaan tanpa persetujuan PPK karena akan menyebabkan ketidaksesuaian kontrak.",
+      "d": "Pokja Pemilihan tidak terlibat lagi setelah kontrak ditetapkan; evaluasi ulang tidak diperlukan."
+    }
+  },
+  "tags": ["kontrak", "addendum", "konstruksi", "PPK"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 123,
+  "question": "Dalam hal terdapat perbedaan antara kondisi lapangan pada saat pelaksanaan dengan spesifikasi teknis yang ditentukan dalam dokumen kontrak, pihak yang dapat melakukan perubahan kontrak adalah…",
+  "options": {
+    "a": "Pokja Pemilihan",
+    "b": "PA/KPA",
+    "c": "Aparat Pengawas Internal Pemerintah (APIP)",
+    "d": "PPK dengan Penyedia"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Perubahan kontrak (addendum) hanya dapat dilakukan oleh **PPK bersama Penyedia** karena keduanya adalah para pihak dalam kontrak. Addendum dilakukan ketika terdapat perbedaan kondisi lapangan dengan spesifikasi teknis/gambar yang ada dalam dokumen kontrak.",
+    "why_others_wrong": {
+      "a": "Pokja Pemilihan tidak lagi terlibat setelah kontrak ditandatangani.",
+      "b": "PA/KPA tidak menjadi pihak dalam kontrak sehingga tidak bisa melakukan addendum.",
+      "c": "APIP hanya melakukan pengawasan/audit, bukan pihak yang menandatangani atau mengubah kontrak."
+    }
+  },
+  "tags": ["kontrak", "addendum", "PPK", "penyedia"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 124,
+  "question": "Dalam hal terjadi negosiasi pada proses tender ketika nilai penawaran peserta kurang dari nilai HPS, maka hal yang TIDAK mungkin disepakati adalah…",
+  "options": {
+    "a": "Penurunan harga lebih lanjut jika dianggap masih tidak wajar",
+    "b": "Perbaikan rincian biaya tanpa mengubah total harga",
+    "c": "Harga penawaran naik melebihi HPS",
+    "d": "Penyesuaian metode atau pendekatan kerja tanpa mengubah harga"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Pada proses tender, **harga penawaran tidak boleh dinegosiasi naik melebihi HPS**. HPS adalah batas tertinggi nilai kewajaran harga. Negosiasi hanya dapat dilakukan untuk klarifikasi, penurunan harga, atau penyesuaian teknis yang tidak mengubah total harga menjadi lebih tinggi dari HPS.",
+    "why_others_wrong": {
+      "a": "Penurunan harga masih dapat dinegosiasi jika penawaran dinilai belum wajar.",
+      "b": "Rincian biaya dapat diperbaiki sepanjang tidak mengubah total harga.",
+      "d": "Beberapa aspek teknis dapat disesuaikan selama tidak mengubah nilai penawaran."
+    }
+  },
+  "tags": ["negosiasi", "tender", "HPS", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 125,
+  "question": "Dalam kegiatan penyuluhan kesehatan yang dilakukan secara swakelola oleh organisasi kemasyarakatan, salah satu ketentuan penyelenggaraannya adalah…",
+  "options": {
+    "a": "Direncanakan oleh K/L/PD penanggung jawab anggaran dan dilaksanakan oleh organisasi kemasyarakatan",
+    "b": "Direncanakan dan dilaksanakan sepenuhnya oleh organisasi kemasyarakatan",
+    "c": "Direncanakan oleh APIP dan dilaksanakan oleh organisasi kemasyarakatan",
+    "d": "Direncanakan oleh penyedia jasa dan dilaksanakan oleh K/L/PD"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Pada Swakelola Tipe IV (oleh organisasi kemasyarakatan), **perencanaan dilakukan oleh K/L/PD penanggung jawab anggaran**, sedangkan **pelaksanaan dilakukan oleh organisasi kemasyarakatan** sebagai pelaksana kegiatan. Ini sesuai ketentuan swakelola dalam Perpres 16/2018 jo. 12/2021.",
+    "why_others_wrong": {
+      "b": "Organisasi kemasyarakatan tidak menyusun perencanaan; perencanaan harus dibuat oleh K/L/PD.",
+      "c": "APIP hanya melakukan pengawasan internal, bukan penyusun rencana atau pelaksana kegiatan.",
+      "d": "Penyedia jasa tidak terlibat dalam swakelola; yang terlibat adalah pelaksana swakelola (ormas) dan K/L/PD."
+    }
+  },
+  "tags": ["swakelola", "Tipe IV", "organisasi kemasyarakatan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 126,
+  "question": "Dalam melaksanakan reviu dokumen persiapan pengadaan, salah satu aspek yang direviu adalah…",
+  "options": {
+    "a": "Berita Acara Serah Terima (BAST)",
+    "b": "Surat Penunjukan Penyedia Barang/Jasa (SPPBJ)",
+    "c": "Dokumen penawaran harga dari penyedia",
+    "d": "Rancangan kontrak"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Rancangan kontrak merupakan salah satu aspek yang wajib direviu dalam reviu dokumen persiapan pengadaan. Pokja Pemilihan harus memastikan rancangan kontrak sesuai ketentuan, memuat ruang lingkup, hak dan kewajiban, serta format-kontrak yang tepat.",
+    "why_others_wrong": {
+      "a": "BAST dibuat pada akhir pelaksanaan pekerjaan, sehingga tidak termasuk dokumen persiapan pengadaan.",
+      "b": "SPPBJ diterbitkan setelah proses pemilihan penyedia, bukan sebelum pemilihan.",
+      "c": "Dokumen penawaran harga disampaikan oleh penyedia setelah pemilihan dimulai, bukan pada tahap persiapan."
+    }
+  },
+  "tags": ["reviu dokumen", "persiapan pengadaan", "rancangan kontrak", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 127,
+  "question": "Pilihan cara pembayaran yang TIDAK tepat untuk pekerjaan pembangunan tembok penahan ombak raksasa adalah…",
+  "options": {
+    "a": "Bulanan sesuai progres fisik",
+    "b": "Harian",
+    "c": "Termin berdasarkan tahapan pekerjaan",
+    "d": "Berdasarkan prestasi pekerjaan yang terukur"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Cara pembayaran **harian** tidak tepat untuk pekerjaan pembangunan tembok penahan ombak raksasa. Pekerjaan konstruksi besar menggunakan **termin**, **prestasi pekerjaan**, atau **pembayaran bulanan** sesuai progres, bukan sistem harian yang hanya cocok untuk pekerjaan padat karya sederhana.",
+    "why_others_wrong": {
+      "a": "Pembayaran bulanan sesuai progres lazim digunakan dalam proyek konstruksi besar.",
+      "c": "Pembayaran termin sangat umum pada pekerjaan konstruksi bernilai besar yang terbagi dalam beberapa fase.",
+      "d": "Pembayaran berdasarkan prestasi pekerjaan adalah cara paling standar pada proyek konstruksi skala besar karena berbasis output."
+    }
+  },
+  "tags": ["kontrak", "cara pembayaran", "konstruksi", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 128,
+  "question": "Dalam pelaksanaan kontrak pengadaan seragam dinas pegawai, pembayaran akhir dilakukan oleh PPK kepada penyedia setelah…",
+  "options": {
+    "a": "Dokumen penawaran harga diperbaiki oleh penyedia",
+    "b": "Surat Penunjukan Penyedia Barang/Jasa diterbitkan",
+    "c": "Berita Acara Serah Terima (BAST) ditandatangani oleh PPK dan penyedia",
+    "d": "HPS disahkan oleh PA/KPA"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Pembayaran akhir pada kontrak pengadaan seragam dinas pegawai dilakukan **setelah Berita Acara Serah Terima (BAST) ditandatangani** oleh PPK dan penyedia. BAST merupakan bukti bahwa barang telah diterima sesuai spesifikasi.",
+    "why_others_wrong": {
+      "a": "Perbaikan dokumen penawaran tidak terkait dengan pembayaran akhir.",
+      "b": "SPPBJ diterbitkan sebelum kontrak ditandatangani dan tidak terkait dengan pembayaran.",
+      "d": "HPS disusun pada tahap persiapan pengadaan dan tidak menjadi syarat pembayaran."
+    }
+  },
+  "tags": ["kontrak", "BAST", "seragam dinas", "pembayaran", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 129,
+  "question": "Dalam melaksanakan tugasnya pada tahap penyusunan perencanaan pengadaan, PPK dapat dibantu oleh…",
+  "options": {
+    "a": "Tim Teknis",
+    "b": "Pokja Pemilihan",
+    "c": "Penyedia barang/jasa",
+    "d": "Aparat Pengawas Internal Pemerintah (APIP)"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "PPK dapat dibantu oleh **Tim Teknis** pada tahap penyusunan perencanaan pengadaan. Tim Teknis memberikan dukungan keahlian terkait spesifikasi teknis, perhitungan kebutuhan, penyusunan KAK, RAB, dan aspek teknis lainnya.",
+    "why_others_wrong": {
+      "b": "Pokja Pemilihan hanya terlibat pada tahap pemilihan penyedia, bukan saat menyusun perencanaan pengadaan.",
+      "c": "Penyedia tidak boleh dilibatkan dalam penyusunan perencanaan pengadaan karena berpotensi menimbulkan konflik kepentingan.",
+      "d": "APIP berfungsi sebagai auditor internal, bukan penyusun perencanaan pengadaan."
+    }
+  },
+  "tags": ["PPK", "tim teknis", "perencanaan pengadaan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+
+{
+  "id": 130,
+  "question": "Pihak yang terlibat dalam Tim Teknis adalah…",
+  "options": {
+    "a": "Penyedia barang/jasa sebagai pemberi saran teknis",
+    "b": "Pokja Pemilihan sebagai evaluator teknis",
+    "c": "Aparat Pengawas Internal Pemerintah (APIP)",
+    "d": "Kementerian/Lembaga terkait"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Tim Teknis dapat melibatkan **Kementerian/Lembaga terkait** yang memiliki kompetensi atau keahlian teknis sesuai kebutuhan pengadaan. Tim Teknis bertugas membantu PPK dalam penyusunan spesifikasi teknis, KAK, RAB, dan kajian teknis lainnya.",
+    "why_others_wrong": {
+      "a": "Penyedia tidak boleh dilibatkan dalam Tim Teknis karena berpotensi menimbulkan konflik kepentingan.",
+      "b": "Pokja Pemilihan bertugas dalam tahap pemilihan penyedia, bukan sebagai Tim Teknis.",
+      "c": "APIP berperan dalam pengawasan internal, bukan bagian dari pelaksanaan teknis pengadaan."
+    }
+  },
+  "tags": ["tim teknis", "PPK", "perencanaan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+
+{
+  "id": 131",
+  "question": "Dalam melakukan pemaketan, hal berikut yang TIDAK perlu dipertimbangkan adalah…",
+  "options": {
+    "a": "Besaran uang muka",
+    "b": "Kesamaan jenis pekerjaan",
+    "c": "Lokasi pekerjaan",
+    "d": "Waktu pelaksanaan pekerjaan"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Besaran uang muka **bukan** faktor yang dipertimbangkan dalam pemaketan. Uang muka merupakan ketentuan dalam kontrak, bukan dasar penyusunan paket pengadaan. Pemaketan fokus pada jenis pekerjaan, lokasi, waktu, dan efisiensi pelaksanaan.",
+    "why_others_wrong": {
+      "b": "Kesamaan jenis pekerjaan merupakan faktor utama dalam pemaketan.",
+      "c": "Lokasi pekerjaan penting untuk efisiensi dan pengelompokan yang tepat.",
+      "d": "Waktu pelaksanaan diperlukan untuk memastikan kegiatan dapat dipaketkan secara logis."
+    }
+  },
+  "tags": ["pemaketan", "perencanaan pengadaan", "PPK"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 132,
+  "question": "Dalam menentukan jenis kontrak, hal berikut yang TIDAK perlu dipertimbangkan adalah…",
+  "options": {
+    "a": "Karakteristik pekerjaan",
+    "b": "Kemampuan penyedia memenuhi spesifikasi",
+    "c": "Jenis jaminan pelaksanaan dan garansi barang",
+    "d": "Risiko perubahan volume pekerjaan"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Jenis jaminan pelaksanaan dan garansi barang **tidak perlu dipertimbangkan** dalam menentukan jenis kontrak. Penetapan jenis kontrak (lumsum, harga satuan, gabungan, waktu penugasan, dan sebagainya) ditentukan berdasarkan karakteristik pekerjaan, risiko perubahan, dan ruang lingkup output, bukan oleh jenis jaminan atau garansi.",
+    "why_others_wrong": {
+      "a": "Karakteristik pekerjaan merupakan faktor utama untuk menentukan apakah kontrak lumsum, harga satuan, atau gabungan.",
+      "b": "Kemampuan penyedia memenuhi spesifikasi terkait langsung dengan pemilihan jenis kontrak dan pengaturan output.",
+      "d": "Risiko perubahan volume pekerjaan mempengaruhi pemilihan kontrak harga satuan atau gabungan."
+    }
+  },
+  "tags": ["jenis kontrak", "PPK", "pengadaan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 133,
+  "question": "Dalam menyusun spesifikasi pada pengadaan AC portable, disyaratkan bahwa kinerja AC harus mampu mencapai 16°C dalam waktu 5 menit. Persyaratan tersebut termasuk dalam aspek…",
+  "options": {
+    "a": "Spesifikasi komposisi",
+    "b": "Spesifikasi mutu",
+    "c": "Spesifikasi standarisasi",
+    "d": "Spesifikasi merek"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Persyaratan seperti *mampu mencapai 16°C dalam 5 menit* merupakan **spesifikasi mutu**, karena mendeskripsikan **kinerja atau performa** barang. Spesifikasi mutu berfokus pada kemampuan, kualitas, dan hasil yang harus dicapai oleh barang tersebut.",
+    "why_others_wrong": {
+      "a": "Spesifikasi komposisi menjelaskan bahan atau kandungan suatu produk, bukan kinerjanya.",
+      "c": "Spesifikasi standarisasi mengacu pada standar tertentu (misal SNI), bukan kemampuan teknis spesifik seperti waktu pendinginan.",
+      "d": "Spesifikasi merek tidak diperbolehkan kecuali kondisi tertentu; dan tidak relevan dengan kinerja."
+    }
+  },
+  "tags": ["spesifikasi mutu", "pengadaan AC", "PBJ", "kinerja"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 134,
+  "question": "Dalam menyusun spesifikasi pada pengadaan pembangunan jembatan, dipersyaratkan bahwa masa pemeliharaan selama 1 tahun. Persyaratan tersebut termasuk dalam aspek spesifikasi…",
+  "options": {
+    "a": "Spesifikasi teknis",
+    "b": "Spesifikasi mutu",
+    "c": "Spesifikasi komposisi",
+    "d": "Spesifikasi layanan"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Persyaratan masa pemeliharaan selama 1 tahun termasuk dalam **spesifikasi layanan**, karena berhubungan dengan kewajiban penyedia setelah pekerjaan selesai, termasuk garansi, pemeliharaan, dan layanan purna jual.",
+    "why_others_wrong": {
+      "a": "Spesifikasi teknis berisi uraian teknis pekerjaan seperti material, metode, ukuran, dan struktur konstruksi.",
+      "b": "Spesifikasi mutu fokus pada performa atau kualitas hasil pekerjaan, bukan layanan pemeliharaan.",
+      "c": "Spesifikasi komposisi menyangkut kandungan atau bahan yang digunakan, bukan masa pemeliharaan."
+    }
+  },
+  "tags": ["spesifikasi", "layanan", "pembangunan jembatan", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 135,
+  "question": "Dalam menyusun spesifikasi pada pengadaan regulator untuk gas LPG, PPK mensyaratkan bahwa produk harus memenuhi Standar Nasional Indonesia (SNI). Persyaratan tersebut termasuk dalam aspek…",
+  "options": {
+    "a": "Spesifikasi mutu",
+    "b": "Spesifikasi komposisi",
+    "c": "Spesifikasi layanan",
+    "d": "Spesifikasi teknis"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Persyaratan bahwa regulator gas LPG harus memenuhi **Standar Nasional Indonesia (SNI)** termasuk dalam **spesifikasi mutu**, karena standar SNI adalah penanda mutu dan kualitas minimum yang harus dipenuhi oleh produk.",
+    "why_others_wrong": {
+      "b": "Spesifikasi komposisi berkaitan dengan kandungan bahan atau material, bukan standar mutu produk.",
+      "c": "Spesifikasi layanan mencakup layanan purna jual, garansi, atau pemeliharaan, bukan standar kualitas produk.",
+      "d": "Spesifikasi teknis berisi rincian teknis seperti ukuran, material, tekanan kerja, bukan penetapan standar mutu seperti SNI."
+    }
+  },
+  "tags": ["spesifikasi mutu", "SNI", "pengadaan LPG", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 136,
+  "question": "Dalam menyusun spesifikasi pembangunan jalan kabupaten, PPK mempersyaratkan masa pelaksanaan pekerjaan selama 10 bulan. Persyaratan tersebut termasuk dalam aspek spesifikasi…",
+  "options": {
+    "a": "Spesifikasi teknis",
+    "b": "Spesifikasi mutu",
+    "c": "Spesifikasi waktu",
+    "d": "Spesifikasi layanan"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Persyaratan masa pelaksanaan pekerjaan selama 10 bulan termasuk dalam **spesifikasi waktu**, karena mengatur durasi pelaksanaan pekerjaan yang harus dipenuhi penyedia.",
+    "why_others_wrong": {
+      "a": "Spesifikasi teknis menjelaskan detail teknis pekerjaan seperti material, metode, dan standar konstruksi.",
+      "b": "Spesifikasi mutu berkaitan dengan kualitas atau performa hasil pekerjaan, bukan lamanya waktu pelaksanaan.",
+      "d": "Spesifikasi layanan berhubungan dengan pemeliharaan, garansi, atau layanan purna jual, bukan durasi pekerjaan."
+    }
+  },
+  "tags": ["spesifikasi waktu", "pembangunan jalan", "PPK", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 137,
+  "question": "Dalam menyusun spesifikasi pembangunan jalan kabupaten, PPK mempersyaratkan masa pemeliharaan selama 6 bulan. Persyaratan tersebut termasuk dalam aspek spesifikasi…",
+  "options": {
+    "a": "Spesifikasi teknis",
+    "b": "Spesifikasi mutu",
+    "c": "Spesifikasi waktu",
+    "d": "Spesifikasi layanan"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Masa pemeliharaan selama 6 bulan merupakan bagian dari **spesifikasi layanan**, karena berhubungan dengan kewajiban penyedia setelah pekerjaan selesai, termasuk garansi dan pemeliharaan untuk memastikan kualitas hasil pekerjaan.",
+    "why_others_wrong": {
+      "a": "Spesifikasi teknis berisi detail teknis pekerjaan (material, metode, struktur), bukan masa pemeliharaan.",
+      "b": "Spesifikasi mutu menjelaskan kualitas atau performa hasil pekerjaan, bukan masa pemeliharaan.",
+      "c": "Spesifikasi waktu berkaitan dengan durasi pelaksanaan pekerjaan, bukan masa pemeliharaan setelah pekerjaan selesai."
+    }
+  },
+  "tags": ["spesifikasi layanan", "pemeliharaan", "PPK", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 138,
+  "question": "Dalam menyusun spesifikasi pengadaan jasa pengelolaan gedung, dibutuhkan 96 unit alat pengharum ruangan otomatis. Hal tersebut termasuk dalam aspek spesifikasi…",
+  "options": {
+    "a": "Spesifikasi jumlah",
+    "b": "Spesifikasi mutu",
+    "c": "Spesifikasi layanan",
+    "d": "Spesifikasi teknis"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Jumlah kebutuhan, seperti 96 unit alat pengharum ruangan otomatis, merupakan bagian dari **spesifikasi jumlah**, yaitu aspek yang menunjukkan kuantitas barang atau peralatan yang harus disediakan penyedia.",
+    "why_others_wrong": {
+      "b": "Spesifikasi mutu berkaitan dengan kualitas atau performa alat, bukan jumlahnya.",
+      "c": "Spesifikasi layanan mencakup pemeliharaan, garansi, atau dukungan layanan, bukan jumlah unit.",
+      "d": "Spesifikasi teknis menjelaskan karakteristik teknis alat, bukan kuantitas."
+    }
+  },
+  "tags": ["spesifikasi jumlah", "pengelolaan gedung", "PPK", "PBJ"],
+  "difficulty": "easy"
 }
