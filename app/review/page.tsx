@@ -1,16 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-
-type Question = {
-  id: number;
-  soal: string;
-  pilihan: Record<string, string>;
-  jawaban_benar: string;
-  penjelasan: string;
-};
+import { normalizeQuestion, NormalizedQuestion } from "../../lib/utils";
 
 export default function ReviewPage() {
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] = useState<NormalizedQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "correct" | "wrong" | "unanswered">("all");
@@ -20,7 +13,8 @@ export default function ReviewPage() {
       try {
         // Load questions
         const res = await fetch("/api/questions");
-        const allQuestions = await res.json();
+        const rawQuestions = await res.json();
+        const allQuestions = (rawQuestions || []).map((q: any) => normalizeQuestion(q));
         
         // Load answers from sessionStorage
         const savedAnswers = sessionStorage.getItem("pbjp_quiz_answers");
@@ -32,7 +26,7 @@ export default function ReviewPage() {
         const savedQuestions = sessionStorage.getItem("pbjp_quiz_questions");
         if (savedQuestions) {
           const questionIds = JSON.parse(savedQuestions);
-          const quizQuestions = allQuestions.filter((q: Question) => 
+          const quizQuestions = allQuestions.filter((q: any) =>
             questionIds.includes(q.id)
           );
           setQuestions(quizQuestions);
@@ -75,14 +69,14 @@ export default function ReviewPage() {
 
   const filteredQuestions = questions.filter((q, idx) => {
     const userAnswer = answers[idx];
-    if (filter === "correct") return userAnswer === q.jawaban_benar;
-    if (filter === "wrong") return userAnswer && userAnswer !== q.jawaban_benar;
+    if (filter === "correct") return userAnswer === q.answer;
+    if (filter === "wrong") return userAnswer && userAnswer !== q.answer;
     if (filter === "unanswered") return !userAnswer;
     return true;
   });
 
-  const correctCount = questions.filter((q, idx) => answers[idx] === q.jawaban_benar).length;
-  const wrongCount = questions.filter((q, idx) => answers[idx] && answers[idx] !== q.jawaban_benar).length;
+  const correctCount = questions.filter((q, idx) => answers[idx] === q.answer).length;
+  const wrongCount = questions.filter((q, idx) => answers[idx] && answers[idx] !== q.answer).length;
   const unansweredCount = questions.filter((_, idx) => !answers[idx]).length;
 
   return (
@@ -182,7 +176,7 @@ export default function ReviewPage() {
           {filteredQuestions.map((q, originalIdx) => {
             const idx = questions.indexOf(q);
             const userAnswer = answers[idx];
-            const isCorrect = userAnswer === q.jawaban_benar;
+            const isCorrect = userAnswer === q.answer;
             const isAnswered = !!userAnswer;
 
             return (
@@ -212,7 +206,7 @@ export default function ReviewPage() {
                     </div>
                     <div className="flex-1">
                       <p className="text-base text-zinc-900 dark:text-zinc-100">
-                        {q.soal}
+                        {q.question}
                       </p>
                     </div>
                   </div>
@@ -229,9 +223,9 @@ export default function ReviewPage() {
 
                 {/* Options */}
                 <div className="mb-4 space-y-2">
-                  {Object.entries(q.pilihan).map(([key, value]) => {
+                  {Object.entries(q.options || {}).map(([key, value]) => {
                     const isUserChoice = userAnswer === key;
-                    const isCorrectAnswer = q.jawaban_benar === key;
+                    const isCorrectAnswer = q.answer === key;
 
                     let bgClass = "bg-white dark:bg-zinc-900";
                     let borderClass = "border-zinc-300 dark:border-zinc-700";
@@ -290,7 +284,7 @@ export default function ReviewPage() {
                   >
                     💡 Penjelasan:
                   </p>
-                  <p
+                    <p
                     className={`text-sm ${
                       !isAnswered
                         ? "text-amber-800 dark:text-amber-200"
@@ -299,7 +293,7 @@ export default function ReviewPage() {
                         : "text-red-800 dark:text-red-200"
                     }`}
                   >
-                    {q.penjelasan}
+                    {q.explanation?.correct}
                   </p>
                 </div>
               </div>

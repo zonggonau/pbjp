@@ -1,273 +1,266 @@
 'use client'
 
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 
-type Question = {
+interface Question {
   id: number
-  soal: string
-  pilihan: Record<string, string>
-  jawaban_benar: string
-  penjelasan?: string
-}
-
-type Attempt = {
-  id: string
-  name: string
-  date: string
-  score: number
-  total: number
-  pass: boolean
-  durationSeconds: number
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
+  question: string
+  options: { [key: string]: string }
+  answer: string
+  explanation: {
+    correct: string
+    why_others_wrong?: { [key: string]: string }
   }
-  return a
+  tags: string[]
+  difficulty: string
 }
-
-const TOTAL_QUESTIONS = 100
-const DURATION_SECONDS = 2 * 60 * 60
 
 export default function QuizPage() {
+  const [mounted, setMounted] = useState(false)
   const [name, setName] = useState('')
-  const [questions, setQuestions] = useState<Question[] | null>(null)
-  const [current, setCurrent] = useState(0)
-  const [answers, setAnswers] = useState<Record<number, string>>({})
-  const [remaining, setRemaining] = useState(DURATION_SECONDS)
-  const [loading, setLoading] = useState(true)
-  const [showExplanation, setShowExplanation] = useState(false)
-  const timerRef = useRef<NodeJS.Timeout | null>(null)
+  const [currentQuestion, setCurrentQuestion] = useState(0)
+  const [answers, setAnswers] = useState<{ [key: number]: string }>({})
+  const [timeLeft, setTimeLeft] = useState(7200)
+  const [quizStarted, setQuizStarted] = useState(false)
+  const [questions, setQuestions] = useState<Question[]>([])
 
   useEffect(() => {
-    try {
-      const n = localStorage.getItem('pbjp_nama') || ''
-      setName(n)
-      if (!n) {
-        window.location.href = '/'
-        return
-      }
-    } catch {}
+    setMounted(true)
+    const savedName = localStorage.getItem('pbjp_nama')
+    if (savedName) {
+      setName(savedName)
+    } else {
+      window.location.href = '/'
+    }
 
-    ;(async () => {
-      try {
-        const res = await fetch('/api/questions', { cache: 'no-store' })
-        const all: Question[] = await res.json()
-        const picked = shuffle(all).slice(0, Math.min(TOTAL_QUESTIONS, all.length))
-        setQuestions(picked)
-        setLoading(false)
-        try {
-          const saved = sessionStorage.getItem('pbjp_timer_remaining')
-          if (saved) setRemaining(parseInt(saved, 10))
-        } catch {}
-      } catch {
-        setLoading(false)
-      }
-    })()
+    // Load questions from API
+    fetch('/api/questions')
+      .then(response => response.json())
+      .then(data => {
+        if (Array.isArray(data)) {
+          setQuestions(data.slice(0, 100)) // Ambil 100 soal pertama
+        } else if (data.error) {
+          console.error('API Error:', data.error)
+          setQuestions([])
+        } else {
+          // Handle single object case
+          setQuestions([data])
+        }
+      })
+      .catch(error => {
+        console.error('Error loading questions:', error)
+        // Fallback to empty array
+        setQuestions([])
+      })
   }, [])
 
   useEffect(() => {
-    if (loading) return
-    if (timerRef.current) clearInterval(timerRef.current as any)
-    timerRef.current = setInterval(() => {
-      setRemaining((s) => {
-        const next = s - 1
-        try {
-          sessionStorage.setItem('pbjp_timer_remaining', String(Math.max(next, 0)))
-        } catch {}
-        if (next <= 0) {
-          clearInterval(timerRef.current as any)
-          submit()
+    if (!mounted || !quizStarted || timeLeft <= 0) return
+
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          handleSubmitQuiz()
           return 0
         }
-        return next
+        return prev - 1
       })
     }, 1000)
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current as any)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loading])
 
-  // Close explanation modal when switching questions
+    return () => clearInterval(timer)
+  }, [mounted, quizStarted, timeLeft])
+
   useEffect(() => {
-    setShowExplanation(false)
-  }, [current])
+    if (mounted) {
+      const timer = setTimeout(() => {
+        setQuizStarted(true)
+      }, 1000)
+      return () => clearTimeout(timer)
+    }
+  }, [mounted])
 
-  const total = questions?.length || 0
-
-  const formattedTime = useMemo(() => {
-    const h = Math.floor(remaining / 3600)
-    const m = Math.floor((remaining % 3600) / 60)
-    const s = remaining % 60
-    const pad = (n: number) => n.toString().padStart(2, '0')
-    return `${pad(h)}:${pad(m)}:${pad(s)}`
-  }, [remaining])
-
-  function setAnswer(idx: number, choice: string) {
-    setAnswers((prev) => ({ ...prev, [idx]: choice }))
+  const formatTime = (seconds: number) => {
+    const hours = Math.floor(seconds / 3600)
+    const minutes = Math.floor((seconds % 3600) / 60)
+    const secs = seconds % 60
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
   }
 
-  function submit() {
-    if (!questions || total === 0) return
-    let score = 0
-    for (let i = 0; i < total; i++) {
-      const ans = answers[i]
-      if (ans && ans === questions[i].jawaban_benar) score += 1
-    }
-    const pass = score >= 80
-    const durationSeconds = DURATION_SECONDS - remaining
-    const attempt: Attempt = {
-      id: String(Date.now()),
+  const handleAnswerSelect = (questionIndex: number, answer: string) => {
+    setAnswers((prev) => ({
+      ...prev,
+      [questionIndex]: answer
+    }))
+  }
+
+  const handleSubmitQuiz = () => {
+    const score = Object.entries(answers).reduce((acc, [index, answer]) => {
+      const questionIndex = parseInt(index)
+      if (questions[questionIndex] && questions[questionIndex].answer === answer) {
+        return acc + 1
+      }
+      return acc
+    }, 0)
+
+    const passed = score >= 80
+    const timeTaken = 7200 - timeLeft
+
+    const result = {
+      id: Date.now().toString(),
       name: name || 'Peserta',
       date: new Date().toISOString(),
-      score,
-      total,
-      pass,
-      durationSeconds,
+      score: score,
+      total: questions.length,
+      passed: passed,
+      durationSeconds: timeTaken
     }
+
     try {
-      const raw = localStorage.getItem('pbjp_history')
-      const arr: Attempt[] = raw ? JSON.parse(raw) : []
-      arr.unshift(attempt)
-      localStorage.setItem('pbjp_history', JSON.stringify(arr.slice(0, 100)))
-      sessionStorage.setItem('pbjp_last_result', JSON.stringify(attempt))
-      // Save answers and questions for review
+      const history = JSON.parse(localStorage.getItem('pbjp_history') || '[]')
+      history.unshift(result)
+      localStorage.setItem('pbjp_history', JSON.stringify(history.slice(0, 100)))
+      
+      sessionStorage.setItem('pbjp_last_result', JSON.stringify(result))
       sessionStorage.setItem('pbjp_quiz_answers', JSON.stringify(answers))
       sessionStorage.setItem('pbjp_quiz_questions', JSON.stringify(questions.map(q => q.id)))
-      sessionStorage.removeItem('pbjp_timer_remaining')
-    } catch {}
+    } catch (error) {
+      console.error('Error saving results:', error)
+    }
+
     window.location.href = '/result'
   }
 
-  if (loading) {
+  if (!mounted) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-        <div className="rounded-md bg-white p-6 text-zinc-800 shadow dark:bg-zinc-900 dark:text-zinc-100">Memuat soal...</div>
+      <div className="flex min-h-screen items-center justify-center bg-gray-50 dark:bg-black">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
+          <p className="mt-2 text-gray-600 dark:text-gray-400">Loading...</p>
+        </div>
       </div>
     )
   }
 
-  if (!questions || total === 0) {
+  if (questions.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-        <div className="rounded-md bg-white p-6 text-zinc-800 shadow dark:bg-zinc-900 dark:text-zinc-100">Soal tidak tersedia.</div>
+      <div className="flex min-h-screen items-center justify-center bg-gray-50 dark:bg-black">
+        <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
+          <p className="text-gray-800 dark:text-gray-200">Soal tidak tersedia</p>
+        </div>
       </div>
     )
   }
 
-  const q = questions[current]
-  const currentAnswer = answers[current]
+  const currentQ = questions[currentQuestion]
+  const totalQuestions = questions.length
 
   return (
-    <div className="flex min-h-screen justify-center bg-zinc-50 p-4 font-sans dark:bg-black">
-      <main className="flex w-full max-w-5xl flex-col gap-4 rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
-        <header className="flex items-center justify-between border-b border-zinc-200 pb-4 dark:border-zinc-800">
-          <div className="text-sm text-zinc-700 dark:text-zinc-300">Peserta: <span className="font-medium">{name}</span></div>
-          <div className="flex items-center gap-3">
-            <div className="rounded-md bg-zinc-100 px-3 py-1 text-sm font-semibold text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100">{formattedTime}</div>
-            <button
-              className="h-10 rounded-md bg-red-600 px-4 text-white hover:bg-red-700 active:bg-red-800"
-              onClick={submit}
-            >
-              Akhiri Ujian
-            </button>
+    <div className="min-h-screen bg-gray-50 dark:bg-black p-4">
+      <div className="max-w-5xl mx-auto">
+        <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6">
+          {/* Header */}
+          <div className="flex justify-between items-center mb-6 pb-4 border-b dark:border-gray-700">
+            <div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Peserta:</p>
+              <p className="font-semibold text-gray-900 dark:text-gray-100">{name}</p>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="bg-gray-100 dark:bg-gray-800 px-3 py-2 rounded-lg">
+                <p className="font-mono font-semibold text-gray-900 dark:text-gray-100">{formatTime(timeLeft)}</p>
+              </div>
+              <button
+                onClick={handleSubmitQuiz}
+                className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+              >
+                Akhiri Ujian
+              </button>
+            </div>
           </div>
-        </header>
 
-        {/* Question Navigator Grid */}
-        <div className="rounded-md border border-zinc-200 p-4 dark:border-zinc-800">
-          <div className="mb-2 text-xs text-zinc-600 dark:text-zinc-400">Navigasi Soal</div>
-          <div className="grid grid-cols-10 gap-2 sm:grid-cols-20">
-            {Array.from({ length: total }, (_, i) => {
-              const isAnswered = answers[i] !== undefined
-              const isActive = i === current
-              let bgClass = 'bg-zinc-200 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-200' // gray: not answered
-              if (isActive) bgClass = 'bg-blue-600 text-white' // blue: active
-              else if (isAnswered) bgClass = 'bg-green-600 text-white' // green: answered
-              
-              return (
-                <button
-                  key={i}
-                  onClick={() => setCurrent(i)}
-                  className={`h-8 w-8 rounded-md text-xs font-medium transition-colors hover:opacity-80 ${bgClass}`}
+          {/* Question Navigation */}
+          <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Navigasi Soal:</p>
+            <div className="flex flex-wrap gap-2">
+              {questions.map((_, index) => {
+                const isAnswered = answers[index] !== undefined
+                const isCurrent = index === currentQuestion
+                
+                return (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentQuestion(index)}
+                    className={`w-10 h-10 rounded-md font-medium text-sm transition-colors ${
+                      isCurrent
+                        ? 'bg-blue-600 text-white'
+                        : isAnswered
+                        ? 'bg-green-600 text-white'
+                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+
+          {/* Question */}
+          <div className="mb-6">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              Soal {currentQuestion + 1} dari {totalQuestions}
+            </p>
+            
+            <div className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-6">
+              {currentQ.question}
+            </div>
+
+            {/* Options */}
+            <div className="space-y-3">
+              {Object.entries(currentQ.options || {}).map(([key, value]) => (
+                <label
+                  key={key}
+                  className={`flex items-start p-4 rounded-lg border cursor-pointer transition-colors ${
+                    answers[currentQuestion] === key
+                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
+                      : 'border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`}
                 >
-                  {i + 1}
-                </button>
-              )
-            })}
+                  <input
+                    type="radio"
+                    name={`question-${currentQuestion}`}
+                    value={key}
+                    checked={answers[currentQuestion] === key}
+                    onChange={() => handleAnswerSelect(currentQuestion, key)}
+                    className="mt-1 mr-3"
+                  />
+                  <div className="flex-1">
+                    <span className="font-medium text-gray-900 dark:text-gray-100">{key}.</span>
+                    <span className="ml-2 text-gray-700 dark:text-gray-300">{value}</span>
+                  </div>
+                </label>
+              ))}
+            </div>
           </div>
-        </div>
 
-        <div className="flex items-center justify-between">
-          <div className="text-xs text-zinc-600 dark:text-zinc-400">Soal {current + 1} dari {total}</div>
-          {q.penjelasan && (
+          {/* Navigation */}
+          <div className="flex justify-between items-center pt-4 border-t dark:border-gray-700">
             <button
-              onClick={() => setShowExplanation(prev => !prev)}
-              className="flex items-center gap-1 rounded-md bg-blue-100 px-2 py-1 text-xs text-blue-700 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-200 dark:hover:bg-blue-800"
-              title={showExplanation ? "Tutup penjelasan" : "Lihat penjelasan"}
-            >
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span>Help</span>
-            </button>
-          )}
-        </div>
-        <section className="flex flex-col gap-4">
-          <div className="whitespace-pre-wrap text-base text-zinc-900 dark:text-zinc-100">{q.soal}</div>
-          <div className="flex flex-col gap-2">
-            {Object.entries(q.pilihan).map(([k, v]) => (
-              <label key={k} className={`flex cursor-pointer items-start gap-3 rounded-md border p-3 text-zinc-900 dark:text-zinc-100 ${currentAnswer === k ? 'border-zinc-900 dark:border-zinc-200' : 'border-zinc-300 dark:border-zinc-700'}`}>
-                <input
-                  type="radio"
-                  name={`q_${current}`}
-                  value={k}
-                  checked={currentAnswer === k}
-                  onChange={() => setAnswer(current, k)}
-                  className="mt-1"
-                />
-                <div className="text-sm text-zinc-900 dark:text-zinc-100">
-                  <span className="font-medium">{k}.</span> {v}
-                </div>
-              </label>
-            ))}
-          </div>
-        </section>
-        <footer className="mt-2 border-t border-zinc-200 pt-4 dark:border-zinc-800">
-          <div className="flex items-center justify-between">
-            <button
-              className="h-10 rounded-md border border-zinc-300 px-4 text-zinc-800 hover:bg-zinc-100 disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-800"
-              onClick={() => setCurrent((i) => Math.max(0, i - 1))}
-              disabled={current === 0}
+              onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
+              disabled={currentQuestion === 0}
+              className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Sebelumnya
             </button>
             <button
-              className="h-10 rounded-md border border-zinc-300 px-4 text-zinc-800 hover:bg-zinc-100 disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-800"
-              onClick={() => setCurrent((i) => Math.min(total - 1, i + 1))}
-              disabled={current === total - 1}
+              onClick={() => setCurrentQuestion(Math.min(totalQuestions - 1, currentQuestion + 1))}
+              disabled={currentQuestion === totalQuestions - 1}
+              className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Berikutnya
             </button>
           </div>
-
-          {/* Inline Explanation */}
-          {showExplanation && q.penjelasan && (
-            <div className="mt-4 rounded-md border border-blue-200 bg-blue-50 p-4 dark:border-blue-800 dark:bg-blue-950">
-              <h4 className="mb-2 text-sm font-semibold text-blue-900 dark:text-blue-200">
-                💡 Penjelasan Soal {current + 1}
-              </h4>
-              <div className="whitespace-pre-wrap text-sm text-blue-800 dark:text-blue-200">
-                {q.penjelasan}
-              </div>
-            </div>
-          )}
-        </footer>
-      </main>
+        </div>
+      </div>
     </div>
   )
 }

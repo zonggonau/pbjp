@@ -1,6 +1,10 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { Input } from '@/components/ui/input'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { useSearch } from '@/hooks/use-search'
+import { formatDuration } from '@/lib/utils'
 
 type Attempt = {
   id: string
@@ -10,14 +14,6 @@ type Attempt = {
   total: number
   pass: boolean
   durationSeconds: number
-}
-
-function formatDuration(s: number) {
-  const h = Math.floor(s / 3600)
-  const m = Math.floor((s % 3600) / 60)
-  const sec = s % 60
-  const pad = (n: number) => n.toString().padStart(2, '0')
-  return `${pad(h)}:${pad(m)}:${pad(sec)}`
 }
 
 export default function HistoryPage() {
@@ -30,6 +26,12 @@ export default function HistoryPage() {
       setItems(arr)
     } catch {}
   }, [])
+
+  const { query, setQuery, filteredItems, isSearching } = useSearch(
+    items,
+    ['name', 'date'],
+    { threshold: 0.3, caseSensitive: false }
+  )
 
   // Calculate statistics
   const totalAttempts = items.length
@@ -118,11 +120,33 @@ export default function HistoryPage() {
           </div>
         )}
 
+        {/* Search Bar */}
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle className="text-lg">🔍 Pencarian Riwayat</CardTitle>
+            <CardDescription>
+              Cari berdasarkan nama atau tanggal
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Input
+              placeholder="Cari riwayat tryout..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              className="w-full"
+            />
+          </CardContent>
+        </Card>
+
         {/* Table */}
         <main className="rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
-          <h2 className="mb-4 text-lg font-semibold text-zinc-900 dark:text-zinc-100">📋 Detail Riwayat</h2>
-        {items.length === 0 ? (
-          <div className="text-zinc-700 dark:text-zinc-300">Belum ada riwayat.</div>
+          <h2 className="mb-4 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+            📋 Detail Riwayat {isSearching && `(Ditemukan: ${filteredItems.length})`}
+          </h2>
+        {filteredItems.length === 0 ? (
+          <div className="text-zinc-700 dark:text-zinc-300">
+            {isSearching ? 'Tidak ada hasil yang ditemukan.' : 'Belum ada riwayat.'}
+          </div>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">
@@ -136,7 +160,7 @@ export default function HistoryPage() {
                 </tr>
               </thead>
               <tbody>
-                {items.map((it) => (
+                {filteredItems.map((it) => (
                   <tr key={it.id} className="border-b border-zinc-100 dark:border-zinc-800">
                     <td className="py-2 text-zinc-800 dark:text-zinc-100">{new Date(it.date).toLocaleString()}</td>
                     <td className="py-2 text-zinc-800 dark:text-zinc-100">{it.name}</td>
