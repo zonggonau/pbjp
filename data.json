@@ -4058,3 +4058,289 @@
   "tags": ["PPK", "pemeriksaan hasil pekerjaan", "kualitas", "PBJ"],
   "difficulty": "easy"
 }
+,
+{
+  "id": 159,
+  "question": "Dalam penanganan kondisi darurat dengan pembuatan jembatan sementara, penyedia dibayarkan berdasarkan biaya aktual yang dikeluarkan dan diberikan tambahan 2% dari biaya tersebut. Jenis kontrak yang tepat untuk kondisi tersebut adalah…",
+  "options": {
+    "a": "Kontrak Harga Satuan",
+    "b": "Kontrak Biaya Plus Imbalan",
+    "c": "Kontrak Lumsum",
+    "d": "Kontrak Gabungan"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Dalam kondisi darurat, ketika pekerjaan harus segera dilaksanakan dan biaya aktual belum dapat dipastikan, digunakan **Kontrak Biaya Plus Imbalan (Cost Plus Fee)**. Penyedia diganti biaya aktual dan diberikan imbalan (fee) persentase, dalam kasus ini 2%.",
+    "why_others_wrong": {
+      "a": "Kontrak harga satuan digunakan bila volume pekerjaan dapat diukur, bukan kondisi darurat biaya belum pasti.",
+      "c": "Kontrak lumsum tidak cocok karena nilai pekerjaan belum dapat ditentukan di awal.",
+      "d": "Kontrak gabungan dipakai untuk bagian pekerjaan tertentu yang bisa dipisah-pisah, bukan untuk kondisi darurat yang memerlukan fleksibilitas penuh."
+    }
+  },
+  "tags": ["kontrak", "darurat", "cost plus fee", "PBJ"],
+  "difficulty": "medium"
+}
+,
+{
+  "id": 160,
+  "question": "Dalam pengadaan barang/jasa pemerintah, penerapan manajemen rantai pasok pada level strategi adalah…",
+  "options": {
+    "a": "Mengawasi distribusi barang di lapangan",
+    "b": "Melakukan evaluasi kinerja penyedia setiap bulan",
+    "c": "Melakukan klarifikasi harga dan teknis dengan penyedia",
+    "d": "Menyusun strategi manajemen rantai pasok selaras dengan tujuan organisasi"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Manajemen rantai pasok pada level strategi berfokus pada penyelarasan strategi supply chain dengan tujuan dan arah organisasi. Ini termasuk perencanaan jangka panjang, kebijakan rantai pasok, dan integrasi antar fungsi organisasi.",
+    "why_others_wrong": {
+      "a": "Pengawasan distribusi merupakan aktivitas operasional, bukan strategi.",
+      "b": "Evaluasi bulanan adalah kegiatan taktis atau operasional, bukan strategis.",
+      "c": "Klarifikasi harga dan teknis adalah proses operasional dalam pengadaan, bukan strategi supply chain."
+    }
+  },
+  "tags": ["supply chain", "strategi", "manajemen rantai pasok", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 161,
+  "question": "Dalam pengadaan barang/jasa, pelaku pengadaan diminta untuk menghindari dan mencegah pemborosan dan kebocoran keuangan negara. Hal ini termasuk salah satu ketentuan di dalam…",
+  "options": {
+    "a": "Kebijakan prioritas penggunaan produk dalam negeri",
+    "b": "Etika pengadaan",
+    "c": "Standar Dokumen Pengadaan (SDP)",
+    "d": "Strategi pemaketan"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Kewajiban untuk menghindari pemborosan dan kebocoran keuangan negara merupakan bagian dari **etika pengadaan**. Etika ini mengatur perilaku para pelaku pengadaan agar menjalankan proses PBJ dengan akuntabel, efisien, dan bebas dari konflik kepentingan.",
+    "why_others_wrong": {
+      "a": "Kebijakan penggunaan produk dalam negeri berfokus pada peningkatan TKDN, bukan mencegah pemborosan.",
+      "c": "SDP mengatur format dokumen pengadaan, bukan perilaku etis pelaku pengadaan.",
+      "d": "Strategi pemaketan terkait struktur paket, bukan aspek etika atau penghindaran pemborosan."
+    }
+  },
+  "tags": ["etika pengadaan", "PBJ", "keuangan negara"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 162,
+  "question": "Dalam pengadaan barang/jasa, upaya untuk meningkatkan keikutsertaan industri kreatif merupakan salah satu dari…",
+  "options": {
+    "a": "Ruang lingkup perencanaan pengadaan",
+    "b": "Kebijakan pemanfaatan e-marketplace",
+    "c": "Tujuan pengadaan",
+    "d": "Metode pemilihan penyedia"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Salah satu tujuan pengadaan barang/jasa pemerintah adalah **mendukung perkembangan industri kreatif, UMKM, dan koperasi**, sejalan dengan Perpres 16/2018 yang menekankan pemberdayaan pelaku usaha dalam negeri.",
+    "why_others_wrong": {
+      "a": "Ruang lingkup perencanaan berfokus pada identifikasi kebutuhan, pemaketan, dan penyusunan RUP, bukan pemberdayaan industri kreatif.",
+      "b": "E-marketplace hanya salah satu alat untuk transaksi, bukan tujuan akhir.",
+      "d": "Metode pemilihan penyedia hanyalah prosedur teknis, tidak mengatur pengembangan industri kreatif."
+    }
+  },
+  "tags": ["tujuan pengadaan", "industri kreatif", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 163,
+  "question": "Dalam pengadaan kendaraan operasional, komponen yang TIDAK dapat dinegosiasikan adalah…",
+  "options": {
+    "a": "Biaya pengiriman",
+    "b": "Harga unit kendaraan",
+    "c": "Biaya aksesoris tambahan",
+    "d": "Biaya tidak terduga"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Biaya tidak terduga (contingency cost) merupakan komponen yang tidak boleh dinegosiasikan karena tidak boleh dicantumkan dalam penawaran kontrak. Kontrak PBJ hanya mencantumkan komponen biaya yang terukur dan dapat dipertanggungjawabkan.",
+    "why_others_wrong": {
+      "a": "Biaya pengiriman dapat dinegosiasikan selama sesuai ketentuan kontrak.",
+      "b": "Harga unit kendaraan dapat dinegosiasikan bila masih dalam batas kewajaran.",
+      "c": "Aksesoris tambahan dapat dinegosiasikan sesuai kebutuhan dan ruang lingkup pekerjaan."
+    }
+  },
+  "tags": ["negosiasi", "kendaraan operasional", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 164,
+  "question": "Dalam pengadaan kendaraan operasional roda empat, kinerja penyedia pada aspek kualitas dapat diukur berupa…",
+  "options": {
+    "a": "Kecepatan pengiriman kendaraan",
+    "b": "Kesesuaian kapasitas mesin kendaraan",
+    "c": "Jumlah kendaraan yang disediakan",
+    "d": "Ketepatan waktu pembayaran oleh PPK"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Kesesuaian kapasitas mesin merupakan indikator kualitas kendaraan yang harus sesuai spesifikasi teknis yang ditetapkan PPK.",
+    "why_others_wrong": {
+      "a": "Kecepatan pengiriman merupakan aspek waktu, bukan kualitas.",
+      "c": "Jumlah kendaraan adalah aspek kuantitas.",
+      "d": "Pembayaran adalah kewajiban PPK, bukan kinerja penyedia."
+    }
+  },
+  "tags": ["kinerja penyedia", "kualitas", "kendaraan operasional", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 165,
+  "question": "Dalam pengadaan pekerjaan konstruksi pembangunan stadion olahraga, item yang TIDAK diperlukan dalam penyusunan HPS adalah…",
+  "options": {
+    "a": "Pajak Penghasilan (PPh)",
+    "b": "Biaya upah tenaga kerja",
+    "c": "Biaya peralatan konstruksi",
+    "d": "Biaya material utama"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Pajak Penghasilan (PPh) **tidak dimasukkan dalam HPS** karena PPh merupakan kewajiban penyedia, bukan komponen biaya yang dihitung dalam HPS. HPS hanya memuat biaya langsung dan tidak langsung yang terkait pelaksanaan pekerjaan.",
+    "why_others_wrong": {
+      "b": "Upah tenaga kerja merupakan komponen utama dalam pekerjaan konstruksi dan wajib dimasukkan dalam HPS.",
+      "c": "Biaya peralatan konstruksi wajib dihitung karena memengaruhi biaya pekerjaan secara signifikan.",
+      "d": "Biaya material utama adalah salah satu komponen terbesar dalam penyusunan HPS konstruksi."
+    }
+  },
+  "tags": ["HPS", "konstruksi", "PPH", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 166,
+  "question": "Dalam pengadaan pekerjaan konstruksi yang menggunakan sumber dana APBN, tender internasional dapat dilakukan pada paket dengan nilai paling sedikit sebesar…",
+  "options": {
+    "a": "Rp 500 miliar",
+    "b": "Rp 750 miliar",
+    "c": "Rp 900 miliar",
+    "d": "Rp 1 triliun"
+  },
+  "answer": "d",
+  "explanation": {
+    "correct": "Sesuai ketentuan, tender internasional pada pengadaan yang dibiayai APBN dapat dilakukan untuk paket pekerjaan dengan nilai paling sedikit **Rp 1 triliun** dan/atau memiliki kompleksitas tertentu yang memerlukan partisipasi pelaku usaha internasional.",
+    "why_others_wrong": {
+      "a": "Rp 500 miliar masih berada di bawah batas minimal yang dipersyaratkan.",
+      "b": "Rp 750 miliar bukan batas yang diatur dalam ketentuan tender internasional.",
+      "c": "Rp 900 miliar juga belum mencapai batas minimal Rp 1 triliun."
+    }
+  },
+  "tags": ["tender internasional", "APBN", "konstruksi", "PBJ"],
+  "difficulty": "medium"
+}
+,
+{
+  "id": 167,
+  "question": "Dalam pengadaan pekerjaan konstruksi, hal-hal yang TIDAK perlu dipertimbangkan dalam menentukan jenis kontrak adalah…",
+  "options": {
+    "a": "Risiko perubahan volume pekerjaan",
+    "b": "Karakteristik dan kompleksitas pekerjaan",
+    "c": "Jenis barang dan spesifikasi teknis",
+    "d": "Durasi pelaksanaan pekerjaan"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Jenis barang dan spesifikasi teknis **bukan** faktor utama dalam menentukan jenis kontrak konstruksi. Penetapan jenis kontrak lebih dipengaruhi oleh risiko volume, tingkat ketidakpastian, dan kompleksitas pekerjaan.",
+    "why_others_wrong": {
+      "a": "Risiko perubahan volume pekerjaan sangat menentukan apakah kontrak menggunakan harga satuan atau gabungan.",
+      "b": "Kompleksitas pekerjaan menentukan apakah kontrak harus lumsum atau berbasis harga satuan.",
+      "d": "Durasi pekerjaan berpengaruh pada pemilihan jenis kontrak, terutama antara lumsum atau waktu penugasan."
+    }
+  },
+  "tags": ["jenis kontrak", "konstruksi", "PPK", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 168,
+  "question": "Dalam pengadaan pembangunan stasiun Light Rail Transit (LRT), item yang TIDAK diperlukan dalam penyusunan HPS adalah…",
+  "options": {
+    "a": "Gaji tenaga ahli",
+    "b": "Biaya material konstruksi",
+    "c": "Biaya peralatan kerja",
+    "d": "Biaya tenaga kerja lapangan"
+  },
+  "answer": "a",
+  "explanation": {
+    "correct": "Gaji tenaga ahli **tidak dimasukkan dalam HPS pekerjaan konstruksi** seperti pembangunan stasiun LRT. Gaji tenaga ahli merupakan komponen pada jasa konsultansi, bukan konstruksi. HPS konstruksi hanya mencakup biaya material, tenaga kerja lapangan, peralatan, dan biaya tidak langsung yang relevan.",
+    "why_others_wrong": {
+      "b": "Biaya material adalah komponen utama dalam HPS pekerjaan konstruksi.",
+      "c": "Biaya peralatan sangat diperlukan karena pengerjaan LRT menggunakan peralatan berat.",
+      "d": "Tenaga kerja lapangan (tukang, operator, mandor) wajib diperhitungkan dalam HPS konstruksi."
+    }
+  },
+  "tags": ["HPS", "konstruksi", "LRT", "PBJ"],
+  "difficulty": "easy"
+}
+,
+{
+  "id": 169,
+  "question": "Dalam pengadaan pengembangan aplikasi elektronik layanan kependudukan, tahapan 'make' (membuat) pada siklus rantai pasok dapat ditemukan pada kegiatan…",
+  "options": {
+    "a": "Penyusunan RUP",
+    "b": "Evaluasi penawaran teknis",
+    "c": "Rapat persiapan penandatanganan kontrak",
+    "d": "Pengumuman pemenang tender"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Tahap 'make' dalam siklus rantai pasok (SCM) mengacu pada proses persiapan untuk memproduksi/membangun produk atau layanan. Dalam konteks PBJ TI, tahap ini muncul ketika melakukan **rapat persiapan penandatanganan kontrak**, sebagai awal dari proses pembuatan/pengembangan aplikasi.",
+    "why_others_wrong": {
+      "a": "Penyusunan RUP termasuk tahap perencanaan, bukan tahap 'make'.",
+      "b": "Evaluasi teknis merupakan tahap pemilihan penyedia, bukan produksi.",
+      "c": "Pengumuman pemenang tender berada pada tahap pemilihan penyedia, belum masuk ke aktivitas pembuatan."
+    }
+  },
+  "tags": ["supply chain", "make", "pengembangan aplikasi", "PBJ"],
+  "difficulty": "medium"
+}
+,
+{
+  "id": 170,
+  "question": "Dalam pengadaan pengembangan aplikasi elektronik layanan kependudukan, tahapan 'memastikan' pada siklus rantai pasok dapat ditemukan pada kegiatan…",
+  "options": {
+    "a": "Rapat persiapan penandatanganan kontrak",
+    "b": "Pelaksanaan User Acceptance Testing (UAT)",
+    "c": "Penyusunan Harga Perkiraan Sendiri (HPS)",
+    "d": "Evaluasi administrasi penawaran"
+  },
+  "answer": "b",
+  "explanation": {
+    "correct": "Tahap 'ensure' atau 'memastikan' dalam siklus rantai pasok terjadi ketika dilakukan verifikasi bahwa produk atau layanan yang dibuat sesuai kebutuhan. Dalam PBJ TI, tahap ini dilakukan melalui **User Acceptance Testing (UAT)**, yaitu proses memastikan aplikasi memenuhi spesifikasi, fungsi, dan kualitas yang ditetapkan oleh pengguna.",
+    "why_others_wrong": {
+      "a": "Rapat persiapan kontrak adalah bagian dari tahap 'make' atau persiapan produksi.",
+      "c": "Penyusunan HPS adalah bagian dari tahap perencanaan, bukan tahapan memastikan.",
+      "d": "Evaluasi administrasi berada pada tahap pemilihan penyedia, tidak terkait verifikasi kualitas layanan."
+    }
+  },
+  "tags": ["supply chain", "ensure", "UAT", "pengembangan aplikasi", "PBJ"],
+  "difficulty": "medium"
+}
+,
+{
+  "id": 171,
+  "question": "Dalam pengadaan pupuk oleh Dinas ABCD, barang harus diserahkan kepada kelompok tani yang tersebar. Dalam manajemen rantai pasok, aktivitas ini termasuk ke dalam proses…",
+  "options": {
+    "a": "Plan",
+    "b": "Make",
+    "c": "Deliver",
+    "d": "Return"
+  },
+  "answer": "c",
+  "explanation": {
+    "correct": "Penyerahan barang kepada kelompok tani yang tersebar merupakan aktivitas distribusi barang. Dalam manajemen rantai pasok, distribusi dan pengantaran barang kepada pengguna akhir disebut **Deliver**.",
+    "why_others_wrong": {
+      "a": "Plan adalah tahap perencanaan kebutuhan dan strategi rantai pasok.",
+      "b": "Make adalah tahap produksi atau pembuatan barang/jasa.",
+      "d": "Return adalah proses pengembalian barang bermasalah atau retur."
+    }
+  },
+  "tags": ["supply chain", "deliver", "distribusi", "PBJ"],
+  "difficulty": "easy"
+}
