@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900 sm:p-6">
             <div className="mb-2 text-2xl">📝</div>
-            <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-3xl">220</div>
+            <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-3xl">500</div>
             <div className="text-xs text-zinc-600 dark:text-zinc-400 sm:text-sm">Bank Soal Tersedia</div>
           </div>
           <div className="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900 sm:p-6">
@@ -136,14 +136,14 @@ export default function Home() {
                 Mode Latihan
               </h3>
               <p className="mb-6 text-sm text-zinc-600 dark:text-zinc-400 sm:text-base">
-                Latihan dengan 20 soal random. Lihat penjelasan setiap jawaban dan tingkatkan pemahaman Anda.
+                Latihan dengan 100 soal random. Lihat penjelasan setiap jawaban dan tingkatkan pemahaman Anda.
               </p>
               <div className="mb-6 space-y-2 text-xs sm:text-sm">
                 <div className="flex items-center gap-2 text-zinc-700 dark:text-zinc-300">
                   <svg className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>20 soal random per sesi</span>
+                  <span>100 soal random per sesi</span>
                 </div>
                 <div className="flex items-center gap-2 text-zinc-700 dark:text-zinc-300">
                   <svg className="h-5 w-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -188,7 +188,7 @@ export default function Home() {
                   <svg className="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>100 soal random dari 220 bank soal</span>
+                  <span>100 soal random dari 500 bank soal</span>
                 </div>
                 <div className="flex items-center gap-2 text-zinc-700 dark:text-zinc-300">
                   <svg className="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
