@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate PWA Icons</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2563eb; }
+        button {
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover { opacity: 0.9; }
+        canvas { 
+            border: 2px solid #e5e7eb; 
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .success {
+            background: #10b981;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 10px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ Generate PWA Icons</h1>
+        <p>Klik tombol di bawah untuk generate icon PWA untuk aplikasi PBJP</p>
+        
+        <button onclick="generateIcon(192)">Generate icon-192.png</button>
+        <button onclick="generateIcon(512)">Generate icon-512.png</button>
+        <button onclick="generateIcon(32, 'favicon.ico')">Generate favicon.ico</button>
+        
+        <div id="canvasContainer"></div>
+        <div id="success" class="success">✅ Icon berhasil di-download!</div>
+    </div>
+
+    <script>
+        function generateIcon(size, filename) {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#2563eb');
+            gradient.addColorStop(1, '#7c3aed');
+            
+            // Rounded rectangle background
+            const radius = size / 4;
+            ctx.fillStyle = gradient;
+            ctx.beginPath();
+            ctx.roundRect(0, 0, size, size, radius);
+            ctx.fill();
+
+            // Building icon
+            const scale = size / 512;
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+            
+            // Main building
+            ctx.fillRect(160 * scale, 160 * scale, 192 * scale, 256 * scale);
+            
+            // Roof
+            ctx.beginPath();
+            ctx.moveTo(256 * scale, 128 * scale);
+            ctx.lineTo(160 * scale, 160 * scale);
+            ctx.lineTo(352 * scale, 160 * scale);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Columns
+            ctx.fillStyle = '#2563eb';
+            ctx.fillRect(176 * scale, 192 * scale, 24 * scale, 192 * scale);
+            ctx.fillRect(224 * scale, 192 * scale, 24 * scale, 192 * scale);
+            ctx.fillRect(272 * scale, 192 * scale, 24 * scale, 192 * scale);
+            ctx.fillRect(320 * scale, 192 * scale, 24 * scale, 192 * scale);
+            
+            // Base
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+            ctx.fillRect(144 * scale, 384 * scale, 224 * scale, 32 * scale);
+            
+            // Door
+            ctx.fillStyle = '#7c3aed';
+            ctx.fillRect(232 * scale, 320 * scale, 48 * scale, 64 * scale);
+
+            // Download
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename || `icon-${size}.png`;
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                document.getElementById('success').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('success').style.display = 'none';
+                }, 3000);
+            });
+
+            // Show preview
+            const container = document.getElementById('canvasContainer');
+            container.innerHTML = '';
+            canvas.style.maxWidth = '200px';
+            container.appendChild(canvas);
+        }
+    </script>
+</body>
+</html>
