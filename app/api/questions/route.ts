@@ -98,7 +98,51 @@ export async function GET(request: Request) {
 
     // Apply balanced sampling if requested
     let finalQuestions = filteredQuestions;
-    if (balanced && filteredQuestions.length > limit) {
+
+    const session = parseInt(searchParams.get('session') || '0');
+    const totalSessions = parseInt(searchParams.get('total_sessions') || '0');
+
+    if (session > 0 && totalSessions > 0) {
+      // Session-based slicing (deterministic)
+      const totalQuestions = filteredQuestions.length;
+      let start = 0;
+      let end = 0;
+
+      if (totalSessions === 6) {
+        // Special case for Practice Mode: 100 questions per session for 1-5, remainder for 6
+        const itemsPerSession = 100;
+        start = (session - 1) * itemsPerSession;
+        if (session === 6) {
+          end = totalQuestions; // Last session takes the rest
+        } else {
+          end = start + itemsPerSession;
+        }
+        finalQuestions = filteredQuestions.slice(start, end);
+      } else if (totalSessions === 4) {
+        // Special case for Tryout Mode: 4 sessions, pool of ~146, select random 100
+        const itemsPerPool = Math.ceil(totalQuestions / 4);
+        start = (session - 1) * itemsPerPool;
+        end = start + itemsPerPool;
+
+        // Get the pool for this session
+        const pool = filteredQuestions.slice(start, end);
+
+        // Shuffle the pool
+        for (let i = pool.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [pool[i], pool[j]] = [pool[j], pool[i]];
+        }
+
+        // Take top 100
+        finalQuestions = pool.slice(0, 100);
+      } else {
+        // Default balanced slicing
+        const itemsPerSession = Math.ceil(totalQuestions / totalSessions);
+        start = (session - 1) * itemsPerSession;
+        end = start + itemsPerSession;
+        finalQuestions = filteredQuestions.slice(start, end);
+      }
+    } else if (balanced && filteredQuestions.length > limit) {
       finalQuestions = balancedByTens(filteredQuestions, {
         totalQuestions: limit,
         shuffleWithinGroups: true,

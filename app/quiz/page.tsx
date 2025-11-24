@@ -23,6 +23,7 @@ export default function QuizPage() {
   const [timeLeft, setTimeLeft] = useState(7200)
   const [quizStarted, setQuizStarted] = useState(false)
   const [questions, setQuestions] = useState<Question[]>([])
+  const [selectedSession, setSelectedSession] = useState<number>(1)
 
   useEffect(() => {
     setMounted(true)
@@ -32,29 +33,81 @@ export default function QuizPage() {
     } else {
       window.location.href = '/'
     }
+  }, [])
 
-    // Load questions from API with balanced distribution
-    fetch('/api/questions?balanced=true&limit=100&groups=59')
-      .then(response => response.json())
-      .then(data => {
+  useEffect(() => {
+    if (!mounted) return;
+
+    // Load questions from API with session-based distribution
+    const loadQuestions = async () => {
+      // Check for saved session first
+      const savedSession = sessionStorage.getItem(`quiz_session_${selectedSession}`)
+      if (savedSession) {
+        try {
+          const sessionData = JSON.parse(savedSession)
+          if (sessionData.questions && sessionData.questions.length > 0) {
+            setQuestions(sessionData.questions)
+            setAnswers(sessionData.answers || {})
+            setTimeLeft(sessionData.timeLeft || 7200)
+            setCurrentQuestion(sessionData.currentQuestion || 0)
+            setQuizStarted(sessionData.quizStarted || false)
+
+            // Resume timer if it was started
+            if (sessionData.quizStarted) {
+              // Small delay to ensure UI is ready
+              setTimeout(() => setQuizStarted(true), 100)
+            }
+            return
+          }
+        } catch (e) {
+          console.error("Error parsing saved quiz session:", e)
+        }
+      }
+
+      try {
+        const response = await fetch(`/api/questions?session=${selectedSession}&total_sessions=4`)
+        const data = await response.json()
+
         if (data.questions && Array.isArray(data.questions)) {
-          setQuestions(data.questions) // Use balanced distributed questions
-          console.log('Loaded balanced questions:', data.metadata)
+          setQuestions(data.questions)
         } else if (data.error) {
           console.error('API Error:', data.error)
           setQuestions([])
         } else {
-          // Handle single object case or fallback
           const questionsArray = Array.isArray(data) ? data : [data]
-          setQuestions(questionsArray.slice(0, 100))
+          setQuestions(questionsArray)
         }
-      })
-      .catch(error => {
+
+        // Reset quiz state when session changes (and no saved session found)
+        setCurrentQuestion(0)
+        setAnswers({})
+        setTimeLeft(7200)
+        setQuizStarted(false)
+        setTimeout(() => setQuizStarted(true), 1000)
+
+      } catch (error) {
         console.error('Error loading questions:', error)
-        // Fallback to empty array
         setQuestions([])
-      })
-  }, [])
+      }
+    }
+
+    loadQuestions()
+  }, [mounted, selectedSession])
+
+  // Save session state
+  useEffect(() => {
+    if (questions.length > 0) {
+      const sessionData = {
+        questions,
+        answers,
+        timeLeft,
+        currentQuestion,
+        quizStarted,
+        timestamp: Date.now()
+      }
+      sessionStorage.setItem(`quiz_session_${selectedSession}`, JSON.stringify(sessionData))
+    }
+  }, [questions, answers, timeLeft, currentQuestion, quizStarted, selectedSession])
 
   useEffect(() => {
     if (!mounted || !quizStarted || timeLeft <= 0) return
@@ -74,10 +127,7 @@ export default function QuizPage() {
 
   useEffect(() => {
     if (mounted) {
-      const timer = setTimeout(() => {
-        setQuizStarted(true)
-      }, 1000)
-      return () => clearTimeout(timer)
+      // Initial start logic handled by loadQuestions now
     }
   }, [mounted])
 
@@ -125,6 +175,9 @@ export default function QuizPage() {
       sessionStorage.setItem('pbjp_last_result', JSON.stringify(result))
       sessionStorage.setItem('pbjp_quiz_answers', JSON.stringify(answers))
       sessionStorage.setItem('pbjp_quiz_questions', JSON.stringify(questions.map(q => q.id)))
+
+      // Clear current session progress
+      sessionStorage.removeItem(`quiz_session_${selectedSession}`)
     } catch (error) {
       console.error('Error saving results:', error)
     }
@@ -165,6 +218,33 @@ export default function QuizPage() {
             <div>
               <p className="text-sm text-gray-600">Peserta:</p>
               <p className="font-semibold text-gray-900">{name}</p>
+
+              {/* Session Selector */}
+              <div className="flex flex-wrap gap-2 mt-2">
+                {[1, 2, 3, 4].map((sess) => (
+                  <button
+                    key={sess}
+                    onClick={() => {
+                      if (sess !== selectedSession) {
+                        if (Object.keys(answers).length > 0) {
+                          if (confirm('Ganti sesi akan mereset ujian saat ini. Lanjutkan?')) {
+                            sessionStorage.removeItem(`quiz_session_${selectedSession}`);
+                            setSelectedSession(sess);
+                          }
+                        } else {
+                          setSelectedSession(sess);
+                        }
+                      }
+                    }}
+                    className={`px-2 py-1 text-xs rounded border transition-colors ${selectedSession === sess
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                      }`}
+                  >
+                    Sesi {sess}
+                  </button>
+                ))}
+              </div>
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-gray-100 px-3 py-2 rounded-lg">
@@ -192,10 +272,10 @@ export default function QuizPage() {
                     key={index}
                     onClick={() => setCurrentQuestion(index)}
                     className={`w-10 h-10 rounded-md font-medium text-sm transition-colors ${isCurrent
-                        ? 'bg-blue-600 text-white'
-                        : isAnswered
-                          ? 'bg-green-600 text-white'
-                          : 'bg-gray-200 text-gray-800 hover:bg-gray-300:bg-gray-600'
+                      ? 'bg-blue-600 text-white'
+                      : isAnswered
+                        ? 'bg-green-600 text-white'
+                        : 'bg-gray-200 text-gray-800 hover:bg-gray-300:bg-gray-600'
                       }`}
                   >
                     {index + 1}
@@ -221,8 +301,8 @@ export default function QuizPage() {
                 <label
                   key={key}
                   className={`flex items-start p-4 rounded-lg border cursor-pointer transition-colors ${answers[currentQuestion] === key
-                      ? 'border-blue-500 bg-blue-50'
-                      : 'border-gray-200 hover:bg-gray-50:bg-gray-800'
+                    ? 'border-blue-500 bg-blue-50'
+                    : 'border-gray-200 hover:bg-gray-50:bg-gray-800'
                     }`}
                 >
                   <input

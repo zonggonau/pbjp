@@ -29,45 +29,83 @@ export default function LatihanPage() {
   const [showStats, setShowStats] = useState<boolean>(false);
   const [reviewMode, setReviewMode] = useState<boolean>(false);
   const [difficulty, setDifficulty] = useState<'all' | 'easy' | 'medium' | 'hard'>('all');
+  const [selectedSession, setSelectedSession] = useState<number>(1);
+
+  const loadQuestions = useCallback(async (session: number) => {
+    setLoading(true);
+    try {
+      // Use session-based fetching: 6 sessions total for ~586 questions
+      const response = await fetch(`/api/questions?session=${session}&total_sessions=6`);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const responseData = await response.json();
+
+      // Extract questions array from the response object
+      const data = responseData.questions || responseData;
+
+      if (!Array.isArray(data)) {
+        throw new Error('Invalid data format: expected questions array');
+      }
+
+      // Pastikan mapping ke format baru
+      let mapped = data.map((q: any) => ({
+        id: q.id,
+        question: q.question,
+        options: q.options,
+        answer: q.answer,
+        explanation: q.explanation,
+        tags: q.tags,
+        difficulty: q.difficulty,
+      }));
+
+      // Check for saved session to restore order
+      const savedSession = sessionStorage.getItem(`latihan_session_${session}`);
+      let shouldShuffle = true;
+
+      if (savedSession) {
+        try {
+          const sessionData = JSON.parse(savedSession);
+          // Check if saved questions match the fetched data (by checking if all IDs exist)
+          // We assume the set of IDs is the same since it's deterministic from API
+          if (sessionData.questions && sessionData.questions.length === mapped.length) {
+            // Create a map for quick lookup
+            const questionMap = new Map(mapped.map((q: any) => [q.id, q]));
+
+            // Reconstruct the array based on saved order
+            const reordered = sessionData.questions.map((id: number) => questionMap.get(id)).filter((q: any) => q !== undefined);
+
+            if (reordered.length === mapped.length) {
+              mapped = reordered;
+              shouldShuffle = false;
+            }
+          }
+        } catch (e) {
+          console.error("Error parsing saved session for order:", e);
+        }
+      }
+
+      if (shouldShuffle) {
+        // Fisher-Yates shuffle
+        for (let i = mapped.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [mapped[i], mapped[j]] = [mapped[j], mapped[i]];
+        }
+      }
+
+      setQuestions(mapped);
+      setLoading(false);
+      // State reset is handled by the useEffect that checks for saved session
+    } catch (error) {
+      console.error('Failed to load questions:', error);
+      setLoading(false);
+    }
+  }, []);
 
   useEffect(() => {
-    const loadQuestions = async () => {
-      try {
-        const response = await fetch("/api/questions?balanced=true&limit=100&groups=59");
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const responseData = await response.json();
-
-        // Extract questions array from the response object
-        const data = responseData.questions || responseData;
-
-        if (!Array.isArray(data)) {
-          throw new Error('Invalid data format: expected questions array');
-        }
-
-        // Pastikan mapping ke format baru
-        const mapped = data.map((q: any) => ({
-          id: q.id,
-          question: q.question,
-          options: q.options,
-          answer: q.answer,
-          explanation: q.explanation,
-          tags: q.tags,
-          difficulty: q.difficulty,
-        }));
-        // API sudah mengembalikan 100 soal yang balanced, tidak perlu shuffle manual
-        setQuestions(mapped);
-        setLoading(false);
-      } catch (error) {
-        console.error('Failed to load questions:', error);
-        setLoading(false);
-      }
-    };
-
-    loadQuestions();
-  }, []);
+    loadQuestions(selectedSession);
+  }, [selectedSession, loadQuestions]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -151,29 +189,49 @@ export default function LatihanPage() {
         questions: questions.map(q => q.id),
         timestamp: Date.now(),
         timeSpent,
-        bookmarkedQuestions: Array.from(bookmarkedQuestions)
+        bookmarkedQuestions: Array.from(bookmarkedQuestions),
+        finished,
+        score
       };
-      sessionStorage.setItem('latihan_session', JSON.stringify(sessionData));
+      sessionStorage.setItem(`latihan_session_${selectedSession}`, JSON.stringify(sessionData));
     }
-  }, [userAnswers, current, questions, loading, timeSpent, bookmarkedQuestions]);
+  }, [userAnswers, current, questions, loading, timeSpent, bookmarkedQuestions, finished, score, selectedSession]);
 
   useEffect(() => {
-    // Load from sessionStorage on mount
-    const savedSession = sessionStorage.getItem('latihan_session');
-    if (savedSession && !loading) {
-      try {
-        const sessionData = JSON.parse(savedSession);
-        const isRecent = Date.now() - sessionData.timestamp < 24 * 60 * 60 * 1000; // 24 hours
-
-        if (isRecent && sessionData.questions.length === questions.length) {
-          setUserAnswers(sessionData.userAnswers || {});
-          setCurrent(sessionData.current || 0);
+    // Load from sessionStorage when questions change or session changes
+    if (!loading && questions.length > 0) {
+      const savedSession = sessionStorage.getItem(`latihan_session_${selectedSession}`);
+      if (savedSession) {
+        try {
+          const sessionData = JSON.parse(savedSession);
+          // Verify if the saved session matches current questions (simple check by length or first ID)
+          // Since questions are deterministic per session, this should be safe enough
+          if (sessionData.questions && sessionData.questions.length === questions.length && sessionData.questions[0] === questions[0].id) {
+            setUserAnswers(sessionData.userAnswers || {});
+            setCurrent(sessionData.current || 0);
+            setTimeSpent(sessionData.timeSpent || 0);
+            setBookmarkedQuestions(new Set(sessionData.bookmarkedQuestions || []));
+            setFinished(sessionData.finished || false);
+            setScore(sessionData.score || 0);
+            return;
+          }
+        } catch (error) {
+          console.error('Failed to load session:', error);
         }
-      } catch (error) {
-        console.error('Failed to load session:', error);
       }
+
+      // If no valid session found, reset state
+      setCurrent(0);
+      setAnswer(null);
+      setShowResult(false);
+      setFinished(false);
+      setUserAnswers({});
+      setBookmarkedQuestions(new Set());
+      setStartTime(Date.now());
+      setTimeSpent(0);
+      setScore(0);
     }
-  }, [questions, loading]);
+  }, [questions, loading, selectedSession]);
 
   const handleAnswer = useCallback((choice: string) => {
     setUserAnswers(prev => ({
@@ -215,37 +273,27 @@ export default function LatihanPage() {
       return userAnswer && correctAnswer && userAnswer === correctAnswer;
     });
     setScore(correctAnswers.length);
+    return correctAnswers.length;
   };
 
   const finishLatihan = () => {
-    calculateScore();
+    const finalScore = calculateScore();
     setFinished(true);
+    // State will be saved by useEffect
   };
 
   const retryLatihan = () => {
-    setCurrent(0);
-    setAnswer(null);
-    setShowResult(false);
-    setFinished(false);
-    setUserAnswers({});
-    // Reload questions with new balanced set
-    fetch("/api/questions?balanced=true&limit=100&groups=59")
-      .then((r) => r.json())
-      .then((responseData) => {
-        // Extract questions array from the response object
-        const data = responseData.questions || responseData;
-        const mapped = data.map((q: any) => ({
-          id: q.id,
-          question: q.question,
-          options: q.options,
-          answer: q.answer,
-          explanation: q.explanation,
-          tags: q.tags,
-          difficulty: q.difficulty,
-        }));
-        // API sudah mengembalikan 100 soal yang balanced
-        setQuestions(mapped);
-      });
+    if (confirm('Apakah Anda yakin ingin mengulang latihan ini? Progress akan dihapus.')) {
+      sessionStorage.removeItem(`latihan_session_${selectedSession}`);
+      loadQuestions(selectedSession); // This will trigger fetch, and the useEffect will see no session and reset
+    }
+  };
+
+  const resetSession = () => {
+    if (confirm('Mulai baru akan menghapus semua progress sesi ini. Lanjutkan?')) {
+      sessionStorage.removeItem(`latihan_session_${selectedSession}`);
+      loadQuestions(selectedSession);
+    }
   };
 
   if (loading) {
@@ -301,6 +349,33 @@ export default function LatihanPage() {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6 pb-4 border-b gap-4">
             <div className="w-full sm:w-auto">
               <h1 className="text-lg sm:text-xl font-bold text-gray-900">✏️ Mode Latihan</h1>
+
+              {/* Session Selector */}
+              <div className="flex flex-wrap gap-2 my-2">
+                {[1, 2, 3, 4, 5, 6].map((sess) => (
+                  <button
+                    key={sess}
+                    onClick={() => {
+                      if (sess !== selectedSession) {
+                        if (Object.keys(userAnswers).length > 0 && !finished) {
+                          if (confirm('Ganti sesi akan mereset progress saat ini. Lanjutkan?')) {
+                            setSelectedSession(sess);
+                          }
+                        } else {
+                          setSelectedSession(sess);
+                        }
+                      }
+                    }}
+                    className={`px-2 py-1 text-xs rounded border transition-colors ${selectedSession === sess
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                      }`}
+                  >
+                    Sesi {sess}
+                  </button>
+                ))}
+              </div>
+
               <p className="text-xs sm:text-sm text-gray-600">
                 Soal {current + 1} dari {questions.length} • ⏱️ {Math.floor(timeSpent / 60)}:{(timeSpent % 60).toString().padStart(2, '0')}
               </p>
@@ -326,8 +401,8 @@ export default function LatihanPage() {
                   return newSet;
                 })}
                 className={`rounded px-2 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium transition-colors ${bookmarkedQuestions.has(current)
-                    ? 'bg-yellow-500 hover:bg-yellow-600 text-white'
-                    : 'bg-gray-200 hover:bg-gray-300:bg-gray-600 text-gray-700'
+                  ? 'bg-yellow-500 hover:bg-yellow-600 text-white'
+                  : 'bg-gray-200 hover:bg-gray-300:bg-gray-600 text-gray-700'
                   }`}
                 title="Bookmark soal ini (B)"
               >
@@ -343,13 +418,21 @@ export default function LatihanPage() {
               <button
                 onClick={() => setReviewMode(!reviewMode)}
                 className={`rounded px-2 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium transition-colors ${reviewMode
-                    ? 'bg-orange-600 hover:bg-orange-700 text-white'
-                    : 'bg-gray-600 hover:bg-gray-700 text-white'
+                  ? 'bg-orange-600 hover:bg-orange-700 text-white'
+                  : 'bg-gray-600 hover:bg-gray-700 text-white'
                   }`}
                 title="Toggle review mode (R)"
               >
                 <span className="hidden sm:inline">{reviewMode ? '📝 Review' : '📖 Normal'}</span>
                 <span className="sm:hidden">{reviewMode ? '📝' : '📖'}</span>
+              </button>
+              <button
+                onClick={resetSession}
+                className="rounded px-2 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium transition-colors bg-red-600 hover:bg-red-700 text-white"
+                title="Hapus progress dan mulai baru"
+              >
+                <span className="hidden sm:inline">↺ Baru</span>
+                <span className="sm:hidden">↺</span>
               </button>
               <button
                 onClick={finishLatihan}
@@ -433,8 +516,8 @@ export default function LatihanPage() {
                         <div className="flex items-center gap-2">
                           <span className="text-sm font-medium">{diffCorrect}/{diffAnswered}</span>
                           <span className={`text-xs px-2 py-1 rounded ${diffPercentage >= 80 ? 'bg-green-100 text-green-800' :
-                              diffPercentage >= 60 ? 'bg-yellow-100 text-yellow-800' :
-                                'bg-red-100 text-red-800'
+                            diffPercentage >= 60 ? 'bg-yellow-100 text-yellow-800' :
+                              'bg-red-100 text-red-800'
                             }`}>
                             {diffPercentage}%
                           </span>
@@ -487,12 +570,12 @@ export default function LatihanPage() {
                     key={index}
                     onClick={() => goToQuestion(index)}
                     className={`w-8 h-8 sm:w-10 sm:h-10 rounded-md font-medium text-xs sm:text-sm transition-all transform hover:scale-105 relative ${isCurrent
-                        ? 'bg-blue-600 text-white ring-2 ring-blue-300'
-                        : isAnswered
-                          ? isCorrect
-                            ? 'bg-green-600 text-white hover:bg-green-700'
-                            : 'bg-orange-600 text-white hover:bg-orange-700'
-                          : 'bg-gray-200 text-gray-800 hover:bg-gray-300:bg-gray-600'
+                      ? 'bg-blue-600 text-white ring-2 ring-blue-300'
+                      : isAnswered
+                        ? isCorrect
+                          ? 'bg-green-600 text-white hover:bg-green-700'
+                          : 'bg-orange-600 text-white hover:bg-orange-700'
+                        : 'bg-gray-200 text-gray-800 hover:bg-gray-300:bg-gray-600'
                       }`}
                     title={`${isAnswered ? (isCorrect ? '✓ Benar' : '✗ Salah') : 'Belum dijawab'}${isBookmarked ? ' • 🔖 Bookmarked' : ''}`}
                   >
@@ -540,8 +623,8 @@ export default function LatihanPage() {
                     onClick={() => !showResult && handleAnswer(key)}
                     disabled={showResult}
                     className={`flex w-full items-start p-3 sm:p-4 rounded-lg border cursor-pointer transition-colors text-left ${answer === key && !showResult
-                        ? 'border-blue-500 bg-blue-50'
-                        : bgClass
+                      ? 'border-blue-500 bg-blue-50'
+                      : bgClass
                       } ${textClass} ${!showResult ? "hover:bg-gray-50:bg-gray-800" : "cursor-default"
                       }`}
                   >
@@ -615,7 +698,7 @@ export default function LatihanPage() {
                   onClick={retryLatihan}
                   className="rounded-md bg-blue-600 px-4 py-2 text-sm text-white hover:bg-blue-700:bg-blue-600"
                 >
-                  Latihan Lagi
+                  {isPassing ? 'Ulang Latihan (Reset)' : 'Ulang Latihan'}
                 </button>
                 <a
                   href="/"
