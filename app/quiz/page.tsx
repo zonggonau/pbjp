@@ -164,7 +164,9 @@ export default function QuizPage() {
       score: score,
       total: questions.length,
       passed: passed,
-      durationSeconds: timeTaken
+      durationSeconds: timeTaken,
+      type: 'tryout',
+      session: selectedSession
     }
 
     try {

@@ -14,6 +14,8 @@ type Attempt = {
   total: number
   pass: boolean
   durationSeconds: number
+  type?: 'latihan' | 'tryout'
+  session?: number
 }
 
 export default function HistoryPage() {
@@ -24,19 +26,19 @@ export default function HistoryPage() {
       const raw = localStorage.getItem('pbjp_history')
       const arr: Attempt[] = raw ? JSON.parse(raw) : []
       setItems(arr)
-    } catch {}
+    } catch { }
   }, [])
 
   const { query, setQuery, filteredItems, isSearching } = useSearch(
     items,
-    ['name', 'date'],
+    ['name', 'date', 'type'],
     { threshold: 0.3, caseSensitive: false }
   )
 
   // Calculate statistics
   const totalAttempts = items.length
   const passedAttempts = items.filter(it => it.pass).length
-  const avgScore = items.length > 0 
+  const avgScore = items.length > 0
     ? Math.round(items.reduce((sum, it) => sum + (it.score / it.total * 100), 0) / items.length)
     : 0
   const bestScore = items.length > 0
@@ -50,7 +52,7 @@ export default function HistoryPage() {
         <header className="mb-6 flex items-center justify-between rounded-xl bg-white p-6 shadow">
           <div>
             <h1 className="text-2xl font-bold text-zinc-900">📊 Riwayat & Statistik</h1>
-            <p className="text-sm text-zinc-600">Analisis performa tryout Anda</p>
+            <p className="text-sm text-zinc-600">Analisis performa latihan dan tryout Anda</p>
           </div>
           <a href="/" className="rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50:bg-zinc-700">
             ← Kembali
@@ -63,21 +65,21 @@ export default function HistoryPage() {
             <div className="rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 p-6 shadow">
               <div className="mb-2 text-sm font-medium text-blue-700">Total Percobaan</div>
               <div className="text-4xl font-bold text-blue-900">{totalAttempts}</div>
-              <div className="mt-1 text-xs text-blue-600">Tryout dilakukan</div>
+              <div className="mt-1 text-xs text-blue-600">Latihan & Tryout</div>
             </div>
-            
+
             <div className="rounded-xl bg-gradient-to-br from-green-50 to-green-100 p-6 shadow">
               <div className="mb-2 text-sm font-medium text-green-700">Tingkat Kelulusan</div>
               <div className="text-4xl font-bold text-green-900">{passRate}%</div>
               <div className="mt-1 text-xs text-green-600">{passedAttempts} dari {totalAttempts} lulus</div>
             </div>
-            
+
             <div className="rounded-xl bg-gradient-to-br from-purple-50 to-purple-100 p-6 shadow">
               <div className="mb-2 text-sm font-medium text-purple-700">Rata-rata Skor</div>
               <div className="text-4xl font-bold text-purple-900">{avgScore}%</div>
               <div className="mt-1 text-xs text-purple-600">Performa keseluruhan</div>
             </div>
-            
+
             <div className="rounded-xl bg-gradient-to-br from-amber-50 to-amber-100 p-6 shadow">
               <div className="mb-2 text-sm font-medium text-amber-700">Skor Terbaik</div>
               <div className="text-4xl font-bold text-amber-900">{Math.round(bestScore)}%</div>
@@ -101,9 +103,8 @@ export default function HistoryPage() {
                     <div className="flex-1">
                       <div className="h-8 overflow-hidden rounded-full bg-zinc-200">
                         <div
-                          className={`flex h-full items-center justify-end px-3 text-xs font-semibold text-white transition-all ${
-                            percentage >= 65 ? 'bg-green-600' : 'bg-red-600'
-                          }`}
+                          className={`flex h-full items-center justify-end px-3 text-xs font-semibold text-white transition-all ${percentage >= 80 ? 'bg-green-600' : 'bg-red-600'
+                            }`}
                           style={{ width: `${percentage}%` }}
                         >
                           {percentage >= 20 && `${percentage}%`}
@@ -125,12 +126,12 @@ export default function HistoryPage() {
           <CardHeader>
             <CardTitle className="text-lg">🔍 Pencarian Riwayat</CardTitle>
             <CardDescription>
-              Cari berdasarkan nama atau tanggal
+              Cari berdasarkan nama, tanggal, atau tipe
             </CardDescription>
           </CardHeader>
           <CardContent>
             <Input
-              placeholder="Cari riwayat tryout..."
+              placeholder="Cari riwayat..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="w-full"
@@ -143,36 +144,49 @@ export default function HistoryPage() {
           <h2 className="mb-4 text-lg font-semibold text-zinc-900">
             📋 Detail Riwayat {isSearching && `(Ditemukan: ${filteredItems.length})`}
           </h2>
-        {filteredItems.length === 0 ? (
-          <div className="text-zinc-700">
-            {isSearching ? 'Tidak ada hasil yang ditemukan.' : 'Belum ada riwayat.'}
-          </div>
-        ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm">
-              <thead>
-                <tr className="border-b border-zinc-200 text-zinc-700">
-                  <th className="py-2">Tanggal</th>
-                  <th className="py-2">Nama</th>
-                  <th className="py-2">Skor</th>
-                  <th className="py-2">Status</th>
-                  <th className="py-2">Durasi</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredItems.map((it) => (
-                  <tr key={it.id} className="border-b border-zinc-100">
-                    <td className="py-2 text-zinc-800">{new Date(it.date).toLocaleString()}</td>
-                    <td className="py-2 text-zinc-800">{it.name}</td>
-                    <td className="py-2 text-zinc-800">{it.score} / {it.total}</td>
-                    <td className={`py-2 ${it.pass ? 'text-green-600' : 'text-red-600'}`}>{it.pass ? 'Lulus' : 'Tidak Lulus'}</td>
-                    <td className="py-2 text-zinc-800">{formatDuration(it.durationSeconds)}</td>
+          {filteredItems.length === 0 ? (
+            <div className="text-zinc-700">
+              {isSearching ? 'Tidak ada hasil yang ditemukan.' : 'Belum ada riwayat.'}
+            </div>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-zinc-200 text-zinc-700">
+                    <th className="py-2">Tanggal</th>
+                    <th className="py-2">Tipe</th>
+                    <th className="py-2">Sesi</th>
+                    <th className="py-2">Nama</th>
+                    <th className="py-2">Skor</th>
+                    <th className="py-2">Status</th>
+                    <th className="py-2">Durasi</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
+                </thead>
+                <tbody>
+                  {filteredItems.map((it) => (
+                    <tr key={it.id} className="border-b border-zinc-100">
+                      <td className="py-2 text-zinc-800">{new Date(it.date).toLocaleString()}</td>
+                      <td className="py-2">
+                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${it.type === 'latihan'
+                            ? 'bg-blue-100 text-blue-800'
+                            : it.type === 'tryout'
+                              ? 'bg-purple-100 text-purple-800'
+                              : 'bg-gray-100 text-gray-800'
+                          }`}>
+                          {it.type ? (it.type === 'latihan' ? 'Latihan' : 'Tryout') : 'Tryout'}
+                        </span>
+                      </td>
+                      <td className="py-2 text-zinc-800">{it.session ? `Sesi ${it.session}` : '-'}</td>
+                      <td className="py-2 text-zinc-800">{it.name}</td>
+                      <td className="py-2 text-zinc-800">{it.score} / {it.total}</td>
+                      <td className={`py-2 ${it.pass ? 'text-green-600' : 'text-red-600'}`}>{it.pass ? 'Lulus' : 'Tidak Lulus'}</td>
+                      <td className="py-2 text-zinc-800">{formatDuration(it.durationSeconds)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </main>
       </div>
     </div>

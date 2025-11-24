@@ -279,6 +279,28 @@ export default function LatihanPage() {
   const finishLatihan = () => {
     const finalScore = calculateScore();
     setFinished(true);
+
+    // Save result to history
+    const result = {
+      id: Date.now().toString(),
+      name: `Latihan Sesi ${selectedSession}`,
+      date: new Date().toISOString(),
+      score: finalScore,
+      total: questions.length,
+      pass: (finalScore / questions.length) * 100 >= 80,
+      durationSeconds: timeSpent,
+      type: 'latihan',
+      session: selectedSession
+    };
+
+    try {
+      const history = JSON.parse(localStorage.getItem('pbjp_history') || '[]');
+      history.unshift(result);
+      localStorage.setItem('pbjp_history', JSON.stringify(history.slice(0, 100)));
+    } catch (error) {
+      console.error('Error saving history:', error);
+    }
+
     // State will be saved by useEffect
   };
 
