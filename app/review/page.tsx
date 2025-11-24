@@ -46,8 +46,8 @@ export default function ReviewPage() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-        <div className="rounded-md bg-white p-6 text-zinc-800 shadow dark:bg-zinc-900 dark:text-zinc-100">
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50">
+        <div className="rounded-md bg-white p-6 text-zinc-800 shadow">
           Memuat review...
         </div>
       </div>
@@ -56,8 +56,8 @@ export default function ReviewPage() {
 
   if (questions.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-        <div className="rounded-md bg-white p-6 text-zinc-800 shadow dark:bg-zinc-900 dark:text-zinc-100">
+      <div className="flex min-h-screen items-center justify-center bg-zinc-50">
+        <div className="rounded-md bg-white p-6 text-zinc-800 shadow">
           <p>Data review tidak ditemukan.</p>
           <a href="/" className="mt-4 inline-block text-blue-600 underline">
             Kembali ke Beranda
@@ -80,20 +80,20 @@ export default function ReviewPage() {
   const unansweredCount = questions.filter((_, idx) => !answers[idx]).length;
 
   return (
-    <div className="min-h-screen bg-zinc-50 p-4 font-sans dark:bg-black">
+    <div className="min-h-screen bg-zinc-50 p-4 font-sans">
       <div className="mx-auto max-w-4xl">
-        <header className="mb-6 flex items-center justify-between rounded-xl bg-white p-6 shadow dark:bg-zinc-900">
+        <header className="mb-6 flex items-center justify-between rounded-xl bg-white p-6 shadow">
           <div>
-            <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
+            <h1 className="text-2xl font-bold text-zinc-900">
               📝 Review Jawaban
             </h1>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+            <p className="text-sm text-zinc-600">
               Lihat semua jawaban dan penjelasannya
             </p>
           </div>
           <a
             href="/"
-            className="rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-700"
+            className="rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50:bg-zinc-700"
           >
             ← Kembali
           </a>
@@ -101,40 +101,40 @@ export default function ReviewPage() {
 
         {/* Statistics Summary */}
         <div className="mb-6 grid gap-4 sm:grid-cols-4">
-          <div className="rounded-lg bg-white p-4 shadow dark:bg-zinc-900">
-            <div className="text-sm text-zinc-600 dark:text-zinc-400">Total Soal</div>
-            <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
+          <div className="rounded-lg bg-white p-4 shadow">
+            <div className="text-sm text-zinc-600">Total Soal</div>
+            <div className="text-2xl font-bold text-zinc-900">
               {questions.length}
             </div>
           </div>
-          <div className="rounded-lg bg-green-50 p-4 shadow dark:bg-green-950">
-            <div className="text-sm text-green-700 dark:text-green-300">Benar</div>
-            <div className="text-2xl font-bold text-green-900 dark:text-green-100">
+          <div className="rounded-lg bg-green-50 p-4 shadow">
+            <div className="text-sm text-green-700">Benar</div>
+            <div className="text-2xl font-bold text-green-900">
               {correctCount}
             </div>
           </div>
-          <div className="rounded-lg bg-red-50 p-4 shadow dark:bg-red-950">
-            <div className="text-sm text-red-700 dark:text-red-300">Salah</div>
-            <div className="text-2xl font-bold text-red-900 dark:text-red-100">
+          <div className="rounded-lg bg-red-50 p-4 shadow">
+            <div className="text-sm text-red-700">Salah</div>
+            <div className="text-2xl font-bold text-red-900">
               {wrongCount}
             </div>
           </div>
-          <div className="rounded-lg bg-amber-50 p-4 shadow dark:bg-amber-950">
-            <div className="text-sm text-amber-700 dark:text-amber-300">Tidak Dijawab</div>
-            <div className="text-2xl font-bold text-amber-900 dark:text-amber-100">
+          <div className="rounded-lg bg-amber-50 p-4 shadow">
+            <div className="text-sm text-amber-700">Tidak Dijawab</div>
+            <div className="text-2xl font-bold text-amber-900">
               {unansweredCount}
             </div>
           </div>
         </div>
 
         {/* Filter Buttons */}
-        <div className="mb-6 flex gap-2 rounded-xl bg-white p-4 shadow dark:bg-zinc-900">
+        <div className="mb-6 flex gap-2 rounded-xl bg-white p-4 shadow">
           <button
             onClick={() => setFilter("all")}
             className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
               filter === "all"
                 ? "bg-blue-600 text-white"
-                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200:bg-zinc-700"
             }`}
           >
             Semua ({questions.length})
@@ -144,7 +144,7 @@ export default function ReviewPage() {
             className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
               filter === "correct"
                 ? "bg-green-600 text-white"
-                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200:bg-zinc-700"
             }`}
           >
             ✓ Benar ({correctCount})
@@ -154,7 +154,7 @@ export default function ReviewPage() {
             className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
               filter === "wrong"
                 ? "bg-red-600 text-white"
-                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200:bg-zinc-700"
             }`}
           >
             ✗ Salah ({wrongCount})
@@ -164,7 +164,7 @@ export default function ReviewPage() {
             className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
               filter === "unanswered"
                 ? "bg-amber-600 text-white"
-                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+                : "bg-zinc-100 text-zinc-700 hover:bg-zinc-200:bg-zinc-700"
             }`}
           >
             ⊘ Tidak Dijawab ({unansweredCount})
@@ -184,10 +184,10 @@ export default function ReviewPage() {
                 key={q.id}
                 className={`rounded-xl p-6 shadow ${
                   !isAnswered
-                    ? "bg-amber-50 dark:bg-amber-950"
+                    ? "bg-amber-50"
                     : isCorrect
-                    ? "bg-green-50 dark:bg-green-950"
-                    : "bg-red-50 dark:bg-red-950"
+                    ? "bg-green-50"
+                    : "bg-red-50"
                 }`}
               >
                 {/* Question Header */}
@@ -205,7 +205,7 @@ export default function ReviewPage() {
                       {idx + 1}
                     </div>
                     <div className="flex-1">
-                      <p className="text-base text-zinc-900 dark:text-zinc-100">
+                      <p className="text-base text-zinc-900">
                         {q.question}
                       </p>
                     </div>
@@ -227,18 +227,18 @@ export default function ReviewPage() {
                     const isUserChoice = userAnswer === key;
                     const isCorrectAnswer = q.answer === key;
 
-                    let bgClass = "bg-white dark:bg-zinc-900";
-                    let borderClass = "border-zinc-300 dark:border-zinc-700";
-                    let textClass = "text-zinc-900 dark:text-zinc-100";
+                    let bgClass = "bg-white";
+                    let borderClass = "border-zinc-300";
+                    let textClass = "text-zinc-900";
 
                     if (isCorrectAnswer) {
-                      bgClass = "bg-green-100 dark:bg-green-900";
-                      borderClass = "border-green-500 dark:border-green-600";
-                      textClass = "text-green-900 dark:text-green-100";
+                      bgClass = "bg-green-100";
+                      borderClass = "border-green-500";
+                      textClass = "text-green-900";
                     } else if (isUserChoice && !isCorrect) {
-                      bgClass = "bg-red-100 dark:bg-red-900";
-                      borderClass = "border-red-500 dark:border-red-600";
-                      textClass = "text-red-900 dark:text-red-100";
+                      bgClass = "bg-red-100";
+                      borderClass = "border-red-500";
+                      textClass = "text-red-900";
                     }
 
                     return (
@@ -249,12 +249,12 @@ export default function ReviewPage() {
                         <span className="font-semibold">{key}.</span>
                         <span className="flex-1 text-sm">{value}</span>
                         {isCorrectAnswer && (
-                          <span className="text-green-600 dark:text-green-400">
+                          <span className="text-green-600">
                             ✓ Jawaban Benar
                           </span>
                         )}
                         {isUserChoice && !isCorrect && (
-                          <span className="text-red-600 dark:text-red-400">
+                          <span className="text-red-600">
                             Pilihan Anda
                           </span>
                         )}
@@ -267,19 +267,19 @@ export default function ReviewPage() {
                 <div
                   className={`rounded-md p-4 ${
                     !isAnswered
-                      ? "bg-amber-100 dark:bg-amber-900"
+                      ? "bg-amber-100"
                       : isCorrect
-                      ? "bg-green-100 dark:bg-green-900"
-                      : "bg-red-100 dark:bg-red-900"
+                      ? "bg-green-100"
+                      : "bg-red-100"
                   }`}
                 >
                   <p
                     className={`mb-1 text-sm font-semibold ${
                       !isAnswered
-                        ? "text-amber-900 dark:text-amber-100"
+                        ? "text-amber-900"
                         : isCorrect
-                        ? "text-green-900 dark:text-green-100"
-                        : "text-red-900 dark:text-red-100"
+                        ? "text-green-900"
+                        : "text-red-900"
                     }`}
                   >
                     💡 Penjelasan:
@@ -287,10 +287,10 @@ export default function ReviewPage() {
                     <p
                     className={`text-sm ${
                       !isAnswered
-                        ? "text-amber-800 dark:text-amber-200"
+                        ? "text-amber-800"
                         : isCorrect
-                        ? "text-green-800 dark:text-green-200"
-                        : "text-red-800 dark:text-red-200"
+                        ? "text-green-800"
+                        : "text-red-800"
                     }`}
                   >
                     {q.explanation?.correct}
@@ -302,24 +302,24 @@ export default function ReviewPage() {
         </div>
 
         {filteredQuestions.length === 0 && (
-          <div className="rounded-xl bg-white p-8 text-center shadow dark:bg-zinc-900">
-            <p className="text-zinc-600 dark:text-zinc-400">
+          <div className="rounded-xl bg-white p-8 text-center shadow">
+            <p className="text-zinc-600">
               Tidak ada soal dengan filter ini
             </p>
           </div>
         )}
 
         {/* Bottom Actions */}
-        <div className="mt-6 flex justify-center gap-3 rounded-xl bg-white p-4 shadow dark:bg-zinc-900">
+        <div className="mt-6 flex justify-center gap-3 rounded-xl bg-white p-4 shadow">
           <a
             href="/"
-            className="rounded-md border border-zinc-300 px-6 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-700"
+            className="rounded-md border border-zinc-300 px-6 py-2 text-sm text-zinc-700 hover:bg-zinc-50:bg-zinc-700"
           >
             🏠 Beranda
           </a>
           <a
             href="/history"
-            className="rounded-md bg-blue-600 px-6 py-2 text-sm text-white hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600"
+            className="rounded-md bg-blue-600 px-6 py-2 text-sm text-white hover:bg-blue-700:bg-blue-600"
           >
             📊 Riwayat
           </a>

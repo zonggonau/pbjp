@@ -10,10 +10,12 @@ export async function GET(request: Request) {
     const limit = parseInt(searchParams.get('limit') || '586');
     const balanced = searchParams.get('balanced') === 'true';
     const groupCount = parseInt(searchParams.get('groups') || '10');
-    
+    const excludeParam = searchParams.get('exclude');
+    const excludeIds = excludeParam ? excludeParam.split(',').map(id => parseInt(id)).filter(id => !isNaN(id)) : [];
+
     const filePath = path.join(process.cwd(), "data.json");
     const data = await readFile(filePath, "utf-8");
-    
+
     // Handle the case where `data.json` may be a JSON array, a single object,
     // newline-delimited JSON, or a pretty-printed array (objects on multiple lines).
     let questions: any[] = [];
@@ -71,35 +73,40 @@ export async function GET(request: Request) {
         })
         .filter(q => q !== null);
     }
-    
+
     // Deduplicate by exact normalized question text, then normalize output.
     const seen = new Map<string, number>(); // Map to track text -> first ID
     const dedupedRaw = [] as any[];
-    
+
     for (const q of questions) {
       const normalizedText = (q?.question || q?.soal || "").toString().trim().toLowerCase().replace(/\s+/g, " ");
-      
+
       if (!normalizedText || seen.has(normalizedText)) {
         continue;
       }
-      
+
       seen.set(normalizedText, q?.id || 0);
       dedupedRaw.push(q);
     }
 
     const normalized = normalizeQuestions(dedupedRaw);
-    
+
+    // Filter out excluded question IDs
+    const filteredQuestions = excludeIds.length > 0
+      ? normalized.filter(q => !excludeIds.includes(typeof q.id === 'number' ? q.id : parseInt(String(q.id))))
+      : normalized;
+
     // Apply balanced sampling if requested
-    let finalQuestions = normalized;
-    if (balanced && normalized.length > limit) {
-      finalQuestions = balancedByTens(normalized, {
+    let finalQuestions = filteredQuestions;
+    if (balanced && filteredQuestions.length > limit) {
+      finalQuestions = balancedByTens(filteredQuestions, {
         totalQuestions: limit,
         shuffleWithinGroups: true,
         shuffleGroups: true
       });
     } else {
       // Regular slicing if balanced sampling is not requested
-      finalQuestions = normalized.slice(0, limit);
+      finalQuestions = filteredQuestions.slice(0, limit);
     }
 
     const response = {

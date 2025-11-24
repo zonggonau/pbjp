@@ -134,10 +134,10 @@ export default function QuizPage() {
 
   if (!mounted) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gray-50 dark:bg-black">
+      <div className="flex min-h-screen items-center justify-center bg-gray-50">
         <div className="text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-2 text-gray-600 dark:text-gray-400">Loading...</p>
+          <p className="mt-2 text-gray-600">Loading...</p>
         </div>
       </div>
     )
@@ -145,9 +145,9 @@ export default function QuizPage() {
 
   if (questions.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gray-50 dark:bg-black">
-        <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
-          <p className="text-gray-800 dark:text-gray-200">Soal tidak tersedia</p>
+      <div className="flex min-h-screen items-center justify-center bg-gray-50">
+        <div className="bg-white p-6 rounded-lg shadow-lg">
+          <p className="text-gray-800">Soal tidak tersedia</p>
         </div>
       </div>
     )
@@ -157,18 +157,18 @@ export default function QuizPage() {
   const totalQuestions = questions.length
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-black p-4">
+    <div className="min-h-screen bg-gray-50 p-4">
       <div className="max-w-5xl mx-auto">
-        <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6">
+        <div className="bg-white rounded-xl shadow-lg p-6">
           {/* Header */}
-          <div className="flex justify-between items-center mb-6 pb-4 border-b dark:border-gray-700">
+          <div className="flex justify-between items-center mb-6 pb-4 border-b">
             <div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Peserta:</p>
-              <p className="font-semibold text-gray-900 dark:text-gray-100">{name}</p>
+              <p className="text-sm text-gray-600">Peserta:</p>
+              <p className="font-semibold text-gray-900">{name}</p>
             </div>
             <div className="flex items-center gap-4">
-              <div className="bg-gray-100 dark:bg-gray-800 px-3 py-2 rounded-lg">
-                <p className="font-mono font-semibold text-gray-900 dark:text-gray-100">{formatTime(timeLeft)}</p>
+              <div className="bg-gray-100 px-3 py-2 rounded-lg">
+                <p className="font-mono font-semibold text-gray-900">{formatTime(timeLeft)}</p>
               </div>
               <button
                 onClick={handleSubmitQuiz}
@@ -180,8 +180,8 @@ export default function QuizPage() {
           </div>
 
           {/* Question Navigation */}
-          <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Navigasi Soal:</p>
+          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+            <p className="text-sm text-gray-600 mb-2">Navigasi Soal:</p>
             <div className="flex flex-wrap gap-2">
               {questions.map((_, index) => {
                 const isAnswered = answers[index] !== undefined
@@ -195,7 +195,7 @@ export default function QuizPage() {
                         ? 'bg-blue-600 text-white'
                         : isAnswered
                           ? 'bg-green-600 text-white'
-                          : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600'
+                          : 'bg-gray-200 text-gray-800 hover:bg-gray-300:bg-gray-600'
                       }`}
                   >
                     {index + 1}
@@ -207,11 +207,11 @@ export default function QuizPage() {
 
           {/* Question */}
           <div className="mb-6">
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            <p className="text-sm text-gray-600 mb-4">
               Soal {currentQuestion + 1} dari {totalQuestions}
             </p>
 
-            <div className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-6">
+            <div className="text-lg font-medium text-gray-900 mb-6">
               {currentQ.question}
             </div>
 
@@ -221,8 +221,8 @@ export default function QuizPage() {
                 <label
                   key={key}
                   className={`flex items-start p-4 rounded-lg border cursor-pointer transition-colors ${answers[currentQuestion] === key
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
-                      : 'border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800'
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-gray-200 hover:bg-gray-50:bg-gray-800'
                     }`}
                 >
                   <input
@@ -234,8 +234,8 @@ export default function QuizPage() {
                     className="mt-1 mr-3"
                   />
                   <div className="flex-1">
-                    <span className="font-medium text-gray-900 dark:text-gray-100">{key}.</span>
-                    <span className="ml-2 text-gray-700 dark:text-gray-300">{value}</span>
+                    <span className="font-medium text-gray-900">{key}.</span>
+                    <span className="ml-2 text-gray-700">{value}</span>
                   </div>
                 </label>
               ))}
@@ -243,18 +243,18 @@ export default function QuizPage() {
           </div>
 
           {/* Navigation */}
-          <div className="flex justify-between items-center pt-4 border-t dark:border-gray-700">
+          <div className="flex justify-between items-center pt-4 border-t">
             <button
               onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
               disabled={currentQuestion === 0}
-              className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="px-4 py-2 border border-gray-300 rounded-lg font-medium text-gray-700 hover:bg-gray-50:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Sebelumnya
             </button>
             <button
               onClick={() => setCurrentQuestion(Math.min(totalQuestions - 1, currentQuestion + 1))}
               disabled={currentQuestion === totalQuestions - 1}
-              className="px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="px-4 py-2 border border-gray-300 rounded-lg font-medium text-gray-700 hover:bg-gray-50:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Berikutnya
             </button>
